@@ -8,6 +8,7 @@ Slim Modules to cope with the ever increasing lamentations from my bandmates and
 The basic electronic design was made by <a href="http://musicfromouterspace.com/">Music From Outer Space</a>.
 The remodelling in KiCAD, slight adaptation, PCB layout and frontpanel designs are based on my own faults
 RIP Ray Wilson
+<h2><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/MFOS/Dual%20VCA%20%232">Dual VCA #2</a>
 <h1>YuSynth Clones</h1>
 The basic electronic design was made by <a href="https://yusynth.net">YuSynth</a>.
 The remodelling in KiCAD, slight adaptation (especially changes to +/-12V), PCB layout and frontpanel designs are based on my own faults.
