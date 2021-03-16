@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name CATs_Connector_Audio_PJSeries)(type KiCad)(uri "H:/+--- Sortierte Dokumente ---+/GitHub/CATs-Eurosynth/Libraries/Footprints/CATs_Connector_Audio_PJSeries.pretty")(options "")(descr ""))
+  (lib (name CATs_Connector_Lumberg)(type KiCad)(uri "H:/+--- Sortierte Dokumente ---+/GitHub/CATs-Eurosynth/Libraries/Footprints/CATs_Connector_Lumberg.pretty")(options "")(descr ""))
+  (lib (name CATs_Eurorack_Front)(type KiCad)(uri "H:/+--- Sortierte Dokumente ---+/GitHub/CATs-Eurosynth/Libraries/Footprints/CATs_Eurorack_Front.pretty")(options "")(descr ""))
+  (lib (name CATs_Eurorack_Platinen)(type KiCad)(uri "H:/+--- Sortierte Dokumente ---+/GitHub/CATs-Eurosynth/Libraries/Footprints/CATs_Eurorack_Platinen.pretty")(options "")(descr ""))
+  (lib (name CATs_Front_Allgemein)(type KiCad)(uri "H:/+--- Sortierte Dokumente ---+/GitHub/CATs-Eurosynth/Libraries/Footprints/CATs_Front_Allgemein")(options "")(descr ""))
+  (lib (name CATs_Logos)(type KiCad)(uri "H:/+--- Sortierte Dokumente ---+/GitHub/CATs-Eurosynth/Libraries/Footprints/CATs_Logos.pretty")(options "")(descr ""))
+  (lib (name CATs_Potentiometer_Fader_THT)(type KiCad)(uri "H:/+--- Sortierte Dokumente ---+/GitHub/CATs-Eurosynth/Libraries/Footprints/CATs_Potentiometer_Fader_THT.pretty")(options "")(descr ""))
+  (lib (name CATs_Potentiometer_THT_WH148)(type KiCad)(uri "H:/+--- Sortierte Dokumente ---+/GitHub/CATs-Eurosynth/Libraries/Footprints/CATs_Potentiometer_THT_WH148.pretty")(options "")(descr ""))
+)
