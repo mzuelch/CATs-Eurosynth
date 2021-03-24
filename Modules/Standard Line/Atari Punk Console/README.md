@@ -1,1 +1,1 @@
-<img src="https://github.com/mzuelch/CATs-Eurosynth/blob/main/Modules/Slim%20Line/Buffered%20Multiple/Documentation/Rendering.JPG" alt="Rendering">
+<img src="https://github.com/mzuelch/CATs-Eurosynth/blob/main/Modules/Standard%20Line/Atari%20Punk%20Console/Documentation/Rendering.JPG" alt="Rendering">
