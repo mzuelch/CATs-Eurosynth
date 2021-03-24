@@ -1,0 +1,38 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.9)-1*
+G04 #@! TF.CreationDate,2021-03-24T09:14:56+01:00*
+G04 #@! TF.ProjectId,Atari Punk Console Front,41746172-6920-4507-956e-6b20436f6e73,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Soldermask,Top*
+G04 #@! TF.FilePolarity,Negative*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (5.1.9)-1) date 2021-03-24 09:14:56*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,6.200000*%
+%ADD11C,3.200000*%
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.C,REF\u002A\u002A*
+X10000000Y-85250000D03*
+G04 #@! TD*
+G04 #@! TO.C,REF\u002A\u002A*
+X10000000Y-109250000D03*
+G04 #@! TD*
+G04 #@! TO.C,REF\u002A\u002A*
+X10000000Y-97250000D03*
+G04 #@! TD*
+G04 #@! TO.C,REF\u002A\u002A*
+X9500000Y-47310000D03*
+G04 #@! TD*
+G04 #@! TO.C,REF\u002A\u002A*
+X9500000Y-26750000D03*
+G04 #@! TD*
+D11*
+G04 #@! TO.C,REF\u002A\u002A*
+X7500000Y-125500000D03*
+X7500000Y-3000000D03*
+G04 #@! TD*
+M02*
