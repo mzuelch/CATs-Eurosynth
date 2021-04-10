@@ -3,6 +3,7 @@ This is my MIT licensed repository for my analog synth eurorack compatible modul
 <h2>Standard Line</h2>
 <p>Collection of my own designs with no regard to size.</p>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Atari%20Punk%20Console">Atari Punk Console</a></h3>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Baby8%20Seqencer">Baby8 Sequencer</a></h3>
 <h2>Slim Line</h2>
 <p>Slim Modules to cope with the ever increasing lamentations from my bandmates and wife.</p>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Attenuator">Single Attenuator</a></h3>
