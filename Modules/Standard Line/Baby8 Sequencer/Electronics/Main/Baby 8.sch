@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -1702,4 +1702,8 @@ F 3 "~" H 9950 4600 50  0001 C CNN
 	1    9950 4600
 	1    0    0    1   
 $EndComp
+Text GLabel 5950 1950 2    50   Input ~ 0
+RESET
+Wire Wire Line
+	5650 1950 5950 1950
 $EndSCHEMATC

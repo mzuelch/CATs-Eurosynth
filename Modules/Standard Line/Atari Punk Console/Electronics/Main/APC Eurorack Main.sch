@@ -280,7 +280,7 @@ F 1 "500kB" H 3081 2105 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal" H 3150 2150 50  0001 C CNN
 F 3 "~" H 3150 2150 50  0001 C CNN
 	1    3150 2150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:+VDC #PWR0115
@@ -462,7 +462,7 @@ F 1 "500kB" H 5131 2105 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal" H 5200 2150 50  0001 C CNN
 F 3 "~" H 5200 2150 50  0001 C CNN
 	1    5200 2150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:+VDC #PWR0122
@@ -581,7 +581,7 @@ L Connector:AudioJack2_SwitchT J4
 U 1 1 60482130
 P 7850 4150
 F 0 "J4" H 7670 4175 50  0000 R CNN
-F 1 "CV2" H 7670 4084 50  0000 R CNN
+F 1 "Out" H 7670 4084 50  0000 R CNN
 F 2 "Connector_Audio_PJSeries:PJ-323" H 7850 4150 50  0001 C CNN
 F 3 "~" H 7850 4150 50  0001 C CNN
 	1    7850 4150
@@ -654,7 +654,7 @@ L Connector:AudioJack2_SwitchT J5
 U 1 1 60497C93
 P 7850 2750
 F 0 "J5" H 7670 2775 50  0000 R CNN
-F 1 "Out" H 7670 2684 50  0000 R CNN
+F 1 "CV2" H 7670 2684 50  0000 R CNN
 F 2 "Connector_Audio_PJSeries:PJ-323" H 7850 2750 50  0001 C CNN
 F 3 "~" H 7850 2750 50  0001 C CNN
 	1    7850 2750

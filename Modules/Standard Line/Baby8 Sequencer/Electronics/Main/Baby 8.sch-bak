@@ -535,10 +535,10 @@ U 1 1 603AFAFC
 P 5850 2550
 F 0 "RV1" H 5781 2596 50  0000 R CNN
 F 1 "500kB" H 5781 2505 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 5850 2550 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 5850 2550 50  0001 C CNN
 F 3 "~" H 5850 2550 50  0001 C CNN
 	1    5850 2550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	5650 1150 5850 1150
@@ -550,7 +550,7 @@ U 1 1 603B21DE
 P 6100 2800
 F 0 "D1" V 6146 2720 50  0000 R CNN
 F 1 "1N4148" V 6055 2720 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6100 2625 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H 6100 2625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6100 2800 50  0001 C CNN
 	1    6100 2800
 	0    -1   -1   0   
@@ -565,10 +565,10 @@ U 1 1 603B5919
 P 6550 2550
 F 0 "RV2" H 6481 2596 50  0000 R CNN
 F 1 "500kB" H 6481 2505 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 6550 2550 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 6550 2550 50  0001 C CNN
 F 3 "~" H 6550 2550 50  0001 C CNN
 	1    6550 2550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:1N4148 D2
@@ -576,7 +576,7 @@ U 1 1 603B5C5F
 P 6800 2800
 F 0 "D2" V 6846 2720 50  0000 R CNN
 F 1 "1N4148" V 6755 2720 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6800 2625 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H 6800 2625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6800 2800 50  0001 C CNN
 	1    6800 2800
 	0    -1   -1   0   
@@ -597,10 +597,10 @@ U 1 1 603BC1F6
 P 7250 2550
 F 0 "RV3" H 7181 2596 50  0000 R CNN
 F 1 "500kB" H 7181 2505 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 7250 2550 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 7250 2550 50  0001 C CNN
 F 3 "~" H 7250 2550 50  0001 C CNN
 	1    7250 2550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:1N4148 D3
@@ -608,7 +608,7 @@ U 1 1 603BC1FC
 P 7500 2800
 F 0 "D3" V 7546 2720 50  0000 R CNN
 F 1 "1N4148" V 7455 2720 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7500 2625 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H 7500 2625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7500 2800 50  0001 C CNN
 	1    7500 2800
 	0    -1   -1   0   
@@ -623,10 +623,10 @@ U 1 1 603BEC0F
 P 7950 2550
 F 0 "RV4" H 7881 2596 50  0000 R CNN
 F 1 "500kB" H 7881 2505 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 7950 2550 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 7950 2550 50  0001 C CNN
 F 3 "~" H 7950 2550 50  0001 C CNN
 	1    7950 2550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:1N4148 D4
@@ -634,7 +634,7 @@ U 1 1 603BEC15
 P 8200 2800
 F 0 "D4" V 8246 2720 50  0000 R CNN
 F 1 "1N4148" V 8155 2720 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8200 2625 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H 8200 2625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8200 2800 50  0001 C CNN
 	1    8200 2800
 	0    -1   -1   0   
@@ -649,10 +649,10 @@ U 1 1 603C0E6F
 P 8650 2550
 F 0 "RV5" H 8581 2596 50  0000 R CNN
 F 1 "500kB" H 8581 2505 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 8650 2550 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 8650 2550 50  0001 C CNN
 F 3 "~" H 8650 2550 50  0001 C CNN
 	1    8650 2550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:1N4148 D5
@@ -660,7 +660,7 @@ U 1 1 603C0E75
 P 8900 2800
 F 0 "D5" V 8946 2720 50  0000 R CNN
 F 1 "1N4148" V 8855 2720 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8900 2625 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H 8900 2625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8900 2800 50  0001 C CNN
 	1    8900 2800
 	0    -1   -1   0   
@@ -675,10 +675,10 @@ U 1 1 603C39E4
 P 9350 2550
 F 0 "RV6" H 9281 2596 50  0000 R CNN
 F 1 "500kB" H 9281 2505 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 9350 2550 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 9350 2550 50  0001 C CNN
 F 3 "~" H 9350 2550 50  0001 C CNN
 	1    9350 2550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:1N4148 D6
@@ -686,7 +686,7 @@ U 1 1 603C39EA
 P 9600 2800
 F 0 "D6" V 9646 2720 50  0000 R CNN
 F 1 "1N4148" V 9555 2720 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9600 2625 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H 9600 2625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9600 2800 50  0001 C CNN
 	1    9600 2800
 	0    -1   -1   0   
@@ -701,10 +701,10 @@ U 1 1 603C5E58
 P 10050 2550
 F 0 "RV7" H 9981 2596 50  0000 R CNN
 F 1 "500kB" H 9981 2505 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 10050 2550 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 10050 2550 50  0001 C CNN
 F 3 "~" H 10050 2550 50  0001 C CNN
 	1    10050 2550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:1N4148 D7
@@ -712,7 +712,7 @@ U 1 1 603C5E5E
 P 10300 2800
 F 0 "D7" V 10346 2720 50  0000 R CNN
 F 1 "1N4148" V 10255 2720 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10300 2625 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H 10300 2625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10300 2800 50  0001 C CNN
 	1    10300 2800
 	0    -1   -1   0   
@@ -727,10 +727,10 @@ U 1 1 603C8251
 P 10750 2550
 F 0 "RV8" H 10681 2596 50  0000 R CNN
 F 1 "500kB" H 10681 2505 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 10750 2550 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 10750 2550 50  0001 C CNN
 F 3 "~" H 10750 2550 50  0001 C CNN
 	1    10750 2550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Diode:1N4148 D8
@@ -738,7 +738,7 @@ U 1 1 603C8257
 P 11000 2800
 F 0 "D8" V 11046 2720 50  0000 R CNN
 F 1 "1N4148" V 10955 2720 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 11000 2625 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H 11000 2625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11000 2800 50  0001 C CNN
 	1    11000 2800
 	0    -1   -1   0   
@@ -811,7 +811,7 @@ U 1 1 60428345
 P 5400 5500
 F 0 "J2" H 5432 5825 50  0000 C CNN
 F 1 "CV Out" H 5432 5734 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 5400 5500 50  0001 C CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 5400 5500 50  0001 C CNN
 F 3 "~" H 5400 5500 50  0001 C CNN
 	1    5400 5500
 	1    0    0    -1  
@@ -927,7 +927,7 @@ U 1 1 604343E6
 P 5400 3900
 F 0 "J3" H 5432 4225 50  0000 C CNN
 F 1 "CLK In" H 5432 4134 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 5400 3900 50  0001 C CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 5400 3900 50  0001 C CNN
 F 3 "~" H 5400 3900 50  0001 C CNN
 	1    5400 3900
 	1    0    0    -1  
@@ -982,7 +982,7 @@ U 1 1 60455899
 P 5400 4600
 F 0 "J4" H 5432 4925 50  0000 C CNN
 F 1 "Reset" H 5432 4834 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 5400 4600 50  0001 C CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 5400 4600 50  0001 C CNN
 F 3 "~" H 5400 4600 50  0001 C CNN
 	1    5400 4600
 	1    0    0    -1  
@@ -1010,7 +1010,7 @@ U 1 1 6045EBA0
 P 11600 2750
 F 0 "J5" V 11678 2520 50  0000 R CNN
 F 1 "Gate 1" V 11587 2520 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 11600 2750 50  0001 C CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 11600 2750 50  0001 C CNN
 F 3 "~" H 11600 2750 50  0001 C CNN
 	1    11600 2750
 	0    -1   -1   0   
@@ -1026,7 +1026,7 @@ U 1 1 604640FA
 P 12150 2200
 F 0 "R3" H 12220 2246 50  0000 L CNN
 F 1 "120R" H 12220 2155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 12080 2200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 12080 2200 50  0001 C CNN
 F 3 "~" H 12150 2200 50  0001 C CNN
 	1    12150 2200
 	1    0    0    -1  
@@ -1066,7 +1066,7 @@ U 1 1 60488579
 P 12600 2750
 F 0 "J6" V 12678 2520 50  0000 R CNN
 F 1 "Gate 2" V 12587 2520 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 12600 2750 50  0001 C CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 12600 2750 50  0001 C CNN
 F 3 "~" H 12600 2750 50  0001 C CNN
 	1    12600 2750
 	0    -1   -1   0   
@@ -1079,7 +1079,7 @@ U 1 1 6049887F
 P 13600 2750
 F 0 "J7" V 13678 2520 50  0000 R CNN
 F 1 "Gate 3" V 13587 2520 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 13600 2750 50  0001 C CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 13600 2750 50  0001 C CNN
 F 3 "~" H 13600 2750 50  0001 C CNN
 	1    13600 2750
 	0    -1   -1   0   
@@ -1092,7 +1092,7 @@ U 1 1 604A1576
 P 14600 2750
 F 0 "J8" V 14678 2520 50  0000 R CNN
 F 1 "Gate 4" V 14587 2520 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 14600 2750 50  0001 C CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 14600 2750 50  0001 C CNN
 F 3 "~" H 14600 2750 50  0001 C CNN
 	1    14600 2750
 	0    -1   -1   0   
@@ -1105,7 +1105,7 @@ U 1 1 604A7A85
 P 15600 2750
 F 0 "J9" V 15678 2520 50  0000 R CNN
 F 1 "Gate 5" V 15587 2520 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 15600 2750 50  0001 C CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 15600 2750 50  0001 C CNN
 F 3 "~" H 15600 2750 50  0001 C CNN
 	1    15600 2750
 	0    -1   -1   0   
@@ -1118,7 +1118,7 @@ U 1 1 604AE0E2
 P 16550 2750
 F 0 "J10" V 16628 2520 50  0000 R CNN
 F 1 "Gate 6" V 16537 2520 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 16550 2750 50  0001 C CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 16550 2750 50  0001 C CNN
 F 3 "~" H 16550 2750 50  0001 C CNN
 	1    16550 2750
 	0    -1   -1   0   
@@ -1131,7 +1131,7 @@ U 1 1 604B4CBE
 P 17550 2750
 F 0 "J11" V 17628 2520 50  0000 R CNN
 F 1 "Gate 7" V 17537 2520 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 17550 2750 50  0001 C CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 17550 2750 50  0001 C CNN
 F 3 "~" H 17550 2750 50  0001 C CNN
 	1    17550 2750
 	0    -1   -1   0   
@@ -1144,7 +1144,7 @@ U 1 1 604BB623
 P 18550 2750
 F 0 "J12" V 18628 2520 50  0000 R CNN
 F 1 "Gate 8" V 18537 2520 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 18550 2750 50  0001 C CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 18550 2750 50  0001 C CNN
 F 3 "~" H 18550 2750 50  0001 C CNN
 	1    18550 2750
 	0    -1   -1   0   
@@ -1316,7 +1316,7 @@ U 1 1 605BDEFB
 P 13150 2200
 F 0 "R4" H 13220 2246 50  0000 L CNN
 F 1 "120R" H 13220 2155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 13080 2200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 13080 2200 50  0001 C CNN
 F 3 "~" H 13150 2200 50  0001 C CNN
 	1    13150 2200
 	1    0    0    -1  
@@ -1327,7 +1327,7 @@ U 1 1 605BE22E
 P 14150 2200
 F 0 "R5" H 14220 2246 50  0000 L CNN
 F 1 "120R" H 14220 2155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 14080 2200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 14080 2200 50  0001 C CNN
 F 3 "~" H 14150 2200 50  0001 C CNN
 	1    14150 2200
 	1    0    0    -1  
@@ -1338,7 +1338,7 @@ U 1 1 605BE41F
 P 15150 2200
 F 0 "R6" H 15220 2246 50  0000 L CNN
 F 1 "120R" H 15220 2155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 15080 2200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 15080 2200 50  0001 C CNN
 F 3 "~" H 15150 2200 50  0001 C CNN
 	1    15150 2200
 	1    0    0    -1  
@@ -1349,7 +1349,7 @@ U 1 1 605BE6DA
 P 16150 2200
 F 0 "R7" H 16220 2246 50  0000 L CNN
 F 1 "120R" H 16220 2155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 16080 2200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 16080 2200 50  0001 C CNN
 F 3 "~" H 16150 2200 50  0001 C CNN
 	1    16150 2200
 	1    0    0    -1  
@@ -1360,7 +1360,7 @@ U 1 1 605BE97C
 P 17100 2200
 F 0 "R8" H 17170 2246 50  0000 L CNN
 F 1 "120R" H 17170 2155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 17030 2200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 17030 2200 50  0001 C CNN
 F 3 "~" H 17100 2200 50  0001 C CNN
 	1    17100 2200
 	1    0    0    -1  
@@ -1371,7 +1371,7 @@ U 1 1 605BEC96
 P 18100 2200
 F 0 "R9" H 18170 2246 50  0000 L CNN
 F 1 "120R" H 18170 2155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 18030 2200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 18030 2200 50  0001 C CNN
 F 3 "~" H 18100 2200 50  0001 C CNN
 	1    18100 2200
 	1    0    0    -1  
@@ -1382,7 +1382,7 @@ U 1 1 605BEF92
 P 19100 2200
 F 0 "R10" H 19170 2246 50  0000 L CNN
 F 1 "120R" H 19170 2155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 19030 2200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 19030 2200 50  0001 C CNN
 F 3 "~" H 19100 2200 50  0001 C CNN
 	1    19100 2200
 	1    0    0    -1  
@@ -1694,12 +1694,16 @@ Connection ~ 7250 5050
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J1
 U 1 1 6034C705
-P 9950 4500
-F 0 "J1" H 10000 5017 50  0000 C CNN
-F 1 "Power" H 10000 4926 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 9950 4500 50  0001 C CNN
-F 3 "~" H 9950 4500 50  0001 C CNN
-	1    9950 4500
-	1    0    0    -1  
+P 9950 4600
+F 0 "J1" H 10000 5117 50  0000 C CNN
+F 1 "Power" H 10000 5026 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 9950 4600 50  0001 C CNN
+F 3 "~" H 9950 4600 50  0001 C CNN
+	1    9950 4600
+	1    0    0    1   
 $EndComp
+Text GLabel 5950 1950 2    50   Input ~ 0
+RESET
+Wire Wire Line
+	5650 1950 5950 1950
 $EndSCHEMATC
