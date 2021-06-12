@@ -11,6 +11,7 @@ This is my MIT licensed repository for my analog synth eurorack compatible modul
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Attenuator">Single Attenuator (Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Buffered%20Multiple">Buffered Multiple (Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Sample%26Hold">Dual Sample&Hold (Working)</a></h3>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Single%20VCA">Single VCA (Working)</a></h3>
 <h2>MFOS Clones</h2>
 <p>The basic electronic design was made by <a href="http://musicfromouterspace.com/">Music From Outer Space</a>.
 The remodelling in KiCAD, slight adaptation, PCB layout and frontpanel designs are based on my own faults</p>
