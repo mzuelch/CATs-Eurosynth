@@ -1,0 +1,742 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Diode:1N4148 D1
+U 1 1 608E21FF
+P 1500 1900
+F 0 "D1" H 1500 1683 50  0000 C CNN
+F 1 "1N4148" H 1500 1774 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 1725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1500 1900 50  0001 C CNN
+	1    1500 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 608E24D2
+P 1900 1900
+F 0 "R3" V 1693 1900 50  0000 C CNN
+F 1 "47k" V 1784 1900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1830 1900 50  0001 C CNN
+F 3 "~" H 1900 1900 50  0001 C CNN
+	1    1900 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 1900 1750 1900
+$Comp
+L Connector:AudioJack2_SwitchT J1
+U 1 1 608E4C5C
+P 1050 1900
+F 0 "J1" H 870 1833 50  0000 R CNN
+F 1 "CLK In" H 870 1924 50  0000 R CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 1050 1900 50  0001 C CNN
+F 3 "~" H 1050 1900 50  0001 C CNN
+	1    1050 1900
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 608E7A75
+P 1350 2100
+F 0 "#PWR0105" H 1350 1850 50  0001 C CNN
+F 1 "GND" H 1355 1927 50  0000 C CNN
+F 2 "" H 1350 2100 50  0001 C CNN
+F 3 "" H 1350 2100 50  0001 C CNN
+	1    1350 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1900 1350 1900
+Wire Wire Line
+	1250 2000 1350 2000
+Wire Wire Line
+	1350 2000 1350 2100
+$Comp
+L Connector:AudioJack2_SwitchT J2
+U 1 1 608F0E4D
+P 1050 5350
+F 0 "J2" H 871 5283 50  0000 R CNN
+F 1 "RESET In" H 871 5374 50  0000 R CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 1050 5350 50  0001 C CNN
+F 3 "~" H 1050 5350 50  0001 C CNN
+	1    1050 5350
+	1    0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D2
+U 1 1 608F141D
+P 1500 5350
+F 0 "D2" H 1500 5133 50  0000 C CNN
+F 1 "1N4148" H 1500 5224 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 5175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1500 5350 50  0001 C CNN
+	1    1500 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 608F25E5
+P 1350 5550
+F 0 "#PWR0110" H 1350 5300 50  0001 C CNN
+F 1 "GND" H 1355 5377 50  0000 C CNN
+F 2 "" H 1350 5550 50  0001 C CNN
+F 3 "" H 1350 5550 50  0001 C CNN
+	1    1350 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 5350 1350 5350
+Wire Wire Line
+	1350 5550 1350 5450
+Wire Wire Line
+	1350 5450 1250 5450
+Wire Wire Line
+	1650 5350 1750 5350
+$Comp
+L Device:R R17
+U 1 1 6090954E
+P 4850 2450
+F 0 "R17" V 4950 2450 50  0000 C CNN
+F 1 "1k" V 4750 2450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4780 2450 50  0001 C CNN
+F 3 "~" H 4850 2450 50  0001 C CNN
+	1    4850 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 60909CB9
+P 4850 2750
+F 0 "R18" V 4950 2750 50  0000 C CNN
+F 1 "470" V 4750 2750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4780 2750 50  0001 C CNN
+F 3 "~" H 4850 2750 50  0001 C CNN
+	1    4850 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 2750 4600 2750
+Wire Wire Line
+	4600 2750 4600 2450
+Wire Wire Line
+	4600 2450 4700 2450
+$Comp
+L Device:LED D4
+U 1 1 60910352
+P 5250 2750
+F 0 "D4" H 5243 2495 50  0000 C CNN
+F 1 "LED" H 5243 2586 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 5250 2750 50  0001 C CNN
+F 3 "~" H 5250 2750 50  0001 C CNN
+	1    5250 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 60910704
+P 5500 2850
+F 0 "#PWR0117" H 5500 2600 50  0001 C CNN
+F 1 "GND" H 5505 2677 50  0000 C CNN
+F 2 "" H 5500 2850 50  0001 C CNN
+F 3 "" H 5500 2850 50  0001 C CNN
+	1    5500 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2750 5100 2750
+Wire Wire Line
+	5400 2750 5500 2750
+$Comp
+L Connector:AudioJack2_SwitchT J4
+U 1 1 609133B3
+P 5800 2450
+F 0 "J4" H 5620 2383 50  0000 R CNN
+F 1 "CLK/2" H 5620 2474 50  0000 R CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 5800 2450 50  0001 C CNN
+F 3 "~" H 5800 2450 50  0001 C CNN
+	1    5800 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 2550 5500 2550
+Wire Wire Line
+	5500 2550 5500 2750
+Wire Wire Line
+	5500 2750 5500 2850
+Connection ~ 5500 2750
+Wire Wire Line
+	5600 2450 5000 2450
+$Comp
+L Device:R R19
+U 1 1 60918D90
+P 4850 3350
+F 0 "R19" V 4950 3350 50  0000 C CNN
+F 1 "1k" V 4750 3350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4780 3350 50  0001 C CNN
+F 3 "~" H 4850 3350 50  0001 C CNN
+	1    4850 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 60918D9A
+P 4850 3650
+F 0 "R20" V 4950 3650 50  0000 C CNN
+F 1 "470" V 4750 3650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4780 3650 50  0001 C CNN
+F 3 "~" H 4850 3650 50  0001 C CNN
+	1    4850 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 3650 4600 3650
+Wire Wire Line
+	4600 3650 4600 3350
+Wire Wire Line
+	4600 3350 4700 3350
+$Comp
+L Device:LED D5
+U 1 1 60918DA9
+P 5250 3650
+F 0 "D5" H 5243 3395 50  0000 C CNN
+F 1 "LED" H 5243 3486 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 5250 3650 50  0001 C CNN
+F 3 "~" H 5250 3650 50  0001 C CNN
+	1    5250 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 60918DB3
+P 5500 3750
+F 0 "#PWR0118" H 5500 3500 50  0001 C CNN
+F 1 "GND" H 5505 3577 50  0000 C CNN
+F 2 "" H 5500 3750 50  0001 C CNN
+F 3 "" H 5500 3750 50  0001 C CNN
+	1    5500 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3650 5100 3650
+Wire Wire Line
+	5400 3650 5500 3650
+$Comp
+L Connector:AudioJack2_SwitchT J5
+U 1 1 60918DBF
+P 5800 3350
+F 0 "J5" H 5620 3283 50  0000 R CNN
+F 1 "CLK/4" H 5620 3374 50  0000 R CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 5800 3350 50  0001 C CNN
+F 3 "~" H 5800 3350 50  0001 C CNN
+	1    5800 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 3450 5500 3450
+Wire Wire Line
+	5500 3450 5500 3650
+Wire Wire Line
+	5500 3650 5500 3750
+Connection ~ 5500 3650
+Wire Wire Line
+	5600 3350 5000 3350
+$Comp
+L Device:R R21
+U 1 1 6091EB17
+P 4850 4250
+F 0 "R21" V 4950 4250 50  0000 C CNN
+F 1 "1k" V 4750 4250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4780 4250 50  0001 C CNN
+F 3 "~" H 4850 4250 50  0001 C CNN
+	1    4850 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 6091EB21
+P 4850 4550
+F 0 "R22" V 4950 4550 50  0000 C CNN
+F 1 "470" V 4750 4550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4780 4550 50  0001 C CNN
+F 3 "~" H 4850 4550 50  0001 C CNN
+	1    4850 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 4550 4600 4550
+Wire Wire Line
+	4600 4550 4600 4250
+Wire Wire Line
+	4600 4250 4700 4250
+$Comp
+L Device:LED D6
+U 1 1 6091EB2F
+P 5250 4550
+F 0 "D6" H 5243 4295 50  0000 C CNN
+F 1 "LED" H 5243 4386 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 5250 4550 50  0001 C CNN
+F 3 "~" H 5250 4550 50  0001 C CNN
+	1    5250 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 6091EB39
+P 5500 4650
+F 0 "#PWR0119" H 5500 4400 50  0001 C CNN
+F 1 "GND" H 5505 4477 50  0000 C CNN
+F 2 "" H 5500 4650 50  0001 C CNN
+F 3 "" H 5500 4650 50  0001 C CNN
+	1    5500 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4550 5100 4550
+Wire Wire Line
+	5400 4550 5500 4550
+$Comp
+L Connector:AudioJack2_SwitchT J6
+U 1 1 6091EB45
+P 5800 4250
+F 0 "J6" H 5620 4183 50  0000 R CNN
+F 1 "CLK/8" H 5620 4274 50  0000 R CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 5800 4250 50  0001 C CNN
+F 3 "~" H 5800 4250 50  0001 C CNN
+	1    5800 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 4350 5500 4350
+Wire Wire Line
+	5500 4350 5500 4550
+Wire Wire Line
+	5500 4550 5500 4650
+Connection ~ 5500 4550
+Wire Wire Line
+	5600 4250 5000 4250
+$Comp
+L Device:R R23
+U 1 1 6092B046
+P 4850 5150
+F 0 "R23" V 4950 5150 50  0000 C CNN
+F 1 "1k" V 4750 5150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4780 5150 50  0001 C CNN
+F 3 "~" H 4850 5150 50  0001 C CNN
+	1    4850 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 6092B050
+P 4850 5450
+F 0 "R24" V 4950 5450 50  0000 C CNN
+F 1 "470" V 4750 5450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4780 5450 50  0001 C CNN
+F 3 "~" H 4850 5450 50  0001 C CNN
+	1    4850 5450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 5450 4600 5450
+Wire Wire Line
+	4600 5450 4600 5150
+Wire Wire Line
+	4600 5150 4700 5150
+$Comp
+L Device:LED D7
+U 1 1 6092B05E
+P 5250 5450
+F 0 "D7" H 5243 5195 50  0000 C CNN
+F 1 "LED" H 5243 5286 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 5250 5450 50  0001 C CNN
+F 3 "~" H 5250 5450 50  0001 C CNN
+	1    5250 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 6092B068
+P 5500 5550
+F 0 "#PWR0120" H 5500 5300 50  0001 C CNN
+F 1 "GND" H 5505 5377 50  0000 C CNN
+F 2 "" H 5500 5550 50  0001 C CNN
+F 3 "" H 5500 5550 50  0001 C CNN
+	1    5500 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 5450 5100 5450
+Wire Wire Line
+	5400 5450 5500 5450
+$Comp
+L Connector:AudioJack2_SwitchT J7
+U 1 1 6092B074
+P 5800 5150
+F 0 "J7" H 5620 5083 50  0000 R CNN
+F 1 "CLK/16" H 5620 5174 50  0000 R CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 5800 5150 50  0001 C CNN
+F 3 "~" H 5800 5150 50  0001 C CNN
+	1    5800 5150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 5250 5500 5250
+Wire Wire Line
+	5500 5250 5500 5450
+Wire Wire Line
+	5500 5450 5500 5550
+Connection ~ 5500 5450
+Wire Wire Line
+	5600 5150 5000 5150
+$Comp
+L Device:R R25
+U 1 1 60949265
+P 4850 6050
+F 0 "R25" V 4950 6050 50  0000 C CNN
+F 1 "1k" V 4750 6050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4780 6050 50  0001 C CNN
+F 3 "~" H 4850 6050 50  0001 C CNN
+	1    4850 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 6094926F
+P 4850 6350
+F 0 "R26" V 4950 6350 50  0000 C CNN
+F 1 "470" V 4750 6350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4780 6350 50  0001 C CNN
+F 3 "~" H 4850 6350 50  0001 C CNN
+	1    4850 6350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 6350 4600 6350
+Wire Wire Line
+	4600 6350 4600 6050
+Wire Wire Line
+	4600 6050 4700 6050
+$Comp
+L Device:LED D8
+U 1 1 6094927D
+P 5250 6350
+F 0 "D8" H 5243 6095 50  0000 C CNN
+F 1 "LED" H 5243 6186 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 5250 6350 50  0001 C CNN
+F 3 "~" H 5250 6350 50  0001 C CNN
+	1    5250 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 60949287
+P 5500 6450
+F 0 "#PWR0121" H 5500 6200 50  0001 C CNN
+F 1 "GND" H 5505 6277 50  0000 C CNN
+F 2 "" H 5500 6450 50  0001 C CNN
+F 3 "" H 5500 6450 50  0001 C CNN
+	1    5500 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6350 5100 6350
+Wire Wire Line
+	5400 6350 5500 6350
+$Comp
+L Connector:AudioJack2_SwitchT J8
+U 1 1 60949293
+P 5800 6050
+F 0 "J8" H 5620 5983 50  0000 R CNN
+F 1 "CLK/32" H 5620 6074 50  0000 R CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 5800 6050 50  0001 C CNN
+F 3 "~" H 5800 6050 50  0001 C CNN
+	1    5800 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 6150 5500 6150
+Wire Wire Line
+	5500 6150 5500 6350
+Wire Wire Line
+	5500 6350 5500 6450
+Connection ~ 5500 6350
+Wire Wire Line
+	5600 6050 5000 6050
+$Comp
+L Device:R R28
+U 1 1 60A4E721
+P 4850 1550
+F 0 "R28" V 4950 1550 50  0000 C CNN
+F 1 "1k" V 4750 1550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4780 1550 50  0001 C CNN
+F 3 "~" H 4850 1550 50  0001 C CNN
+	1    4850 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 60A4E72B
+P 4850 1850
+F 0 "R29" V 4950 1850 50  0000 C CNN
+F 1 "470" V 4750 1850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4780 1850 50  0001 C CNN
+F 3 "~" H 4850 1850 50  0001 C CNN
+	1    4850 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 1850 4600 1850
+Wire Wire Line
+	4600 1850 4600 1550
+Wire Wire Line
+	4600 1550 4700 1550
+$Comp
+L Device:LED D9
+U 1 1 60A4E739
+P 5250 1850
+F 0 "D9" H 5243 1595 50  0000 C CNN
+F 1 "LED" H 5243 1686 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 5250 1850 50  0001 C CNN
+F 3 "~" H 5250 1850 50  0001 C CNN
+	1    5250 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 60A4E743
+P 5500 1950
+F 0 "#PWR01" H 5500 1700 50  0001 C CNN
+F 1 "GND" H 5505 1777 50  0000 C CNN
+F 2 "" H 5500 1950 50  0001 C CNN
+F 3 "" H 5500 1950 50  0001 C CNN
+	1    5500 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1850 5100 1850
+Wire Wire Line
+	5400 1850 5500 1850
+$Comp
+L Connector:AudioJack2_SwitchT J9
+U 1 1 60A4E74F
+P 5800 1550
+F 0 "J9" H 5620 1483 50  0000 R CNN
+F 1 "CLK Out" H 5620 1574 50  0000 R CNN
+F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 5800 1550 50  0001 C CNN
+F 3 "~" H 5800 1550 50  0001 C CNN
+	1    5800 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 1650 5500 1650
+Wire Wire Line
+	5500 1650 5500 1850
+Wire Wire Line
+	5500 1850 5500 1950
+Connection ~ 5500 1850
+Wire Wire Line
+	5600 1550 5000 1550
+$Comp
+L Device:R R4
+U 1 1 608F2A1F
+P 1900 5350
+F 0 "R4" V 1693 5350 50  0000 C CNN
+F 1 "47k" V 1784 5350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1830 5350 50  0001 C CNN
+F 3 "~" H 1900 5350 50  0001 C CNN
+	1    1900 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J10
+U 1 1 60875257
+P 3700 3750
+F 0 "J10" H 3618 4267 50  0000 C CNN
+F 1 "Output" H 3618 4176 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 3700 3750 50  0001 C CNN
+F 3 "~" H 3700 3750 50  0001 C CNN
+	1    3700 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J3
+U 1 1 608760C9
+P 3000 3750
+F 0 "J3" H 3080 3742 50  0000 L CNN
+F 1 "Input" H 3080 3651 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 3000 3750 50  0001 C CNN
+F 3 "~" H 3000 3750 50  0001 C CNN
+	1    3000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 608770A6
+P 4000 4250
+F 0 "#PWR0101" H 4000 4000 50  0001 C CNN
+F 1 "GND" H 4005 4077 50  0000 C CNN
+F 2 "" H 4000 4250 50  0001 C CNN
+F 3 "" H 4000 4250 50  0001 C CNN
+	1    4000 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3450 4000 3450
+Wire Wire Line
+	4000 3450 4000 4150
+Wire Wire Line
+	3900 4150 4000 4150
+Connection ~ 4000 4150
+Wire Wire Line
+	4000 4150 4000 4250
+Wire Wire Line
+	3900 3550 4100 3550
+Wire Wire Line
+	4100 3550 4100 1850
+Wire Wire Line
+	4100 1850 4600 1850
+Connection ~ 4600 1850
+Wire Wire Line
+	3900 3650 4200 3650
+Wire Wire Line
+	4200 3650 4200 2750
+Wire Wire Line
+	4200 2750 4600 2750
+Connection ~ 4600 2750
+Wire Wire Line
+	3900 3750 4300 3750
+Wire Wire Line
+	4300 3750 4300 3650
+Wire Wire Line
+	4300 3650 4600 3650
+Connection ~ 4600 3650
+Wire Wire Line
+	3900 3850 4300 3850
+Wire Wire Line
+	4300 3850 4300 4250
+Wire Wire Line
+	4300 4250 4600 4250
+Connection ~ 4600 4250
+Wire Wire Line
+	3900 3950 4200 3950
+Wire Wire Line
+	4200 3950 4200 5150
+Wire Wire Line
+	4200 5150 4600 5150
+Connection ~ 4600 5150
+Wire Wire Line
+	3900 4050 4100 4050
+Wire Wire Line
+	4100 4050 4100 6050
+Wire Wire Line
+	4100 6050 4600 6050
+Connection ~ 4600 6050
+Wire Wire Line
+	2050 1900 2200 1900
+Wire Wire Line
+	2200 1900 2200 3450
+Wire Wire Line
+	2200 3450 2800 3450
+Wire Wire Line
+	2050 5350 2200 5350
+Wire Wire Line
+	2200 5350 2200 4150
+Wire Wire Line
+	2200 4150 2800 4150
+$Comp
+L power:GND #PWR0102
+U 1 1 60898D5A
+P 2700 4250
+F 0 "#PWR0102" H 2700 4000 50  0001 C CNN
+F 1 "GND" H 2705 4077 50  0000 C CNN
+F 2 "" H 2700 4250 50  0001 C CNN
+F 3 "" H 2700 4250 50  0001 C CNN
+	1    2700 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3550 2700 3550
+Wire Wire Line
+	2700 3550 2700 3650
+Wire Wire Line
+	2800 3650 2700 3650
+Connection ~ 2700 3650
+Wire Wire Line
+	2700 3650 2700 3750
+Wire Wire Line
+	2800 3750 2700 3750
+Connection ~ 2700 3750
+Wire Wire Line
+	2700 3750 2700 3850
+Wire Wire Line
+	2800 3850 2700 3850
+Connection ~ 2700 3850
+Wire Wire Line
+	2700 3850 2700 3950
+Wire Wire Line
+	2800 3950 2700 3950
+Connection ~ 2700 3950
+Wire Wire Line
+	2700 3950 2700 4050
+Wire Wire Line
+	2800 4050 2700 4050
+Connection ~ 2700 4050
+Wire Wire Line
+	2700 4050 2700 4250
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 608BE5D2
+P 1800 6250
+F 0 "H1" H 1900 6299 50  0001 L CNN
+F 1 "MountingHole_Pad" H 1900 6208 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 1800 6250 50  0001 C CNN
+F 3 "~" H 1800 6250 50  0001 C CNN
+	1    1800 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 608BEE1A
+P 2000 6250
+F 0 "H2" H 2100 6299 50  0001 L CNN
+F 1 "MountingHole_Pad" H 2100 6208 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 2000 6250 50  0001 C CNN
+F 3 "~" H 2000 6250 50  0001 C CNN
+	1    2000 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 608BEFD6
+P 1800 6550
+F 0 "#PWR0103" H 1800 6300 50  0001 C CNN
+F 1 "GND" H 1805 6377 50  0000 C CNN
+F 2 "" H 1800 6550 50  0001 C CNN
+F 3 "" H 1800 6550 50  0001 C CNN
+	1    1800 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 6350 1800 6450
+Wire Wire Line
+	1800 6450 2000 6450
+Wire Wire Line
+	2000 6450 2000 6350
+Connection ~ 1800 6450
+Wire Wire Line
+	1800 6450 1800 6550
+$EndSCHEMATC
