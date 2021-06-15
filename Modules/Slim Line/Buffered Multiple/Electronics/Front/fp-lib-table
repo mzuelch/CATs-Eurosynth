@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Frontpanel)(type KiCad)(uri ${KIPRJMOD}/Frontpanel.pretty)(options "")(descr ""))
-)
