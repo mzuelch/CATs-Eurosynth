@@ -20,3 +20,4 @@ The remodelling in KiCAD, slight adaptation, PCB layout and frontpanel designs a
 <h2>YuSynth Clones</h2>
 <p>The basic electronic design was made by <a href="https://yusynth.net">YuSynth</a>.
 The remodelling in KiCAD, slight adaptation (especially changes to +/-12V), PCB layout and frontpanel designs are based on my own faults.</p>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Single%20VCA">Single VCA (Working)</a></h3>
