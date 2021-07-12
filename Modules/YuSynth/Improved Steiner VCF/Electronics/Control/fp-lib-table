@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Schiebeschalter)(type KiCad)(uri ${KIPRJMOD}/Schiebeschalter.pretty)(options "")(descr ""))
+)
