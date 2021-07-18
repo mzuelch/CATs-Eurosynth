@@ -1,4 +1,4 @@
-19309657039040552
+19311283626057237
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -47025,6 +47025,13 @@ connector Wuerth WR-WTB vertical
 0
 10
 10
+Control
+Hole_0.5mm
+
+
+0
+0
+0
 Converter_ACDC
 Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical
 ACDC-Converter, 3W, CUI PBO-3, THT https://www.cui.com/product/resource/pbo-3.pdf
