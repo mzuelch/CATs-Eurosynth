@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Connector_Audio_QingPu)(type KiCad)(uri D:/Elektronik/Libraries/Footprints/Connector_Audio_QingPu.pretty)(options "")(descr ""))
+  (lib (name Eurorack_Synth)(type KiCad)(uri D:/Elektronik/Libraries/Footprints/Eurorack_Synth.pretty)(options "")(descr ""))
+)

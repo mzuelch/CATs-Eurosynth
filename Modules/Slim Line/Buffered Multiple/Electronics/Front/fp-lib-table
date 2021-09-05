@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Frontpanel)(type KiCad)(uri ${KIPRJMOD}/Frontpanel.pretty)(options "")(descr ""))
+  (lib (name Bohrungen)(type KiCad)(uri D:/Elektronik/Libraries/Footprints/Bohrungen.pretty)(options "")(descr ""))
+)
