@@ -12,7 +12,6 @@ This is my MIT licensed repository for my analog synth eurorack compatible modul
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Attenuator">Single Attenuator (THT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Buffered%20Multiple">Buffered Multiple (THT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Sample%26Hold">Dual Sample&Hold (THT, Working)</a></h3>
-<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Single%20VCA">Single VCA (THT, Working)</a></h3>
 <h2>MFOS Clones</h2>
 <p>The basic electronic design was made by <a href="http://musicfromouterspace.com/">Music From Outer Space</a>.
 The remodelling in KiCAD, slight adaptation, PCB layout and frontpanel designs are based on my own faults</p>
@@ -23,3 +22,7 @@ The remodelling in KiCAD, slight adaptation, PCB layout and frontpanel designs a
 The remodelling in KiCAD, slight adaptation (especially changes to +/-12V), PCB layout and frontpanel designs are based on my own faults.</p>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/YuSynth/Improved%20Steiner%20VCF">Improved Steiner VCF (SMT, Working)</a></h3>
 <h3>ARP VCF (SMT, work in progress)</h3>
+<h2>Haraldswerk</h2>
+<p>The basic electronic design was made by <a href="https://www.haraldswerk.de/">Haraldswerk</a>.
+The remodelling in KiCAD, slight adaptation, PCB layout and frontpanel designs are based on my own faults.</p>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Haraldswerk/NGF-E%20LFO/">Next Generation Formant LFO (THT, Working)</a></h3>
