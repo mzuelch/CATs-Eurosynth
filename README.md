@@ -1,5 +1,5 @@
 # CATs Eurosynth
-This is my MIT licensed repository for my analog synth eurorack compatible modules
+This is my repository for my analog synth eurorack compatible modules
 <h2>Standard Line</h2>
 <p>Collection of my own designs with no regard to size.</p>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Atari%20Punk%20Console">Atari Punk Console (THT, Working)</a></h3>
