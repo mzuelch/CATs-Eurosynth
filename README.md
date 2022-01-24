@@ -25,7 +25,7 @@ The remodelling in KiCAD, slight adaptation (especially changes to +/-12V), PCB 
 <p>The basic electronic design was made by <a href="https://www.haraldswerk.de/">Haraldswerk</a>.
 The remodelling in KiCAD, slight adaptation, PCB layout and frontpanel designs are based on my own faults.</p>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Haraldswerk/NGF-E%20LFO/">Next Generation Formant LFO (THT, Working)</a></h3>
-<h2>Haraldswerk</h2>
+<h2>HAGIWO</h2>
 <p>The basic electronic design was made by <a href="https://www.youtube.com/channel/UCxErrnnVNEAAXPZvQFwobQw">HAGIWO</a>.
-The remodelling in KiCAD, slight adaptation, PCB layout and frontpanel designs are based on my own faults.</p>
+The remodelling in KiCAD, slight adaptation in hard- and software, PCB layout and frontpanel designs are based on my own faults.</p>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/6Ch%20Trigger%20Sequencer">6Ch Trigger Sequencer (SMT, Working)</a></h3>
