@@ -1,0 +1,3032 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Operational:TL072 U1
+U 1 1 619CEE1B
+P 1250 1100
+F 0 "U1" H 1250 950 50  0000 L CNN
+F 1 "TL072CDT" H 1250 1250 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1250 1100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1250 1100 50  0001 C CNN
+F 4 "Basic" H 1250 1100 50  0001 C CNN "Ext/Basic"
+F 5 "C6961" H 1250 1100 50  0001 C CNN "LCSC"
+	1    1250 1100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	950  1000 850  1000
+$Comp
+L power:GND #PWR0101
+U 1 1 619D2D8F
+P 850 1300
+F 0 "#PWR0101" H 850 1050 50  0001 C CNN
+F 1 "GND" H 855 1127 50  0000 C CNN
+F 2 "" H 850 1300 50  0001 C CNN
+F 3 "" H 850 1300 50  0001 C CNN
+	1    850  1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  1200 850  1200
+Wire Wire Line
+	850  1200 850  1300
+$Comp
+L Device:R R1
+U 1 1 619D30EF
+P 1250 750
+F 0 "R1" V 1043 750 50  0000 C CNN
+F 1 "100k" V 1134 750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1180 750 50  0001 C CNN
+F 3 "~" H 1250 750 50  0001 C CNN
+F 4 "Basic" H 1250 750 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 1250 750 50  0001 C CNN "LCSC"
+	1    1250 750 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1100 750  850  750 
+Wire Wire Line
+	850  750  850  1000
+Connection ~ 850  1000
+Wire Wire Line
+	850  1000 750  1000
+Wire Wire Line
+	1400 750  1650 750 
+Wire Wire Line
+	1650 750  1650 1100
+Wire Wire Line
+	1650 1100 1550 1100
+$Comp
+L Device:R R7
+U 1 1 619D3A52
+P 1900 1100
+F 0 "R7" V 1693 1100 50  0000 C CNN
+F 1 "100k" V 1784 1100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1830 1100 50  0001 C CNN
+F 3 "~" H 1900 1100 50  0001 C CNN
+F 4 "Basic" H 1900 1100 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 1900 1100 50  0001 C CNN "LCSC"
+	1    1900 1100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 1100 2050 1100
+Wire Wire Line
+	1750 1100 1650 1100
+Connection ~ 1650 1100
+$Comp
+L Amplifier_Operational:TL072 U1
+U 2 1 619D44A3
+P 2550 1200
+F 0 "U1" H 2550 1050 50  0000 L CNN
+F 1 "TL072CDT" H 2550 1350 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2550 1200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2550 1200 50  0001 C CNN
+F 4 "Basic" H 2550 1200 50  0001 C CNN "Ext/Basic"
+F 5 "C6961" H 2550 1200 50  0001 C CNN "LCSC"
+	2    2550 1200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2250 1100 2150 1100
+Connection ~ 2150 1100
+$Comp
+L power:GND #PWR0102
+U 1 1 619D771F
+P 2150 1400
+F 0 "#PWR0102" H 2150 1150 50  0001 C CNN
+F 1 "GND" H 2155 1227 50  0000 C CNN
+F 2 "" H 2150 1400 50  0001 C CNN
+F 3 "" H 2150 1400 50  0001 C CNN
+	1    2150 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1300 2150 1300
+Wire Wire Line
+	2150 1300 2150 1400
+$Comp
+L Device:R R11
+U 1 1 619D8290
+P 2550 850
+F 0 "R11" V 2343 850 50  0000 C CNN
+F 1 "100k" V 2434 850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2480 850 50  0001 C CNN
+F 3 "~" H 2550 850 50  0001 C CNN
+F 4 "Basic" H 2550 850 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 2550 850 50  0001 C CNN "LCSC"
+	1    2550 850 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 850  2150 850 
+Wire Wire Line
+	2150 850  2150 1100
+Wire Wire Line
+	2700 850  2950 850 
+Wire Wire Line
+	2950 850  2950 1200
+Wire Wire Line
+	2950 1200 2850 1200
+Text GLabel 3050 850  2    50   Input ~ 0
+Int_Out1
+$Comp
+L Device:R R17
+U 1 1 619D93CF
+P 3200 1200
+F 0 "R17" V 2993 1200 50  0000 C CNN
+F 1 "1k" V 3084 1200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3130 1200 50  0001 C CNN
+F 3 "~" H 3200 1200 50  0001 C CNN
+F 4 "Basic" H 3200 1200 50  0001 C CNN "Ext/Basic"
+F 5 "C11702" H 3200 1200 50  0001 C CNN "LCSC"
+	1    3200 1200
+	0    1    1    0   
+$EndComp
+Text GLabel 3450 1200 2    50   Input ~ 0
+Out1
+Wire Wire Line
+	2950 1200 3050 1200
+Connection ~ 2950 1200
+Wire Wire Line
+	3350 1200 3450 1200
+Wire Wire Line
+	2950 850  3050 850 
+Connection ~ 2950 850 
+$Comp
+L Amplifier_Operational:TL072 U2
+U 1 1 619E1314
+P 1250 2250
+F 0 "U2" H 1250 2100 50  0000 L CNN
+F 1 "TL072CDT" H 1250 2400 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1250 2250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1250 2250 50  0001 C CNN
+F 4 "Basic" H 1250 2250 50  0001 C CNN "Ext/Basic"
+F 5 "C6961" H 1250 2250 50  0001 C CNN "LCSC"
+	1    1250 2250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	950  2150 850  2150
+$Comp
+L power:GND #PWR0103
+U 1 1 619E1320
+P 850 2450
+F 0 "#PWR0103" H 850 2200 50  0001 C CNN
+F 1 "GND" H 855 2277 50  0000 C CNN
+F 2 "" H 850 2450 50  0001 C CNN
+F 3 "" H 850 2450 50  0001 C CNN
+	1    850  2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  2350 850  2350
+Wire Wire Line
+	850  2350 850  2450
+$Comp
+L Device:R R2
+U 1 1 619E132C
+P 1250 1900
+F 0 "R2" V 1043 1900 50  0000 C CNN
+F 1 "100k" V 1134 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1180 1900 50  0001 C CNN
+F 3 "~" H 1250 1900 50  0001 C CNN
+F 4 "Basic" H 1250 1900 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 1250 1900 50  0001 C CNN "LCSC"
+	1    1250 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1100 1900 850  1900
+Wire Wire Line
+	850  1900 850  2150
+Connection ~ 850  2150
+Wire Wire Line
+	850  2150 750  2150
+Wire Wire Line
+	1400 1900 1650 1900
+Wire Wire Line
+	1650 1900 1650 2250
+Wire Wire Line
+	1650 2250 1550 2250
+$Comp
+L Device:R R8
+U 1 1 619E13E7
+P 1900 2250
+F 0 "R8" V 1693 2250 50  0000 C CNN
+F 1 "100k" V 1784 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1830 2250 50  0001 C CNN
+F 3 "~" H 1900 2250 50  0001 C CNN
+F 4 "Basic" H 1900 2250 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 1900 2250 50  0001 C CNN "LCSC"
+	1    1900 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 2250 2050 2250
+Wire Wire Line
+	1750 2250 1650 2250
+Connection ~ 1650 2250
+$Comp
+L Amplifier_Operational:TL072 U2
+U 2 1 619E1403
+P 2550 2350
+F 0 "U2" H 2550 2200 50  0000 L CNN
+F 1 "TL072CDT" H 2550 2500 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2550 2350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2550 2350 50  0001 C CNN
+F 4 "Basic" H 2550 2350 50  0001 C CNN "Ext/Basic"
+F 5 "C6961" H 2550 2350 50  0001 C CNN "LCSC"
+	2    2550 2350
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2250 2250 2150 2250
+Connection ~ 2150 2250
+$Comp
+L power:GND #PWR0104
+U 1 1 619E140F
+P 2150 2550
+F 0 "#PWR0104" H 2150 2300 50  0001 C CNN
+F 1 "GND" H 2155 2377 50  0000 C CNN
+F 2 "" H 2150 2550 50  0001 C CNN
+F 3 "" H 2150 2550 50  0001 C CNN
+	1    2150 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2450 2150 2450
+Wire Wire Line
+	2150 2450 2150 2550
+$Comp
+L Device:R R12
+U 1 1 619E141B
+P 2550 2000
+F 0 "R12" V 2343 2000 50  0000 C CNN
+F 1 "100k" V 2434 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2480 2000 50  0001 C CNN
+F 3 "~" H 2550 2000 50  0001 C CNN
+F 4 "Basic" H 2550 2000 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 2550 2000 50  0001 C CNN "LCSC"
+	1    2550 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 2000 2150 2000
+Wire Wire Line
+	2150 2000 2150 2250
+Wire Wire Line
+	2700 2000 2950 2000
+Wire Wire Line
+	2950 2000 2950 2350
+Wire Wire Line
+	2950 2350 2850 2350
+Text GLabel 3050 2000 2    50   Input ~ 0
+Int_Out2
+$Comp
+L Device:R R18
+U 1 1 619E14D6
+P 3200 2350
+F 0 "R18" V 2993 2350 50  0000 C CNN
+F 1 "1k" V 3084 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3130 2350 50  0001 C CNN
+F 3 "~" H 3200 2350 50  0001 C CNN
+F 4 "Basic" H 3200 2350 50  0001 C CNN "Ext/Basic"
+F 5 "C11702" H 3200 2350 50  0001 C CNN "LCSC"
+	1    3200 2350
+	0    1    1    0   
+$EndComp
+Text GLabel 3450 2350 2    50   Input ~ 0
+Out2
+Wire Wire Line
+	2950 2350 3050 2350
+Connection ~ 2950 2350
+Wire Wire Line
+	3350 2350 3450 2350
+Wire Wire Line
+	2950 2000 3050 2000
+Connection ~ 2950 2000
+$Comp
+L Amplifier_Operational:TL072 U3
+U 1 1 619EF9D6
+P 1250 3400
+F 0 "U3" H 1250 3250 50  0000 L CNN
+F 1 "TL072CDT" H 1250 3550 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1250 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1250 3400 50  0001 C CNN
+F 4 "Basic" H 1250 3400 50  0001 C CNN "Ext/Basic"
+F 5 "C6961" H 1250 3400 50  0001 C CNN "LCSC"
+	1    1250 3400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	950  3300 850  3300
+$Comp
+L power:GND #PWR0105
+U 1 1 619EF9E2
+P 850 3600
+F 0 "#PWR0105" H 850 3350 50  0001 C CNN
+F 1 "GND" H 855 3427 50  0000 C CNN
+F 2 "" H 850 3600 50  0001 C CNN
+F 3 "" H 850 3600 50  0001 C CNN
+	1    850  3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  3500 850  3500
+Wire Wire Line
+	850  3500 850  3600
+$Comp
+L Device:R R3
+U 1 1 619EF9EE
+P 1250 3050
+F 0 "R3" V 1043 3050 50  0000 C CNN
+F 1 "100k" V 1134 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1180 3050 50  0001 C CNN
+F 3 "~" H 1250 3050 50  0001 C CNN
+F 4 "Basic" H 1250 3050 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 1250 3050 50  0001 C CNN "LCSC"
+	1    1250 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1100 3050 850  3050
+Wire Wire Line
+	850  3050 850  3300
+Connection ~ 850  3300
+Wire Wire Line
+	850  3300 750  3300
+Wire Wire Line
+	1400 3050 1650 3050
+Wire Wire Line
+	1650 3050 1650 3400
+Wire Wire Line
+	1650 3400 1550 3400
+$Comp
+L Device:R R9
+U 1 1 619EFAA9
+P 1900 3400
+F 0 "R9" V 1693 3400 50  0000 C CNN
+F 1 "100k" V 1784 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1830 3400 50  0001 C CNN
+F 3 "~" H 1900 3400 50  0001 C CNN
+F 4 "Basic" H 1900 3400 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 1900 3400 50  0001 C CNN "LCSC"
+	1    1900 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 3400 2050 3400
+Wire Wire Line
+	1750 3400 1650 3400
+Connection ~ 1650 3400
+$Comp
+L Amplifier_Operational:TL072 U3
+U 2 1 619EFAC5
+P 2550 3500
+F 0 "U3" H 2550 3350 50  0000 L CNN
+F 1 "TL072CDT" H 2550 3650 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2550 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2550 3500 50  0001 C CNN
+F 4 "Basic" H 2550 3500 50  0001 C CNN "Ext/Basic"
+F 5 "C6961" H 2550 3500 50  0001 C CNN "LCSC"
+	2    2550 3500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2250 3400 2150 3400
+Connection ~ 2150 3400
+$Comp
+L power:GND #PWR0106
+U 1 1 619EFAD1
+P 2150 3700
+F 0 "#PWR0106" H 2150 3450 50  0001 C CNN
+F 1 "GND" H 2155 3527 50  0000 C CNN
+F 2 "" H 2150 3700 50  0001 C CNN
+F 3 "" H 2150 3700 50  0001 C CNN
+	1    2150 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 3600 2150 3600
+Wire Wire Line
+	2150 3600 2150 3700
+$Comp
+L Device:R R13
+U 1 1 619EFADD
+P 2550 3150
+F 0 "R13" V 2343 3150 50  0000 C CNN
+F 1 "100k" V 2434 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2480 3150 50  0001 C CNN
+F 3 "~" H 2550 3150 50  0001 C CNN
+F 4 "Basic" H 2550 3150 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 2550 3150 50  0001 C CNN "LCSC"
+	1    2550 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 3150 2150 3150
+Wire Wire Line
+	2150 3150 2150 3400
+Wire Wire Line
+	2700 3150 2950 3150
+Wire Wire Line
+	2950 3150 2950 3500
+Wire Wire Line
+	2950 3500 2850 3500
+Text GLabel 3050 3150 2    50   Input ~ 0
+Int_Out3
+$Comp
+L Device:R R19
+U 1 1 619EFB98
+P 3200 3500
+F 0 "R19" V 2993 3500 50  0000 C CNN
+F 1 "1k" V 3084 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3130 3500 50  0001 C CNN
+F 3 "~" H 3200 3500 50  0001 C CNN
+F 4 "Basic" H 3200 3500 50  0001 C CNN "Ext/Basic"
+F 5 "C11702" H 3200 3500 50  0001 C CNN "LCSC"
+	1    3200 3500
+	0    1    1    0   
+$EndComp
+Text GLabel 3450 3500 2    50   Input ~ 0
+Out3
+Wire Wire Line
+	2950 3500 3050 3500
+Connection ~ 2950 3500
+Wire Wire Line
+	3350 3500 3450 3500
+Wire Wire Line
+	2950 3150 3050 3150
+Connection ~ 2950 3150
+$Comp
+L Amplifier_Operational:TL072 U4
+U 1 1 619FB8DB
+P 1250 4550
+F 0 "U4" H 1250 4400 50  0000 L CNN
+F 1 "TL072CDT" H 1250 4700 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1250 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1250 4550 50  0001 C CNN
+F 4 "Basic" H 1250 4550 50  0001 C CNN "Ext/Basic"
+F 5 "C6961" H 1250 4550 50  0001 C CNN "LCSC"
+	1    1250 4550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	950  4450 850  4450
+$Comp
+L power:GND #PWR0107
+U 1 1 619FB8E7
+P 850 4750
+F 0 "#PWR0107" H 850 4500 50  0001 C CNN
+F 1 "GND" H 855 4577 50  0000 C CNN
+F 2 "" H 850 4750 50  0001 C CNN
+F 3 "" H 850 4750 50  0001 C CNN
+	1    850  4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  4650 850  4650
+Wire Wire Line
+	850  4650 850  4750
+$Comp
+L Device:R R4
+U 1 1 619FB8F3
+P 1250 4200
+F 0 "R4" V 1043 4200 50  0000 C CNN
+F 1 "100k" V 1134 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1180 4200 50  0001 C CNN
+F 3 "~" H 1250 4200 50  0001 C CNN
+F 4 "Basic" H 1250 4200 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 1250 4200 50  0001 C CNN "LCSC"
+	1    1250 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1100 4200 850  4200
+Wire Wire Line
+	850  4200 850  4450
+Connection ~ 850  4450
+Wire Wire Line
+	850  4450 750  4450
+Wire Wire Line
+	1400 4200 1650 4200
+Wire Wire Line
+	1650 4200 1650 4550
+Wire Wire Line
+	1650 4550 1550 4550
+$Comp
+L Device:R R10
+U 1 1 619FB9AE
+P 1900 4550
+F 0 "R10" V 1693 4550 50  0000 C CNN
+F 1 "100k" V 1784 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1830 4550 50  0001 C CNN
+F 3 "~" H 1900 4550 50  0001 C CNN
+F 4 "Basic" H 1900 4550 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 1900 4550 50  0001 C CNN "LCSC"
+	1    1900 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 4550 2050 4550
+Wire Wire Line
+	1750 4550 1650 4550
+Connection ~ 1650 4550
+$Comp
+L Amplifier_Operational:TL072 U4
+U 2 1 619FB9CA
+P 2550 4650
+F 0 "U4" H 2550 4500 50  0000 L CNN
+F 1 "TL072CDT" H 2550 4800 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2550 4650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2550 4650 50  0001 C CNN
+F 4 "Basic" H 2550 4650 50  0001 C CNN "Ext/Basic"
+F 5 "C6961" H 2550 4650 50  0001 C CNN "LCSC"
+	2    2550 4650
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2250 4550 2150 4550
+Connection ~ 2150 4550
+$Comp
+L power:GND #PWR0108
+U 1 1 619FB9D6
+P 2150 4850
+F 0 "#PWR0108" H 2150 4600 50  0001 C CNN
+F 1 "GND" H 2155 4677 50  0000 C CNN
+F 2 "" H 2150 4850 50  0001 C CNN
+F 3 "" H 2150 4850 50  0001 C CNN
+	1    2150 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 4750 2150 4750
+Wire Wire Line
+	2150 4750 2150 4850
+$Comp
+L Device:R R14
+U 1 1 619FB9E2
+P 2550 4300
+F 0 "R14" V 2343 4300 50  0000 C CNN
+F 1 "100k" V 2434 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2480 4300 50  0001 C CNN
+F 3 "~" H 2550 4300 50  0001 C CNN
+F 4 "Basic" H 2550 4300 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 2550 4300 50  0001 C CNN "LCSC"
+	1    2550 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 4300 2150 4300
+Wire Wire Line
+	2150 4300 2150 4550
+Wire Wire Line
+	2700 4300 2950 4300
+Wire Wire Line
+	2950 4300 2950 4650
+Wire Wire Line
+	2950 4650 2850 4650
+Text GLabel 3050 4300 2    50   Input ~ 0
+Int_Out4
+$Comp
+L Device:R R20
+U 1 1 619FBA9D
+P 3200 4650
+F 0 "R20" V 2993 4650 50  0000 C CNN
+F 1 "1k" V 3084 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3130 4650 50  0001 C CNN
+F 3 "~" H 3200 4650 50  0001 C CNN
+F 4 "Basic" H 3200 4650 50  0001 C CNN "Ext/Basic"
+F 5 "C11702" H 3200 4650 50  0001 C CNN "LCSC"
+	1    3200 4650
+	0    1    1    0   
+$EndComp
+Text GLabel 3450 4650 2    50   Input ~ 0
+Out4
+Wire Wire Line
+	2950 4650 3050 4650
+Connection ~ 2950 4650
+Wire Wire Line
+	3350 4650 3450 4650
+Wire Wire Line
+	2950 4300 3050 4300
+Connection ~ 2950 4300
+Text GLabel 4200 750  0    50   Input ~ 0
+Int_Out1
+$Comp
+L Device:R R21
+U 1 1 61A079B3
+P 4450 750
+F 0 "R21" V 4243 750 50  0000 C CNN
+F 1 "100k" V 4334 750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4380 750 50  0001 C CNN
+F 3 "~" H 4450 750 50  0001 C CNN
+F 4 "Basic" H 4450 750 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 4450 750 50  0001 C CNN "LCSC"
+	1    4450 750 
+	0    1    1    0   
+$EndComp
+Text GLabel 4200 1050 0    50   Input ~ 0
+Int_Out2
+$Comp
+L Device:R R22
+U 1 1 61A08792
+P 4450 1050
+F 0 "R22" V 4243 1050 50  0000 C CNN
+F 1 "100k" V 4334 1050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4380 1050 50  0001 C CNN
+F 3 "~" H 4450 1050 50  0001 C CNN
+F 4 "Basic" H 4450 1050 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 4450 1050 50  0001 C CNN "LCSC"
+	1    4450 1050
+	0    1    1    0   
+$EndComp
+Text GLabel 4200 1350 0    50   Input ~ 0
+Int_Out3
+$Comp
+L Device:R R23
+U 1 1 61A0D713
+P 4450 1350
+F 0 "R23" V 4243 1350 50  0000 C CNN
+F 1 "100k" V 4334 1350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4380 1350 50  0001 C CNN
+F 3 "~" H 4450 1350 50  0001 C CNN
+F 4 "Basic" H 4450 1350 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 4450 1350 50  0001 C CNN "LCSC"
+	1    4450 1350
+	0    1    1    0   
+$EndComp
+Text GLabel 4200 1650 0    50   Input ~ 0
+Int_Out4
+$Comp
+L Device:R R24
+U 1 1 61A0D71E
+P 4450 1650
+F 0 "R24" V 4243 1650 50  0000 C CNN
+F 1 "100k" V 4334 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4380 1650 50  0001 C CNN
+F 3 "~" H 4450 1650 50  0001 C CNN
+F 4 "Basic" H 4450 1650 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 4450 1650 50  0001 C CNN "LCSC"
+	1    4450 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 750  4300 750 
+Wire Wire Line
+	4200 1050 4300 1050
+Wire Wire Line
+	4200 1350 4300 1350
+Wire Wire Line
+	4200 1650 4300 1650
+Wire Wire Line
+	4600 1650 4700 1650
+Wire Wire Line
+	4700 1650 4700 1350
+Wire Wire Line
+	4700 750  4600 750 
+Wire Wire Line
+	4600 1050 4700 1050
+Connection ~ 4700 1050
+Wire Wire Line
+	4700 1050 4700 750 
+Wire Wire Line
+	4600 1350 4700 1350
+Connection ~ 4700 1350
+Wire Wire Line
+	4700 1350 4700 1050
+$Comp
+L Amplifier_Operational:TL072 U5
+U 1 1 61A355F5
+P 5300 1150
+F 0 "U5" H 5300 1000 50  0000 L CNN
+F 1 "TL072CDT" H 5300 1300 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5300 1150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5300 1150 50  0001 C CNN
+F 4 "Basic" H 5300 1150 50  0001 C CNN "Ext/Basic"
+F 5 "C6961" H 5300 1150 50  0001 C CNN "LCSC"
+	1    5300 1150
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 61A3B0AD
+P 5300 850
+F 0 "R27" V 5093 850 50  0000 C CNN
+F 1 "100k" V 5184 850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5230 850 50  0001 C CNN
+F 3 "~" H 5300 850 50  0001 C CNN
+F 4 "Basic" H 5300 850 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 5300 850 50  0001 C CNN "LCSC"
+	1    5300 850 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 850  4900 850 
+Wire Wire Line
+	4900 850  4900 1050
+Wire Wire Line
+	4900 1050 5000 1050
+Wire Wire Line
+	4900 1050 4700 1050
+Connection ~ 4900 1050
+Wire Wire Line
+	5450 850  5700 850 
+Wire Wire Line
+	5700 850  5700 1150
+Wire Wire Line
+	5700 1150 5600 1150
+$Comp
+L power:GND #PWR0109
+U 1 1 61A4C7F9
+P 4900 1350
+F 0 "#PWR0109" H 4900 1100 50  0001 C CNN
+F 1 "GND" H 4905 1177 50  0000 C CNN
+F 2 "" H 4900 1350 50  0001 C CNN
+F 3 "" H 4900 1350 50  0001 C CNN
+	1    4900 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1250 4900 1250
+Wire Wire Line
+	4900 1250 4900 1350
+Text GLabel 5800 850  2    50   Input ~ 0
+Int_Inv_Sum
+$Comp
+L Device:R R28
+U 1 1 61A53EF8
+P 5950 1150
+F 0 "R28" V 5743 1150 50  0000 C CNN
+F 1 "1k" V 5834 1150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5880 1150 50  0001 C CNN
+F 3 "~" H 5950 1150 50  0001 C CNN
+F 4 "Basic" H 5950 1150 50  0001 C CNN "Ext/Basic"
+F 5 "C11702" H 5950 1150 50  0001 C CNN "LCSC"
+	1    5950 1150
+	0    1    1    0   
+$EndComp
+Text GLabel 6200 1150 2    50   Input ~ 0
+Inv_Sum
+Wire Wire Line
+	5800 850  5700 850 
+Connection ~ 5700 850 
+Wire Wire Line
+	5800 1150 5700 1150
+Connection ~ 5700 1150
+Wire Wire Line
+	6100 1150 6200 1150
+$Comp
+L Amplifier_Operational:TL072 U5
+U 2 1 61A6DDDC
+P 6600 1750
+F 0 "U5" H 6600 1600 50  0000 L CNN
+F 1 "TL072CDT" H 6600 1900 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6600 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6600 1750 50  0001 C CNN
+F 4 "Basic" H 6600 1750 50  0001 C CNN "Ext/Basic"
+F 5 "C6961" H 6600 1750 50  0001 C CNN "LCSC"
+	2    6600 1750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 61A72491
+P 5950 1650
+F 0 "R29" V 5743 1650 50  0000 C CNN
+F 1 "100k" V 5834 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5880 1650 50  0001 C CNN
+F 3 "~" H 5950 1650 50  0001 C CNN
+F 4 "Basic" H 5950 1650 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 5950 1650 50  0001 C CNN "LCSC"
+	1    5950 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 61A73B19
+P 6550 1450
+F 0 "R30" V 6343 1450 50  0000 C CNN
+F 1 "100k" V 6434 1450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6480 1450 50  0001 C CNN
+F 3 "~" H 6550 1450 50  0001 C CNN
+F 4 "Basic" H 6550 1450 50  0001 C CNN "Ext/Basic"
+F 5 "C25741" H 6550 1450 50  0001 C CNN "LCSC"
+	1    6550 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 1650 6200 1650
+Wire Wire Line
+	5700 1150 5700 1650
+Wire Wire Line
+	5700 1650 5800 1650
+Wire Wire Line
+	6400 1450 6200 1450
+Wire Wire Line
+	6200 1450 6200 1650
+Connection ~ 6200 1650
+Wire Wire Line
+	6200 1650 6100 1650
+Wire Wire Line
+	7000 1450 7000 1750
+Wire Wire Line
+	7000 1750 6900 1750
+Wire Wire Line
+	6700 1450 7000 1450
+$Comp
+L power:GND #PWR0110
+U 1 1 61A9AEDE
+P 6200 1950
+F 0 "#PWR0110" H 6200 1700 50  0001 C CNN
+F 1 "GND" H 6205 1777 50  0000 C CNN
+F 2 "" H 6200 1950 50  0001 C CNN
+F 3 "" H 6200 1950 50  0001 C CNN
+	1    6200 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 1850 6200 1850
+Wire Wire Line
+	6200 1850 6200 1950
+Text GLabel 7100 1450 2    50   Input ~ 0
+Int_Sum
+Text GLabel 7500 1750 2    50   Input ~ 0
+Sum
+$Comp
+L Device:R R32
+U 1 1 61AA2D41
+P 7250 1750
+F 0 "R32" V 7043 1750 50  0000 C CNN
+F 1 "1k" V 7134 1750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7180 1750 50  0001 C CNN
+F 3 "~" H 7250 1750 50  0001 C CNN
+F 4 "Basic" H 7250 1750 50  0001 C CNN "Ext/Basic"
+F 5 "C11702" H 7250 1750 50  0001 C CNN "LCSC"
+	1    7250 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 1450 7000 1450
+Connection ~ 7000 1450
+Wire Wire Line
+	7100 1750 7000 1750
+Connection ~ 7000 1750
+Wire Wire Line
+	7500 1750 7400 1750
+$Comp
+L Amplifier_Operational:TL074 U6
+U 1 1 61AB9212
+P 8650 1650
+F 0 "U6" H 8650 1500 50  0000 L CNN
+F 1 "TL074CDR" H 8650 1800 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8600 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8700 1850 50  0001 C CNN
+F 4 "Ext" H 8650 1650 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 8650 1650 50  0001 C CNN "LCSC"
+	1    8650 1650
+	1    0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D3
+U 1 1 61ABC5F7
+P 9200 1650
+F 0 "D3" H 9200 1433 50  0000 C CNN
+F 1 "1N4148W" H 9200 1524 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 9200 1475 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9200 1650 50  0001 C CNN
+F 4 "Basic" H 9200 1650 50  0001 C CNN "Ext/Basic"
+F 5 "C81598" H 9200 1650 50  0001 C CNN "LCSC"
+	1    9200 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U6
+U 2 1 61ABDD61
+P 8650 2250
+F 0 "U6" H 8650 2100 50  0000 L CNN
+F 1 "TL074CDR" H 8650 2400 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8600 2350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8700 2450 50  0001 C CNN
+F 4 "Ext" H 8650 2250 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 8650 2250 50  0001 C CNN "LCSC"
+	2    8650 2250
+	1    0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D4
+U 1 1 61ABE78F
+P 9200 2250
+F 0 "D4" H 9200 2033 50  0000 C CNN
+F 1 "1N4148W" H 9200 2124 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 9200 2075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9200 2250 50  0001 C CNN
+F 4 "Basic" H 9200 2250 50  0001 C CNN "Ext/Basic"
+F 5 "C81598" H 9200 2250 50  0001 C CNN "LCSC"
+	1    9200 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U6
+U 3 1 61AC8D8B
+P 8650 2850
+F 0 "U6" H 8650 2700 50  0000 L CNN
+F 1 "TL074CDR" H 8650 3000 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8600 2950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8700 3050 50  0001 C CNN
+F 4 "Ext" H 8650 2850 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 8650 2850 50  0001 C CNN "LCSC"
+	3    8650 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D5
+U 1 1 61AC9849
+P 9200 2850
+F 0 "D5" H 9200 2633 50  0000 C CNN
+F 1 "1N4148W" H 9200 2724 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 9200 2675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9200 2850 50  0001 C CNN
+F 4 "Basic" H 9200 2850 50  0001 C CNN "Ext/Basic"
+F 5 "C81598" H 9200 2850 50  0001 C CNN "LCSC"
+	1    9200 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U6
+U 4 1 61AC9853
+P 8650 3450
+F 0 "U6" H 8650 3300 50  0000 L CNN
+F 1 "TL074CDR" H 8650 3600 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8600 3550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8700 3650 50  0001 C CNN
+F 4 "Ext" H 8650 3450 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 8650 3450 50  0001 C CNN "LCSC"
+	4    8650 3450
+	1    0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D6
+U 1 1 61AC985D
+P 9200 3450
+F 0 "D6" H 9200 3233 50  0000 C CNN
+F 1 "1N4148W" H 9200 3324 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 9200 3275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9200 3450 50  0001 C CNN
+F 4 "Basic" H 9200 3450 50  0001 C CNN "Ext/Basic"
+F 5 "C81598" H 9200 3450 50  0001 C CNN "LCSC"
+	1    9200 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8350 3350 8250 3350
+Wire Wire Line
+	8250 3350 8250 2750
+Wire Wire Line
+	8250 2750 8350 2750
+Wire Wire Line
+	8250 2750 8250 2150
+Wire Wire Line
+	8250 2150 8350 2150
+Connection ~ 8250 2750
+Wire Wire Line
+	8250 2150 8250 1550
+Wire Wire Line
+	8250 1550 8350 1550
+Connection ~ 8250 2150
+Wire Wire Line
+	8250 1550 8250 1250
+Wire Wire Line
+	8250 1250 9450 1250
+Wire Wire Line
+	9450 1250 9450 1650
+Wire Wire Line
+	9450 3450 9350 3450
+Connection ~ 8250 1550
+Wire Wire Line
+	9050 3450 8950 3450
+Wire Wire Line
+	8950 2850 9050 2850
+Wire Wire Line
+	9350 2850 9450 2850
+Connection ~ 9450 2850
+Wire Wire Line
+	9450 2850 9450 3450
+Wire Wire Line
+	9350 2250 9450 2250
+Connection ~ 9450 2250
+Wire Wire Line
+	9450 2250 9450 2850
+Wire Wire Line
+	8950 2250 9050 2250
+Wire Wire Line
+	8950 1650 9050 1650
+Text GLabel 8150 1750 0    50   Input ~ 0
+Int_Out1
+Text GLabel 8150 2350 0    50   Input ~ 0
+Int_Out2
+Text GLabel 8150 2950 0    50   Input ~ 0
+Int_Out3
+Text GLabel 8150 3550 0    50   Input ~ 0
+Int_Out4
+Wire Wire Line
+	9350 1650 9450 1650
+Connection ~ 9450 1650
+Wire Wire Line
+	9450 1650 9450 2250
+Wire Wire Line
+	8150 1750 8350 1750
+Wire Wire Line
+	8150 2350 8350 2350
+Wire Wire Line
+	8150 2950 8350 2950
+Wire Wire Line
+	8150 3550 8350 3550
+$Comp
+L Device:R R33
+U 1 1 61B62216
+P 9450 3700
+F 0 "R33" H 9380 3654 50  0000 R CNN
+F 1 "10k" H 9380 3745 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9380 3700 50  0001 C CNN
+F 3 "~" H 9450 3700 50  0001 C CNN
+F 4 "Basic" H 9450 3700 50  0001 C CNN "Ext/Basic"
+F 5 "C25744" H 9450 3700 50  0001 C CNN "LCSC"
+	1    9450 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:-12V #PWR0111
+U 1 1 61B62A13
+P 9450 3950
+F 0 "#PWR0111" H 9450 4050 50  0001 C CNN
+F 1 "-12V" H 9465 4123 50  0000 C CNN
+F 2 "" H 9450 3950 50  0001 C CNN
+F 3 "" H 9450 3950 50  0001 C CNN
+	1    9450 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9450 3450 9450 3550
+Connection ~ 9450 3450
+Wire Wire Line
+	9450 3950 9450 3850
+Text GLabel 9550 1250 2    50   Input ~ 0
+Int_Max
+$Comp
+L Device:R R34
+U 1 1 61B76E86
+P 9700 1650
+F 0 "R34" V 9493 1650 50  0000 C CNN
+F 1 "1k" V 9584 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9630 1650 50  0001 C CNN
+F 3 "~" H 9700 1650 50  0001 C CNN
+F 4 "Basic" H 9700 1650 50  0001 C CNN "Ext/Basic"
+F 5 "C11702" H 9700 1650 50  0001 C CNN "LCSC"
+	1    9700 1650
+	0    1    1    0   
+$EndComp
+Text GLabel 9950 1650 2    50   Input ~ 0
+Max
+Wire Wire Line
+	9550 1250 9450 1250
+Connection ~ 9450 1250
+Wire Wire Line
+	9450 1650 9550 1650
+Wire Wire Line
+	9850 1650 9950 1650
+$Comp
+L Amplifier_Operational:TL074 U7
+U 1 1 61B93BAC
+P 11050 1650
+F 0 "U7" H 11050 1500 50  0000 L CNN
+F 1 "TL074CDR" H 11050 1800 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11000 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 11100 1850 50  0001 C CNN
+F 4 "Ext" H 11050 1650 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 11050 1650 50  0001 C CNN "LCSC"
+	1    11050 1650
+	1    0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D7
+U 1 1 61B947B6
+P 11600 1650
+F 0 "D7" H 11600 1433 50  0000 C CNN
+F 1 "1N4148W" H 11600 1524 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 11600 1475 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11600 1650 50  0001 C CNN
+F 4 "Basic" H 11600 1650 50  0001 C CNN "Ext/Basic"
+F 5 "C81598" H 11600 1650 50  0001 C CNN "LCSC"
+	1    11600 1650
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U7
+U 2 1 61B947C0
+P 11050 2250
+F 0 "U7" H 11050 2100 50  0000 L CNN
+F 1 "TL074CDR" H 11050 2400 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11000 2350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 11100 2450 50  0001 C CNN
+F 4 "Ext" H 11050 2250 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 11050 2250 50  0001 C CNN "LCSC"
+	2    11050 2250
+	1    0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D8
+U 1 1 61B947CA
+P 11600 2250
+F 0 "D8" H 11600 2033 50  0000 C CNN
+F 1 "1N4148W" H 11600 2124 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 11600 2075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11600 2250 50  0001 C CNN
+F 4 "Basic" H 11600 2250 50  0001 C CNN "Ext/Basic"
+F 5 "C81598" H 11600 2250 50  0001 C CNN "LCSC"
+	1    11600 2250
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U7
+U 3 1 61B947D4
+P 11050 2850
+F 0 "U7" H 11050 2700 50  0000 L CNN
+F 1 "TL074CDR" H 11050 3000 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11000 2950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 11100 3050 50  0001 C CNN
+F 4 "Ext" H 11050 2850 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 11050 2850 50  0001 C CNN "LCSC"
+	3    11050 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D9
+U 1 1 61B947DE
+P 11600 2850
+F 0 "D9" H 11600 2633 50  0000 C CNN
+F 1 "1N4148W" H 11600 2724 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 11600 2675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11600 2850 50  0001 C CNN
+F 4 "Basic" H 11600 2850 50  0001 C CNN "Ext/Basic"
+F 5 "C81598" H 11600 2850 50  0001 C CNN "LCSC"
+	1    11600 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U7
+U 4 1 61B947E8
+P 11050 3450
+F 0 "U7" H 11050 3300 50  0000 L CNN
+F 1 "TL074CDR" H 11050 3600 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11000 3550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 11100 3650 50  0001 C CNN
+F 4 "Ext" H 11050 3450 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 11050 3450 50  0001 C CNN "LCSC"
+	4    11050 3450
+	1    0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D10
+U 1 1 61B947F2
+P 11600 3450
+F 0 "D10" H 11600 3233 50  0000 C CNN
+F 1 "1N4148W" H 11600 3324 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 11600 3275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11600 3450 50  0001 C CNN
+F 4 "Basic" H 11600 3450 50  0001 C CNN "Ext/Basic"
+F 5 "C81598" H 11600 3450 50  0001 C CNN "LCSC"
+	1    11600 3450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	10750 3350 10650 3350
+Wire Wire Line
+	10650 3350 10650 2750
+Wire Wire Line
+	10650 2750 10750 2750
+Wire Wire Line
+	10650 2750 10650 2150
+Wire Wire Line
+	10650 2150 10750 2150
+Connection ~ 10650 2750
+Wire Wire Line
+	10650 2150 10650 1550
+Wire Wire Line
+	10650 1550 10750 1550
+Connection ~ 10650 2150
+Wire Wire Line
+	10650 1550 10650 1250
+Wire Wire Line
+	10650 1250 11850 1250
+Wire Wire Line
+	11850 1250 11850 1650
+Wire Wire Line
+	11850 3450 11750 3450
+Connection ~ 10650 1550
+Wire Wire Line
+	11450 3450 11350 3450
+Wire Wire Line
+	11350 2850 11450 2850
+Wire Wire Line
+	11750 2850 11850 2850
+Connection ~ 11850 2850
+Wire Wire Line
+	11850 2850 11850 3450
+Wire Wire Line
+	11750 2250 11850 2250
+Connection ~ 11850 2250
+Wire Wire Line
+	11850 2250 11850 2850
+Wire Wire Line
+	11350 2250 11450 2250
+Wire Wire Line
+	11350 1650 11450 1650
+Text GLabel 10550 1750 0    50   Input ~ 0
+Int_Out1
+Text GLabel 10550 2350 0    50   Input ~ 0
+Int_Out2
+Text GLabel 10550 2950 0    50   Input ~ 0
+Int_Out3
+Text GLabel 10550 3550 0    50   Input ~ 0
+Int_Out4
+Wire Wire Line
+	11750 1650 11850 1650
+Connection ~ 11850 1650
+Wire Wire Line
+	11850 1650 11850 2250
+Wire Wire Line
+	10550 1750 10750 1750
+Wire Wire Line
+	10550 2350 10750 2350
+Wire Wire Line
+	10550 2950 10750 2950
+Wire Wire Line
+	10550 3550 10750 3550
+$Comp
+L Device:R R35
+U 1 1 61B949E7
+P 11850 1000
+F 0 "R35" H 11780 954 50  0000 R CNN
+F 1 "10k" H 11780 1045 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 11780 1000 50  0001 C CNN
+F 3 "~" H 11850 1000 50  0001 C CNN
+F 4 "Basic" H 11850 1000 50  0001 C CNN "Ext/Basic"
+F 5 "C25744" H 11850 1000 50  0001 C CNN "LCSC"
+	1    11850 1000
+	-1   0    0    1   
+$EndComp
+Text GLabel 11950 1250 2    50   Input ~ 0
+Int_Min
+$Comp
+L Device:R R36
+U 1 1 61B94A13
+P 12100 1650
+F 0 "R36" V 11893 1650 50  0000 C CNN
+F 1 "1k" V 11984 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 12030 1650 50  0001 C CNN
+F 3 "~" H 12100 1650 50  0001 C CNN
+F 4 "Basic" H 12100 1650 50  0001 C CNN "Ext/Basic"
+F 5 "C11702" H 12100 1650 50  0001 C CNN "LCSC"
+	1    12100 1650
+	0    1    1    0   
+$EndComp
+Text GLabel 12350 1650 2    50   Input ~ 0
+Min
+Wire Wire Line
+	11950 1250 11850 1250
+Connection ~ 11850 1250
+Wire Wire Line
+	11850 1650 11950 1650
+Wire Wire Line
+	12250 1650 12350 1650
+$Comp
+L power:+12V #PWR0112
+U 1 1 61BEAF06
+P 11850 750
+F 0 "#PWR0112" H 11850 600 50  0001 C CNN
+F 1 "+12V" H 11865 923 50  0000 C CNN
+F 2 "" H 11850 750 50  0001 C CNN
+F 3 "" H 11850 750 50  0001 C CNN
+	1    11850 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11850 750  11850 850 
+Wire Wire Line
+	11850 1150 11850 1250
+Text GLabel 750  1000 0    50   Input ~ 0
++In1
+Text GLabel 2150 750  1    50   Input ~ 0
+-In1
+Text GLabel 750  2150 0    50   Input ~ 0
++In2
+Text GLabel 2150 1900 1    50   Input ~ 0
+-In2
+Text GLabel 750  3300 0    50   Input ~ 0
++In3
+Text GLabel 2150 3050 1    50   Input ~ 0
+-In3
+Text GLabel 750  4450 0    50   Input ~ 0
++In4
+Text GLabel 2150 4200 1    50   Input ~ 0
+-In4
+Wire Wire Line
+	2150 750  2150 850 
+Connection ~ 2150 850 
+Wire Wire Line
+	2150 1900 2150 2000
+Connection ~ 2150 2000
+Wire Wire Line
+	2150 3050 2150 3150
+Connection ~ 2150 3150
+Wire Wire Line
+	2150 4200 2150 4300
+Connection ~ 2150 4300
+$Comp
+L Amplifier_Operational:TL074 U8
+U 1 1 61D5CE81
+P 1900 6000
+F 0 "U8" H 1900 5850 50  0000 L CNN
+F 1 "TL074CDR" H 1900 6150 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1850 6100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1950 6200 50  0001 C CNN
+F 4 "Ext" H 1900 6000 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 1900 6000 50  0001 C CNN "LCSC"
+	1    1900 6000
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 61D5E77F
+P 1500 6200
+F 0 "#PWR0113" H 1500 5950 50  0001 C CNN
+F 1 "GND" H 1505 6027 50  0000 C CNN
+F 2 "" H 1500 6200 50  0001 C CNN
+F 3 "" H 1500 6200 50  0001 C CNN
+	1    1500 6200
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 5900 0    50   Input ~ 0
+Int_Out1
+$Comp
+L Device:R R5
+U 1 1 61D5EBA2
+P 1250 5900
+F 0 "R5" V 1043 5900 50  0000 C CNN
+F 1 "1k" V 1134 5900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1180 5900 50  0001 C CNN
+F 3 "~" H 1250 5900 50  0001 C CNN
+F 4 "Basic" H 1250 5900 50  0001 C CNN "Ext/Basic"
+F 5 "C11702" H 1250 5900 50  0001 C CNN "LCSC"
+	1    1250 5900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 6000 2200 6000
+Wire Wire Line
+	1600 6100 1500 6100
+Wire Wire Line
+	1500 6100 1500 6200
+Wire Wire Line
+	1000 5900 1100 5900
+Wire Wire Line
+	1400 5900 1500 5900
+Text GLabel 1500 5700 1    50   Input ~ 0
+LED_Out_1_1
+Text GLabel 2300 5700 1    50   Input ~ 0
+LED_Out_1_2
+Wire Wire Line
+	1500 5700 1500 5900
+Connection ~ 1500 5900
+Wire Wire Line
+	1500 5900 1600 5900
+Wire Wire Line
+	2300 5700 2300 6000
+$Comp
+L Amplifier_Operational:TL074 U8
+U 2 1 61DBE52A
+P 3700 6000
+F 0 "U8" H 3700 5850 50  0000 L CNN
+F 1 "TL074CDR" H 3700 6150 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3650 6100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3750 6200 50  0001 C CNN
+F 4 "Ext" H 3700 6000 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 3700 6000 50  0001 C CNN "LCSC"
+	2    3700 6000
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 61DBF2EC
+P 3300 6200
+F 0 "#PWR0114" H 3300 5950 50  0001 C CNN
+F 1 "GND" H 3305 6027 50  0000 C CNN
+F 2 "" H 3300 6200 50  0001 C CNN
+F 3 "" H 3300 6200 50  0001 C CNN
+	1    3300 6200
+	1    0    0    -1  
+$EndComp
+Text GLabel 2800 5900 0    50   Input ~ 0
+Int_Out2
+$Comp
+L Device:R R15
+U 1 1 61DBF2F7
+P 3050 5900
+F 0 "R15" V 2843 5900 50  0000 C CNN
+F 1 "1k" V 2934 5900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2980 5900 50  0001 C CNN
+F 3 "~" H 3050 5900 50  0001 C CNN
+F 4 "Basic" H 3050 5900 50  0001 C CNN "Ext/Basic"
+F 5 "C11702" H 3050 5900 50  0001 C CNN "LCSC"
+	1    3050 5900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 6000 4000 6000
+Wire Wire Line
+	3400 6100 3300 6100
+Wire Wire Line
+	3300 6100 3300 6200
+Wire Wire Line
+	2800 5900 2900 5900
+Wire Wire Line
+	3200 5900 3300 5900
+Text GLabel 3300 5700 1    50   Input ~ 0
+LED_Out_2_1
+Text GLabel 4100 5700 1    50   Input ~ 0
+LED_Out_2_2
+Wire Wire Line
+	3300 5700 3300 5900
+Connection ~ 3300 5900
+Wire Wire Line
+	3300 5900 3400 5900
+Wire Wire Line
+	4100 5700 4100 6000
+$Comp
+L Amplifier_Operational:TL074 U8
+U 3 1 61DCC234
+P 1900 7250
+F 0 "U8" H 1900 7100 50  0000 L CNN
+F 1 "TL074CDR" H 1900 7400 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1850 7350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1950 7450 50  0001 C CNN
+F 4 "Ext" H 1900 7250 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 1900 7250 50  0001 C CNN "LCSC"
+	3    1900 7250
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 61DCD06E
+P 1500 7450
+F 0 "#PWR0115" H 1500 7200 50  0001 C CNN
+F 1 "GND" H 1505 7277 50  0000 C CNN
+F 2 "" H 1500 7450 50  0001 C CNN
+F 3 "" H 1500 7450 50  0001 C CNN
+	1    1500 7450
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 7150 0    50   Input ~ 0
+Int_Out3
+$Comp
+L Device:R R6
+U 1 1 61DCD079
+P 1250 7150
+F 0 "R6" V 1043 7150 50  0000 C CNN
+F 1 "1k" V 1134 7150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1180 7150 50  0001 C CNN
+F 3 "~" H 1250 7150 50  0001 C CNN
+F 4 "Basic" H 1250 7150 50  0001 C CNN "Ext/Basic"
+F 5 "C11702" H 1250 7150 50  0001 C CNN "LCSC"
+	1    1250 7150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 7250 2200 7250
+Wire Wire Line
+	1600 7350 1500 7350
+Wire Wire Line
+	1500 7350 1500 7450
+Wire Wire Line
+	1000 7150 1100 7150
+Wire Wire Line
+	1400 7150 1500 7150
+Text GLabel 1500 6950 1    50   Input ~ 0
+LED_Out_3_1
+Text GLabel 2300 6950 1    50   Input ~ 0
+LED_Out_3_2
+Wire Wire Line
+	1500 6950 1500 7150
+Connection ~ 1500 7150
+Wire Wire Line
+	1500 7150 1600 7150
+Wire Wire Line
+	2300 6950 2300 7250
+$Comp
+L Amplifier_Operational:TL074 U8
+U 4 1 61DCD0A2
+P 3700 7250
+F 0 "U8" H 3700 7100 50  0000 L CNN
+F 1 "TL074CDR" H 3700 7400 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3650 7350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3750 7450 50  0001 C CNN
+F 4 "Ext" H 3700 7250 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 3700 7250 50  0001 C CNN "LCSC"
+	4    3700 7250
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 61DCD0AC
+P 3300 7450
+F 0 "#PWR0116" H 3300 7200 50  0001 C CNN
+F 1 "GND" H 3305 7277 50  0000 C CNN
+F 2 "" H 3300 7450 50  0001 C CNN
+F 3 "" H 3300 7450 50  0001 C CNN
+	1    3300 7450
+	1    0    0    -1  
+$EndComp
+Text GLabel 2800 7150 0    50   Input ~ 0
+Int_Out4
+$Comp
+L Device:R R16
+U 1 1 61DCD117
+P 3050 7150
+F 0 "R16" V 2843 7150 50  0000 C CNN
+F 1 "1k" V 2934 7150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2980 7150 50  0001 C CNN
+F 3 "~" H 3050 7150 50  0001 C CNN
+F 4 "Basic" H 3050 7150 50  0001 C CNN "Ext/Basic"
+F 5 "C11702" H 3050 7150 50  0001 C CNN "LCSC"
+	1    3050 7150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 7250 4000 7250
+Wire Wire Line
+	3400 7350 3300 7350
+Wire Wire Line
+	3300 7350 3300 7450
+Wire Wire Line
+	2800 7150 2900 7150
+Wire Wire Line
+	3200 7150 3300 7150
+Text GLabel 3300 6950 1    50   Input ~ 0
+LED_Out_4_1
+Text GLabel 4100 6950 1    50   Input ~ 0
+LED_Out_4_2
+Wire Wire Line
+	3300 6950 3300 7150
+Connection ~ 3300 7150
+Wire Wire Line
+	3300 7150 3400 7150
+Wire Wire Line
+	4100 6950 4100 7250
+$Comp
+L Amplifier_Operational:TL074 U9
+U 1 1 61DDFAD5
+P 5550 5950
+F 0 "U9" H 5550 5800 50  0000 L CNN
+F 1 "TL074CDR" H 5550 6100 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5500 6050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5600 6150 50  0001 C CNN
+F 4 "Ext" H 5550 5950 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 5550 5950 50  0001 C CNN "LCSC"
+	1    5550 5950
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 61DE09FF
+P 5150 6150
+F 0 "#PWR0117" H 5150 5900 50  0001 C CNN
+F 1 "GND" H 5155 5977 50  0000 C CNN
+F 2 "" H 5150 6150 50  0001 C CNN
+F 3 "" H 5150 6150 50  0001 C CNN
+	1    5150 6150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4650 5850 0    50   Input ~ 0
+Int_Sum
+$Comp
+L Device:R R25
+U 1 1 61DE0A0A
+P 4900 5850
+F 0 "R25" V 4693 5850 50  0000 C CNN
+F 1 "1k" V 4784 5850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4830 5850 50  0001 C CNN
+F 3 "~" H 4900 5850 50  0001 C CNN
+F 4 "Basic" H 4900 5850 50  0001 C CNN "Ext/Basic"
+F 5 "C11702" H 4900 5850 50  0001 C CNN "LCSC"
+	1    4900 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 5950 5850 5950
+Wire Wire Line
+	5250 6050 5150 6050
+Wire Wire Line
+	5150 6050 5150 6150
+Wire Wire Line
+	4650 5850 4750 5850
+Wire Wire Line
+	5050 5850 5150 5850
+Text GLabel 5150 5650 1    50   Input ~ 0
+LED_Sum_1
+Text GLabel 5950 5650 1    50   Input ~ 0
+LED_Sum_2
+Wire Wire Line
+	5150 5650 5150 5850
+Connection ~ 5150 5850
+Wire Wire Line
+	5150 5850 5250 5850
+Wire Wire Line
+	5950 5650 5950 5950
+$Comp
+L Amplifier_Operational:TL074 U9
+U 2 1 61DE0A33
+P 7350 5950
+F 0 "U9" H 7350 5800 50  0000 L CNN
+F 1 "TL074CDR" H 7350 6100 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7300 6050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7400 6150 50  0001 C CNN
+F 4 "Ext" H 7350 5950 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 7350 5950 50  0001 C CNN "LCSC"
+	2    7350 5950
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 61DE0A3D
+P 6950 6150
+F 0 "#PWR0118" H 6950 5900 50  0001 C CNN
+F 1 "GND" H 6955 5977 50  0000 C CNN
+F 2 "" H 6950 6150 50  0001 C CNN
+F 3 "" H 6950 6150 50  0001 C CNN
+	1    6950 6150
+	1    0    0    -1  
+$EndComp
+Text GLabel 6450 5850 0    50   Input ~ 0
+Int_Max
+$Comp
+L Device:R R31
+U 1 1 61DE0A48
+P 6700 5850
+F 0 "R31" V 6493 5850 50  0000 C CNN
+F 1 "1k" V 6584 5850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6630 5850 50  0001 C CNN
+F 3 "~" H 6700 5850 50  0001 C CNN
+F 4 "Basic" H 6700 5850 50  0001 C CNN "Ext/Basic"
+F 5 "C11702" H 6700 5850 50  0001 C CNN "LCSC"
+	1    6700 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7750 5950 7650 5950
+Wire Wire Line
+	7050 6050 6950 6050
+Wire Wire Line
+	6950 6050 6950 6150
+Wire Wire Line
+	6450 5850 6550 5850
+Wire Wire Line
+	6850 5850 6950 5850
+Text GLabel 6950 5650 1    50   Input ~ 0
+LED_Max_1
+Text GLabel 7750 5650 1    50   Input ~ 0
+LED_Max_2
+Wire Wire Line
+	6950 5650 6950 5850
+Connection ~ 6950 5850
+Wire Wire Line
+	6950 5850 7050 5850
+Wire Wire Line
+	7750 5650 7750 5950
+$Comp
+L Amplifier_Operational:TL074 U9
+U 3 1 61DE0AC9
+P 5550 7200
+F 0 "U9" H 5550 7050 50  0000 L CNN
+F 1 "TL074CDR" H 5550 7350 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5500 7300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5600 7400 50  0001 C CNN
+F 4 "Ext" H 5550 7200 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 5550 7200 50  0001 C CNN "LCSC"
+	3    5550 7200
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 61DE0AD3
+P 5150 7400
+F 0 "#PWR0119" H 5150 7150 50  0001 C CNN
+F 1 "GND" H 5155 7227 50  0000 C CNN
+F 2 "" H 5150 7400 50  0001 C CNN
+F 3 "" H 5150 7400 50  0001 C CNN
+	1    5150 7400
+	1    0    0    -1  
+$EndComp
+Text GLabel 4650 7100 0    50   Input ~ 0
+Int_Min
+$Comp
+L Device:R R26
+U 1 1 61DE0ADE
+P 4900 7100
+F 0 "R26" V 4693 7100 50  0000 C CNN
+F 1 "1k" V 4784 7100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4830 7100 50  0001 C CNN
+F 3 "~" H 4900 7100 50  0001 C CNN
+F 4 "Basic" H 4900 7100 50  0001 C CNN "Ext/Basic"
+F 5 "C11702" H 4900 7100 50  0001 C CNN "LCSC"
+	1    4900 7100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 7200 5850 7200
+Wire Wire Line
+	5250 7300 5150 7300
+Wire Wire Line
+	5150 7300 5150 7400
+Wire Wire Line
+	4650 7100 4750 7100
+Wire Wire Line
+	5050 7100 5150 7100
+Text GLabel 5150 6900 1    50   Input ~ 0
+LED_Min_1
+Text GLabel 5950 6900 1    50   Input ~ 0
+LED_Min_2
+Wire Wire Line
+	5150 6900 5150 7100
+Connection ~ 5150 7100
+Wire Wire Line
+	5150 7100 5250 7100
+Wire Wire Line
+	5950 6900 5950 7200
+$Comp
+L Amplifier_Operational:TL074 U9
+U 4 1 61E0F8C5
+P 7350 7200
+F 0 "U9" H 7350 7050 50  0000 L CNN
+F 1 "TL074CDR" H 7350 7350 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7300 7300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7400 7400 50  0001 C CNN
+F 4 "Ext" H 7350 7200 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 7350 7200 50  0001 C CNN "LCSC"
+	4    7350 7200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7050 7100 6950 7100
+Wire Wire Line
+	6950 7100 6950 6900
+Wire Wire Line
+	6950 6900 7750 6900
+Wire Wire Line
+	7750 6900 7750 7200
+Wire Wire Line
+	7750 7200 7650 7200
+$Comp
+L power:GND #PWR0120
+U 1 1 61E22182
+P 6950 7400
+F 0 "#PWR0120" H 6950 7150 50  0001 C CNN
+F 1 "GND" H 6955 7227 50  0000 C CNN
+F 2 "" H 6950 7400 50  0001 C CNN
+F 3 "" H 6950 7400 50  0001 C CNN
+	1    6950 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 7300 6950 7300
+Wire Wire Line
+	6950 7300 6950 7400
+$Comp
+L Eurorack_Synth:Power_2x5 J1
+U 1 1 61E3A686
+P 750 10250
+F 0 "J1" H 858 10715 50  0000 C CNN
+F 1 "Power" H 858 10624 50  0000 C CNN
+F 2 "Eurorack_Synth:Power_2x5_Vertical" H 800 10250 50  0001 C CNN
+F 3 "" H 800 10250 50  0001 C CNN
+	1    750  10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N5817 D1
+U 1 1 61E3DFF4
+P 1450 9750
+F 0 "D1" H 1450 9533 50  0000 C CNN
+F 1 "B5817W" H 1450 9624 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 1450 9575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 1450 9750 50  0001 C CNN
+F 4 "Ext" H 1450 9750 50  0001 C CNN "Ext/Basic"
+F 5 "C123898" H 1450 9750 50  0001 C CNN "LCSC"
+	1    1450 9750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N5817 D2
+U 1 1 61E40234
+P 1450 10750
+F 0 "D2" H 1450 10967 50  0000 C CNN
+F 1 "B5817W" H 1450 10876 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 1450 10575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 1450 10750 50  0001 C CNN
+F 4 "Ext" H 1450 10750 50  0001 C CNN "Ext/Basic"
+F 5 "C123898" H 1450 10750 50  0001 C CNN "LCSC"
+	1    1450 10750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 61E42E13
+P 1700 10000
+F 0 "C1" H 1818 10046 50  0000 L CNN
+F 1 "10µ" H 1818 9955 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 1738 9850 50  0001 C CNN
+F 3 "~" H 1700 10000 50  0001 C CNN
+F 4 "Basic" H 1700 10000 50  0001 C CNN "Ext/Basic"
+F 5 "C7171" H 1700 10000 50  0001 C CNN "LCSC"
+	1    1700 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 61E44156
+P 1700 10500
+F 0 "C2" H 1818 10546 50  0000 L CNN
+F 1 "10µ" H 1818 10455 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 1738 10350 50  0001 C CNN
+F 3 "~" H 1700 10500 50  0001 C CNN
+F 4 "Basic" H 1700 10500 50  0001 C CNN "Ext/Basic"
+F 5 "C7171" H 1700 10500 50  0001 C CNN "LCSC"
+	1    1700 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 10250 1700 10250
+Wire Wire Line
+	1700 10250 1700 10150
+Wire Wire Line
+	1700 10250 1700 10350
+Connection ~ 1700 10250
+Wire Wire Line
+	1600 10750 1700 10750
+Wire Wire Line
+	1700 10750 1700 10650
+Wire Wire Line
+	1300 10750 1200 10750
+Wire Wire Line
+	1200 10750 1200 10450
+Wire Wire Line
+	1200 10450 1100 10450
+Wire Wire Line
+	1100 10050 1200 10050
+Wire Wire Line
+	1200 10050 1200 9750
+Wire Wire Line
+	1200 9750 1300 9750
+Wire Wire Line
+	1600 9750 1700 9750
+Wire Wire Line
+	1700 9750 1700 9850
+$Comp
+L power:-12V #PWR0121
+U 1 1 61EB549B
+P 1700 10850
+F 0 "#PWR0121" H 1700 10950 50  0001 C CNN
+F 1 "-12V" H 1715 11023 50  0000 C CNN
+F 2 "" H 1700 10850 50  0001 C CNN
+F 3 "" H 1700 10850 50  0001 C CNN
+	1    1700 10850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR0122
+U 1 1 61EB681F
+P 1700 9650
+F 0 "#PWR0122" H 1700 9500 50  0001 C CNN
+F 1 "+12V" H 1715 9823 50  0000 C CNN
+F 2 "" H 1700 9650 50  0001 C CNN
+F 3 "" H 1700 9650 50  0001 C CNN
+	1    1700 9650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 9650 1700 9750
+Connection ~ 1700 9750
+Wire Wire Line
+	1700 10750 1700 10850
+Connection ~ 1700 10750
+$Comp
+L Device:C C3
+U 1 1 61EDF6A1
+P 2100 10000
+F 0 "C3" H 2215 10046 50  0000 L CNN
+F 1 "100n" H 2215 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2138 9850 50  0001 C CNN
+F 3 "~" H 2100 10000 50  0001 C CNN
+F 4 "Basic" H 2100 10000 50  0001 C CNN "Ext/Basic"
+F 5 "C1525" H 2100 10000 50  0001 C CNN "LCSC"
+	1    2100 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 61EE1B79
+P 2100 10500
+F 0 "C4" H 2215 10546 50  0000 L CNN
+F 1 "100n" H 2215 10455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2138 10350 50  0001 C CNN
+F 3 "~" H 2100 10500 50  0001 C CNN
+F 4 "Basic" H 2100 10500 50  0001 C CNN "Ext/Basic"
+F 5 "C1525" H 2100 10500 50  0001 C CNN "LCSC"
+	1    2100 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 9750 2100 9750
+Wire Wire Line
+	2100 9750 2100 9850
+Wire Wire Line
+	1700 10250 2100 10250
+Wire Wire Line
+	2100 10250 2100 10150
+Wire Wire Line
+	2100 10250 2100 10350
+Connection ~ 2100 10250
+Wire Wire Line
+	2100 10750 2100 10650
+Wire Wire Line
+	1700 10750 2100 10750
+$Comp
+L Device:C C5
+U 1 1 61F4999D
+P 2500 10000
+F 0 "C5" H 2615 10046 50  0000 L CNN
+F 1 "100n" H 2615 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2538 9850 50  0001 C CNN
+F 3 "~" H 2500 10000 50  0001 C CNN
+F 4 "Basic" H 2500 10000 50  0001 C CNN "Ext/Basic"
+F 5 "C1525" H 2500 10000 50  0001 C CNN "LCSC"
+	1    2500 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 61F4AB0F
+P 2500 10500
+F 0 "C6" H 2615 10546 50  0000 L CNN
+F 1 "100n" H 2615 10455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2538 10350 50  0001 C CNN
+F 3 "~" H 2500 10500 50  0001 C CNN
+F 4 "Basic" H 2500 10500 50  0001 C CNN "Ext/Basic"
+F 5 "C1525" H 2500 10500 50  0001 C CNN "LCSC"
+	1    2500 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 9750 2500 9750
+Wire Wire Line
+	2500 9750 2500 9850
+Wire Wire Line
+	2100 10250 2500 10250
+Wire Wire Line
+	2500 10250 2500 10150
+Wire Wire Line
+	2500 10250 2500 10350
+Connection ~ 2500 10250
+Wire Wire Line
+	2500 10750 2500 10650
+Wire Wire Line
+	2100 10750 2500 10750
+Connection ~ 2100 9750
+Connection ~ 2100 10750
+$Comp
+L Device:C C7
+U 1 1 61F61659
+P 2900 10000
+F 0 "C7" H 3015 10046 50  0000 L CNN
+F 1 "100n" H 3015 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2938 9850 50  0001 C CNN
+F 3 "~" H 2900 10000 50  0001 C CNN
+F 4 "Basic" H 2900 10000 50  0001 C CNN "Ext/Basic"
+F 5 "C1525" H 2900 10000 50  0001 C CNN "LCSC"
+	1    2900 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 61F61671
+P 2900 10500
+F 0 "C8" H 3015 10546 50  0000 L CNN
+F 1 "100n" H 3015 10455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2938 10350 50  0001 C CNN
+F 3 "~" H 2900 10500 50  0001 C CNN
+F 4 "Basic" H 2900 10500 50  0001 C CNN "Ext/Basic"
+F 5 "C1525" H 2900 10500 50  0001 C CNN "LCSC"
+	1    2900 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 9750 2900 9750
+Wire Wire Line
+	2900 9750 2900 9850
+Wire Wire Line
+	2500 10250 2900 10250
+Wire Wire Line
+	2900 10250 2900 10150
+Wire Wire Line
+	2900 10250 2900 10350
+Connection ~ 2900 10250
+Wire Wire Line
+	2900 10750 2900 10650
+Wire Wire Line
+	2500 10750 2900 10750
+$Comp
+L Device:C C9
+U 1 1 61F61683
+P 3300 10000
+F 0 "C9" H 3415 10046 50  0000 L CNN
+F 1 "100n" H 3415 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3338 9850 50  0001 C CNN
+F 3 "~" H 3300 10000 50  0001 C CNN
+F 4 "Basic" H 3300 10000 50  0001 C CNN "Ext/Basic"
+F 5 "C1525" H 3300 10000 50  0001 C CNN "LCSC"
+	1    3300 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 61F6168D
+P 3300 10500
+F 0 "C10" H 3415 10546 50  0000 L CNN
+F 1 "100n" H 3415 10455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3338 10350 50  0001 C CNN
+F 3 "~" H 3300 10500 50  0001 C CNN
+F 4 "Basic" H 3300 10500 50  0001 C CNN "Ext/Basic"
+F 5 "C1525" H 3300 10500 50  0001 C CNN "LCSC"
+	1    3300 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 9750 3300 9750
+Wire Wire Line
+	3300 9750 3300 9850
+Wire Wire Line
+	2900 10250 3300 10250
+Wire Wire Line
+	3300 10250 3300 10150
+Wire Wire Line
+	3300 10250 3300 10350
+Connection ~ 3300 10250
+Wire Wire Line
+	3300 10750 3300 10650
+Wire Wire Line
+	2900 10750 3300 10750
+Connection ~ 2900 9750
+Connection ~ 2900 10750
+Connection ~ 2500 9750
+Connection ~ 2500 10750
+$Comp
+L Device:C C11
+U 1 1 61F79FC2
+P 3700 10000
+F 0 "C11" H 3815 10046 50  0000 L CNN
+F 1 "100n" H 3815 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3738 9850 50  0001 C CNN
+F 3 "~" H 3700 10000 50  0001 C CNN
+F 4 "Basic" H 3700 10000 50  0001 C CNN "Ext/Basic"
+F 5 "C1525" H 3700 10000 50  0001 C CNN "LCSC"
+	1    3700 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 61F7B1A0
+P 3700 10500
+F 0 "C12" H 3815 10546 50  0000 L CNN
+F 1 "100n" H 3815 10455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3738 10350 50  0001 C CNN
+F 3 "~" H 3700 10500 50  0001 C CNN
+F 4 "Basic" H 3700 10500 50  0001 C CNN "Ext/Basic"
+F 5 "C1525" H 3700 10500 50  0001 C CNN "LCSC"
+	1    3700 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 9750 3700 9750
+Wire Wire Line
+	3700 9750 3700 9850
+Wire Wire Line
+	3300 10250 3700 10250
+Wire Wire Line
+	3700 10250 3700 10150
+Wire Wire Line
+	3700 10250 3700 10350
+Connection ~ 3700 10250
+Wire Wire Line
+	3700 10750 3700 10650
+Wire Wire Line
+	3300 10750 3700 10750
+$Comp
+L Device:C C13
+U 1 1 61F7B1B2
+P 4100 10000
+F 0 "C13" H 4215 10046 50  0000 L CNN
+F 1 "100n" H 4215 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4138 9850 50  0001 C CNN
+F 3 "~" H 4100 10000 50  0001 C CNN
+F 4 "Basic" H 4100 10000 50  0001 C CNN "Ext/Basic"
+F 5 "C1525" H 4100 10000 50  0001 C CNN "LCSC"
+	1    4100 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 61F7B1D8
+P 4100 10500
+F 0 "C14" H 4215 10546 50  0000 L CNN
+F 1 "100n" H 4215 10455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4138 10350 50  0001 C CNN
+F 3 "~" H 4100 10500 50  0001 C CNN
+F 4 "Basic" H 4100 10500 50  0001 C CNN "Ext/Basic"
+F 5 "C1525" H 4100 10500 50  0001 C CNN "LCSC"
+	1    4100 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 9750 4100 9750
+Wire Wire Line
+	4100 9750 4100 9850
+Wire Wire Line
+	3700 10250 4100 10250
+Wire Wire Line
+	4100 10250 4100 10150
+Wire Wire Line
+	4100 10250 4100 10350
+Connection ~ 4100 10250
+Wire Wire Line
+	4100 10750 4100 10650
+Wire Wire Line
+	3700 10750 4100 10750
+Connection ~ 3700 9750
+Connection ~ 3700 10750
+$Comp
+L Device:C C15
+U 1 1 61F7B1FA
+P 4500 10000
+F 0 "C15" H 4615 10046 50  0000 L CNN
+F 1 "100n" H 4615 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4538 9850 50  0001 C CNN
+F 3 "~" H 4500 10000 50  0001 C CNN
+F 4 "Basic" H 4500 10000 50  0001 C CNN "Ext/Basic"
+F 5 "C1525" H 4500 10000 50  0001 C CNN "LCSC"
+	1    4500 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 61F7B204
+P 4500 10500
+F 0 "C16" H 4615 10546 50  0000 L CNN
+F 1 "100n" H 4615 10455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4538 10350 50  0001 C CNN
+F 3 "~" H 4500 10500 50  0001 C CNN
+F 4 "Basic" H 4500 10500 50  0001 C CNN "Ext/Basic"
+F 5 "C1525" H 4500 10500 50  0001 C CNN "LCSC"
+	1    4500 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 9750 4500 9750
+Wire Wire Line
+	4500 9750 4500 9850
+Wire Wire Line
+	4100 10250 4500 10250
+Wire Wire Line
+	4500 10250 4500 10150
+Wire Wire Line
+	4500 10250 4500 10350
+Connection ~ 4500 10250
+Wire Wire Line
+	4500 10750 4500 10650
+Wire Wire Line
+	4100 10750 4500 10750
+$Comp
+L Device:C C17
+U 1 1 61F7B232
+P 4900 10000
+F 0 "C17" H 5015 10046 50  0000 L CNN
+F 1 "100n" H 5015 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4938 9850 50  0001 C CNN
+F 3 "~" H 4900 10000 50  0001 C CNN
+F 4 "Basic" H 4900 10000 50  0001 C CNN "Ext/Basic"
+F 5 "C1525" H 4900 10000 50  0001 C CNN "LCSC"
+	1    4900 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 61F7B23C
+P 4900 10500
+F 0 "C18" H 5015 10546 50  0000 L CNN
+F 1 "100n" H 5015 10455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4938 10350 50  0001 C CNN
+F 3 "~" H 4900 10500 50  0001 C CNN
+F 4 "Basic" H 4900 10500 50  0001 C CNN "Ext/Basic"
+F 5 "C1525" H 4900 10500 50  0001 C CNN "LCSC"
+	1    4900 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 9750 4900 9750
+Wire Wire Line
+	4900 9750 4900 9850
+Wire Wire Line
+	4500 10250 4900 10250
+Wire Wire Line
+	4900 10250 4900 10150
+Wire Wire Line
+	4900 10250 4900 10350
+Connection ~ 4900 10250
+Wire Wire Line
+	4900 10750 4900 10650
+Wire Wire Line
+	4500 10750 4900 10750
+Connection ~ 4500 9750
+Connection ~ 4500 10750
+Connection ~ 4100 9750
+Connection ~ 4100 10750
+Connection ~ 3300 9750
+Connection ~ 3300 10750
+$Comp
+L Device:C C19
+U 1 1 61F9AA07
+P 5300 10000
+F 0 "C19" H 5415 10046 50  0000 L CNN
+F 1 "100n" H 5415 9955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5338 9850 50  0001 C CNN
+F 3 "~" H 5300 10000 50  0001 C CNN
+F 4 "Basic" H 5300 10000 50  0001 C CNN "Ext/Basic"
+F 5 "C1525" H 5300 10000 50  0001 C CNN "LCSC"
+	1    5300 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 61F9BC75
+P 5300 10500
+F 0 "C20" H 5415 10546 50  0000 L CNN
+F 1 "100n" H 5415 10455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5338 10350 50  0001 C CNN
+F 3 "~" H 5300 10500 50  0001 C CNN
+F 4 "Basic" H 5300 10500 50  0001 C CNN "Ext/Basic"
+F 5 "C1525" H 5300 10500 50  0001 C CNN "LCSC"
+	1    5300 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 9750 5300 9750
+Wire Wire Line
+	5300 9750 5300 9850
+Wire Wire Line
+	4900 10250 5300 10250
+Wire Wire Line
+	5300 10250 5300 10150
+Wire Wire Line
+	5300 10250 5300 10350
+Connection ~ 5300 10250
+Wire Wire Line
+	5300 10750 5300 10650
+Wire Wire Line
+	4900 10750 5300 10750
+Connection ~ 4900 9750
+Connection ~ 4900 10750
+$Comp
+L power:GND #PWR0123
+U 1 1 61FB87F6
+P 5400 10250
+F 0 "#PWR0123" H 5400 10000 50  0001 C CNN
+F 1 "GND" V 5405 10122 50  0000 R CNN
+F 2 "" H 5400 10250 50  0001 C CNN
+F 3 "" H 5400 10250 50  0001 C CNN
+	1    5400 10250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 10250 5300 10250
+$Comp
+L Connector_Generic:Conn_01x12 J2
+U 1 1 61A01964
+P 10600 5600
+F 0 "J2" H 10680 5592 50  0000 L CNN
+F 1 "Out" H 10680 5501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 10600 5600 50  0001 C CNN
+F 3 "~" H 10600 5600 50  0001 C CNN
+	1    10600 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 10300 5100 0    50   Input ~ 0
+Out1
+Text GLabel 10300 5200 0    50   Input ~ 0
+Out2
+Text GLabel 10300 5300 0    50   Input ~ 0
+Out3
+Text GLabel 10300 5400 0    50   Input ~ 0
+Out4
+Wire Wire Line
+	10300 5100 10400 5100
+Wire Wire Line
+	10300 5200 10400 5200
+Wire Wire Line
+	10300 5300 10400 5300
+Wire Wire Line
+	10300 5400 10400 5400
+Text GLabel 10300 5500 0    50   Input ~ 0
+LED_Out_3_1
+Text GLabel 10300 5600 0    50   Input ~ 0
+LED_Out_3_2
+Text GLabel 10300 5700 0    50   Input ~ 0
+LED_Out_4_1
+Text GLabel 10300 5800 0    50   Input ~ 0
+LED_Out_4_2
+Text GLabel 10300 5900 0    50   Input ~ 0
+LED_Out_2_1
+Text GLabel 10300 6000 0    50   Input ~ 0
+LED_Out_2_2
+Text GLabel 10300 6100 0    50   Input ~ 0
+LED_Out_1_1
+Text GLabel 10300 6200 0    50   Input ~ 0
+LED_Out_1_2
+Wire Wire Line
+	10300 5500 10400 5500
+Wire Wire Line
+	10300 5600 10400 5600
+Wire Wire Line
+	10300 5700 10400 5700
+Wire Wire Line
+	10300 5800 10400 5800
+Wire Wire Line
+	10300 5900 10400 5900
+Wire Wire Line
+	10300 6000 10400 6000
+Wire Wire Line
+	10300 6100 10400 6100
+Wire Wire Line
+	10300 6200 10400 6200
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 61B7F45C
+P 11650 5200
+F 0 "J3" H 11730 5192 50  0000 L CNN
+F 1 "In1" H 11730 5101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 11650 5200 50  0001 C CNN
+F 3 "~" H 11650 5200 50  0001 C CNN
+	1    11650 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 61B80CDF
+P 11350 5500
+F 0 "#PWR0124" H 11350 5250 50  0001 C CNN
+F 1 "GND" H 11355 5327 50  0000 C CNN
+F 2 "" H 11350 5500 50  0001 C CNN
+F 3 "" H 11350 5500 50  0001 C CNN
+	1    11350 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 5100 11350 5100
+Wire Wire Line
+	11350 5100 11350 5400
+Wire Wire Line
+	11450 5400 11350 5400
+Connection ~ 11350 5400
+Wire Wire Line
+	11350 5400 11350 5500
+Text GLabel 11250 5200 0    50   Input ~ 0
++In1
+Text GLabel 11250 5300 0    50   Input ~ 0
+-In1
+Wire Wire Line
+	11250 5200 11450 5200
+Wire Wire Line
+	11250 5300 11450 5300
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 61C08034
+P 11650 5900
+F 0 "J4" H 11730 5892 50  0000 L CNN
+F 1 "In2" H 11730 5801 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 11650 5900 50  0001 C CNN
+F 3 "~" H 11650 5900 50  0001 C CNN
+	1    11650 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 61C09340
+P 11350 6200
+F 0 "#PWR0125" H 11350 5950 50  0001 C CNN
+F 1 "GND" H 11355 6027 50  0000 C CNN
+F 2 "" H 11350 6200 50  0001 C CNN
+F 3 "" H 11350 6200 50  0001 C CNN
+	1    11350 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 5800 11350 5800
+Wire Wire Line
+	11350 5800 11350 6100
+Wire Wire Line
+	11450 6100 11350 6100
+Connection ~ 11350 6100
+Wire Wire Line
+	11350 6100 11350 6200
+Text GLabel 11250 5900 0    50   Input ~ 0
++In2
+Text GLabel 11250 6000 0    50   Input ~ 0
+-In2
+Wire Wire Line
+	11250 5900 11450 5900
+Wire Wire Line
+	11250 6000 11450 6000
+$Comp
+L Connector_Generic:Conn_01x04 J5
+U 1 1 61C2AFB9
+P 12550 5200
+F 0 "J5" H 12630 5192 50  0000 L CNN
+F 1 "In3" H 12630 5101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 12550 5200 50  0001 C CNN
+F 3 "~" H 12550 5200 50  0001 C CNN
+	1    12550 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 61C2C2ED
+P 12250 5500
+F 0 "#PWR0126" H 12250 5250 50  0001 C CNN
+F 1 "GND" H 12255 5327 50  0000 C CNN
+F 2 "" H 12250 5500 50  0001 C CNN
+F 3 "" H 12250 5500 50  0001 C CNN
+	1    12250 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 5100 12250 5100
+Wire Wire Line
+	12250 5100 12250 5400
+Wire Wire Line
+	12350 5400 12250 5400
+Connection ~ 12250 5400
+Wire Wire Line
+	12250 5400 12250 5500
+Text GLabel 12150 5200 0    50   Input ~ 0
++In3
+Text GLabel 12150 5300 0    50   Input ~ 0
+-In3
+Wire Wire Line
+	12150 5200 12350 5200
+Wire Wire Line
+	12150 5300 12350 5300
+$Comp
+L Connector_Generic:Conn_01x04 J6
+U 1 1 61C2C300
+P 12550 5900
+F 0 "J6" H 12630 5892 50  0000 L CNN
+F 1 "In4" H 12630 5801 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 12550 5900 50  0001 C CNN
+F 3 "~" H 12550 5900 50  0001 C CNN
+	1    12550 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 61C2C30A
+P 12250 6200
+F 0 "#PWR0127" H 12250 5950 50  0001 C CNN
+F 1 "GND" H 12255 6027 50  0000 C CNN
+F 2 "" H 12250 6200 50  0001 C CNN
+F 3 "" H 12250 6200 50  0001 C CNN
+	1    12250 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 5800 12250 5800
+Wire Wire Line
+	12250 5800 12250 6100
+Wire Wire Line
+	12350 6100 12250 6100
+Connection ~ 12250 6100
+Wire Wire Line
+	12250 6100 12250 6200
+Text GLabel 12150 5900 0    50   Input ~ 0
++In4
+Text GLabel 12150 6000 0    50   Input ~ 0
+-In4
+Wire Wire Line
+	12150 5900 12350 5900
+Wire Wire Line
+	12150 6000 12350 6000
+$Comp
+L Connector_Generic:Conn_01x06 J7
+U 1 1 61C54BD1
+P 13650 5300
+F 0 "J7" H 13730 5292 50  0000 L CNN
+F 1 "Sum" H 13730 5201 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 13650 5300 50  0001 C CNN
+F 3 "~" H 13650 5300 50  0001 C CNN
+	1    13650 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 13250 5100 0    50   Input ~ 0
+Sum
+Text GLabel 13250 5200 0    50   Input ~ 0
+Inv_Sum
+Text GLabel 13250 5300 0    50   Input ~ 0
+LED_Sum_2
+Text GLabel 13250 5500 0    50   Input ~ 0
+LED_Sum_1
+$Comp
+L power:GND #PWR0128
+U 1 1 61C7D042
+P 13350 5700
+F 0 "#PWR0128" H 13350 5450 50  0001 C CNN
+F 1 "GND" H 13355 5527 50  0000 C CNN
+F 2 "" H 13350 5700 50  0001 C CNN
+F 3 "" H 13350 5700 50  0001 C CNN
+	1    13350 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13450 5100 13250 5100
+Wire Wire Line
+	13250 5200 13450 5200
+Wire Wire Line
+	13250 5300 13450 5300
+Wire Wire Line
+	13250 5500 13450 5500
+Wire Wire Line
+	13450 5400 13350 5400
+Wire Wire Line
+	13350 5400 13350 5600
+Wire Wire Line
+	13450 5600 13350 5600
+Connection ~ 13350 5600
+Wire Wire Line
+	13350 5600 13350 5700
+$Comp
+L Connector_Generic:Conn_01x10 J8
+U 1 1 61D58C55
+P 15050 5500
+F 0 "J8" H 15130 5492 50  0000 L CNN
+F 1 "MinMax" H 15130 5401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 15050 5500 50  0001 C CNN
+F 3 "~" H 15050 5500 50  0001 C CNN
+	1    15050 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 14450 5200 0    50   Input ~ 0
+Max
+$Comp
+L power:+5V #PWR0129
+U 1 1 61D5AF5A
+P 14750 5000
+F 0 "#PWR0129" H 14750 4850 50  0001 C CNN
+F 1 "+5V" H 14765 5173 50  0000 C CNN
+F 2 "" H 14750 5000 50  0001 C CNN
+F 3 "" H 14750 5000 50  0001 C CNN
+	1    14750 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+10V #PWR0130
+U 1 1 61D5C62F
+P 14550 5000
+F 0 "#PWR0130" H 14550 4850 50  0001 C CNN
+F 1 "+10V" H 14565 5173 50  0000 C CNN
+F 2 "" H 14550 5000 50  0001 C CNN
+F 3 "" H 14550 5000 50  0001 C CNN
+	1    14550 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14550 5000 14550 6000
+Wire Wire Line
+	14550 6000 14850 6000
+Wire Wire Line
+	14750 5000 14750 5900
+Wire Wire Line
+	14750 5900 14850 5900
+$Comp
+L power:GND #PWR0131
+U 1 1 61DA88C6
+P 14650 6100
+F 0 "#PWR0131" H 14650 5850 50  0001 C CNN
+F 1 "GND" H 14655 5927 50  0000 C CNN
+F 2 "" H 14650 6100 50  0001 C CNN
+F 3 "" H 14650 6100 50  0001 C CNN
+	1    14650 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14850 5100 14650 5100
+Wire Wire Line
+	14650 5100 14650 5500
+Wire Wire Line
+	14850 5500 14650 5500
+Connection ~ 14650 5500
+Wire Wire Line
+	14650 5500 14650 6100
+Wire Wire Line
+	14450 5200 14850 5200
+Text GLabel 14450 5300 0    50   Input ~ 0
+LED_Max_1
+Text GLabel 14450 5400 0    50   Input ~ 0
+LED_Max_2
+Text GLabel 14450 5600 0    50   Input ~ 0
+Min
+Text GLabel 14450 5700 0    50   Input ~ 0
+LED_Min_1
+Text GLabel 14450 5800 0    50   Input ~ 0
+LED_Min_2
+Wire Wire Line
+	14450 5300 14850 5300
+Wire Wire Line
+	14450 5400 14850 5400
+Wire Wire Line
+	14450 5600 14850 5600
+Wire Wire Line
+	14450 5700 14850 5700
+Wire Wire Line
+	14450 5800 14850 5800
+$Comp
+L power:+12V #PWR0132
+U 1 1 61F55568
+P 14450 8450
+F 0 "#PWR0132" H 14450 8300 50  0001 C CNN
+F 1 "+12V" H 14465 8623 50  0000 C CNN
+F 2 "" H 14450 8450 50  0001 C CNN
+F 3 "" H 14450 8450 50  0001 C CNN
+	1    14450 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0133
+U 1 1 61F57D50
+P 14450 9450
+F 0 "#PWR0133" H 14450 9200 50  0001 C CNN
+F 1 "GND" V 14455 9322 50  0000 R CNN
+F 2 "" H 14450 9450 50  0001 C CNN
+F 3 "" H 14450 9450 50  0001 C CNN
+	1    14450 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R37
+U 1 1 61F585C3
+P 14450 8700
+F 0 "R37" H 14380 8654 50  0000 R CNN
+F 1 "1k" H 14380 8745 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 14380 8700 50  0001 C CNN
+F 3 "~" H 14450 8700 50  0001 C CNN
+F 4 "Basic" H 14450 8700 50  0001 C CNN "Ext/Basic"
+F 5 "C11702" H 14450 8700 50  0001 C CNN "LCSC"
+	1    14450 8700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14450 8450 14450 8550
+Wire Wire Line
+	14450 8850 14450 8950
+Wire Wire Line
+	14450 9350 14450 9450
+$Comp
+L power:+5V #PWR0134
+U 1 1 61FF5BE9
+P 14750 8450
+F 0 "#PWR0134" H 14750 8300 50  0001 C CNN
+F 1 "+5V" H 14765 8623 50  0000 C CNN
+F 2 "" H 14750 8450 50  0001 C CNN
+F 3 "" H 14750 8450 50  0001 C CNN
+	1    14750 8450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 8950 14750 8950
+Wire Wire Line
+	14750 8950 14750 8450
+Connection ~ 14450 8950
+Wire Wire Line
+	14450 8950 14450 9050
+$Comp
+L power:+12V #PWR0135
+U 1 1 6201FB69
+P 15150 8450
+F 0 "#PWR0135" H 15150 8300 50  0001 C CNN
+F 1 "+12V" H 15165 8623 50  0000 C CNN
+F 2 "" H 15150 8450 50  0001 C CNN
+F 3 "" H 15150 8450 50  0001 C CNN
+	1    15150 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0136
+U 1 1 62020FD7
+P 15150 9450
+F 0 "#PWR0136" H 15150 9200 50  0001 C CNN
+F 1 "GND" V 15155 9322 50  0000 R CNN
+F 2 "" H 15150 9450 50  0001 C CNN
+F 3 "" H 15150 9450 50  0001 C CNN
+	1    15150 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R38
+U 1 1 62020FE1
+P 15150 8700
+F 0 "R38" H 15080 8654 50  0000 R CNN
+F 1 "1k" H 15080 8745 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 15080 8700 50  0001 C CNN
+F 3 "~" H 15150 8700 50  0001 C CNN
+F 4 "Basic" H 15150 8700 50  0001 C CNN "Ext/Basic"
+F 5 "C11702" H 15150 8700 50  0001 C CNN "LCSC"
+	1    15150 8700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15150 8450 15150 8550
+Wire Wire Line
+	15150 8850 15150 8950
+Wire Wire Line
+	15150 9350 15150 9450
+Wire Wire Line
+	15150 8950 15450 8950
+Wire Wire Line
+	15450 8950 15450 8450
+Connection ~ 15150 8950
+Wire Wire Line
+	15150 8950 15150 9050
+$Comp
+L power:+10V #PWR0137
+U 1 1 62049C1E
+P 15450 8450
+F 0 "#PWR0137" H 15450 8300 50  0001 C CNN
+F 1 "+10V" H 15465 8623 50  0000 C CNN
+F 2 "" H 15450 8450 50  0001 C CNN
+F 3 "" H 15450 8450 50  0001 C CNN
+	1    15450 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 3 1 620A462A
+P 5950 10250
+F 0 "U1" V 5750 10250 50  0000 C CNN
+F 1 "TL072CDT" V 5950 10250 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5950 10250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5950 10250 50  0001 C CNN
+F 4 "Basic" H 5950 10250 50  0001 C CNN "Ext/Basic"
+F 5 "C6961" H 5950 10250 50  0001 C CNN "LCSC"
+	3    5950 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 9750 5850 9750
+Wire Wire Line
+	5850 9750 5850 9950
+Connection ~ 5300 9750
+Wire Wire Line
+	5300 10750 5850 10750
+Wire Wire Line
+	5850 10750 5850 10550
+Connection ~ 5300 10750
+$Comp
+L Amplifier_Operational:TL072 U2
+U 3 1 6219EC9B
+P 6250 10250
+F 0 "U2" V 6050 10250 50  0000 C CNN
+F 1 "TL072CDT" V 6250 10250 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6250 10250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6250 10250 50  0001 C CNN
+F 4 "Basic" H 6250 10250 50  0001 C CNN "Ext/Basic"
+F 5 "C6961" H 6250 10250 50  0001 C CNN "LCSC"
+	3    6250 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U3
+U 3 1 621A0465
+P 6550 10250
+F 0 "U3" V 6350 10250 50  0000 C CNN
+F 1 "TL072CDT" V 6550 10250 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6550 10250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6550 10250 50  0001 C CNN
+F 4 "Basic" H 6550 10250 50  0001 C CNN "Ext/Basic"
+F 5 "C6961" H 6550 10250 50  0001 C CNN "LCSC"
+	3    6550 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U4
+U 3 1 621A1C16
+P 6850 10250
+F 0 "U4" V 6650 10250 50  0000 C CNN
+F 1 "TL072CDT" V 6850 10250 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6850 10250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6850 10250 50  0001 C CNN
+F 4 "Basic" H 6850 10250 50  0001 C CNN "Ext/Basic"
+F 5 "C6961" H 6850 10250 50  0001 C CNN "LCSC"
+	3    6850 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 9750 6150 9750
+Wire Wire Line
+	6750 9750 6750 9950
+Connection ~ 5850 9750
+Wire Wire Line
+	6450 9950 6450 9750
+Connection ~ 6450 9750
+Wire Wire Line
+	6450 9750 6750 9750
+Wire Wire Line
+	6150 9950 6150 9750
+Connection ~ 6150 9750
+Wire Wire Line
+	6150 9750 6450 9750
+Wire Wire Line
+	5850 10750 6150 10750
+Wire Wire Line
+	6150 10750 6150 10550
+Connection ~ 5850 10750
+Wire Wire Line
+	6150 10750 6450 10750
+Wire Wire Line
+	6450 10750 6450 10550
+Connection ~ 6150 10750
+Wire Wire Line
+	6450 10750 6750 10750
+Wire Wire Line
+	6750 10750 6750 10550
+Connection ~ 6450 10750
+$Comp
+L Amplifier_Operational:TL072 U5
+U 3 1 622A63C2
+P 7150 10250
+F 0 "U5" V 6950 10250 50  0000 C CNN
+F 1 "TL072CDT" V 7150 10250 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7150 10250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7150 10250 50  0001 C CNN
+F 4 "Basic" H 7150 10250 50  0001 C CNN "Ext/Basic"
+F 5 "C6961" H 7150 10250 50  0001 C CNN "LCSC"
+	3    7150 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 9750 7050 9750
+Wire Wire Line
+	7050 9750 7050 9950
+Connection ~ 6750 9750
+Wire Wire Line
+	6750 10750 7050 10750
+Wire Wire Line
+	7050 10750 7050 10550
+Connection ~ 6750 10750
+$Comp
+L Amplifier_Operational:TL074 U6
+U 5 1 622FFD44
+P 7450 10250
+F 0 "U6" V 7250 10250 50  0000 C CNN
+F 1 "TL074CDR" V 7450 10250 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7400 10350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7500 10450 50  0001 C CNN
+F 4 "Ext" H 7450 10250 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 7450 10250 50  0001 C CNN "LCSC"
+	5    7450 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U7
+U 5 1 62303551
+P 7750 10250
+F 0 "U7" V 7550 10250 50  0000 C CNN
+F 1 "TL074CDR" V 7750 10250 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7700 10350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7800 10450 50  0001 C CNN
+F 4 "Ext" H 7750 10250 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 7750 10250 50  0001 C CNN "LCSC"
+	5    7750 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 9750 7350 9750
+Wire Wire Line
+	7650 9750 7650 9950
+Connection ~ 7050 9750
+Wire Wire Line
+	7350 9950 7350 9750
+Connection ~ 7350 9750
+Wire Wire Line
+	7350 9750 7650 9750
+Wire Wire Line
+	7050 10750 7350 10750
+Wire Wire Line
+	7350 10750 7350 10550
+Connection ~ 7050 10750
+Wire Wire Line
+	7350 10750 7650 10750
+Wire Wire Line
+	7650 10750 7650 10550
+Connection ~ 7350 10750
+$Comp
+L Amplifier_Operational:TL074 U8
+U 5 1 623BC40B
+P 8050 10250
+F 0 "U8" V 7850 10250 50  0000 C CNN
+F 1 "TL074CDR" V 8050 10250 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8000 10350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8100 10450 50  0001 C CNN
+F 4 "Ext" H 8050 10250 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 8050 10250 50  0001 C CNN "LCSC"
+	5    8050 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U9
+U 5 1 623BDCD1
+P 8350 10250
+F 0 "U9" V 8150 10250 50  0000 C CNN
+F 1 "TL074CDR" V 8350 10250 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8300 10350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8400 10450 50  0001 C CNN
+F 4 "Ext" H 8350 10250 50  0001 C CNN "Ext/Basic"
+F 5 "C12594" H 8350 10250 50  0001 C CNN "LCSC"
+	5    8350 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 9750 7950 9750
+Wire Wire Line
+	8250 9750 8250 9950
+Wire Wire Line
+	7950 9950 7950 9750
+Connection ~ 7950 9750
+Wire Wire Line
+	7950 9750 8250 9750
+Wire Wire Line
+	7650 10750 7950 10750
+Wire Wire Line
+	7950 10750 7950 10550
+Wire Wire Line
+	7950 10750 8250 10750
+Wire Wire Line
+	8250 10750 8250 10550
+Connection ~ 7950 10750
+Connection ~ 7650 9750
+Connection ~ 7650 10750
+$Comp
+L Reference_Voltage:LM4040DBZ-5 U10
+U 1 1 6241A617
+P 14450 9200
+F 0 "U10" H 14450 9416 50  0000 C CNN
+F 1 "LM4040AIM3-5.0/NOPB" H 14450 9325 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14450 9000 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf" H 14450 9200 50  0001 C CIN
+F 4 "Ext" H 14450 9200 50  0001 C CNN "Ext/Basic"
+F 5 "C140239" H 14450 9200 50  0001 C CNN "LCSC"
+	1    14450 9200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Reference_Voltage:LM4040DBZ-10 U11
+U 1 1 62423730
+P 15150 9200
+F 0 "U11" V 15196 9112 50  0000 R CNN
+F 1 "LM4040C10IDBZR" V 15105 9112 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 15150 9000 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf" H 15150 9200 50  0001 C CIN
+F 4 "Ext" H 15150 9200 50  0001 C CNN "Ext/Basic"
+F 5 "C201738" H 15150 9200 50  0001 C CNN "LCSC"
+	1    15150 9200
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
