@@ -1,0 +1,1 @@
+<img src="https://github.com/mzuelch/CATs-Eurosynth/tree/main/GitHub/Media/Standard%20Line/Atari%20Punk%20Console.svg" alt="Atari Punk Console" width="600" height="350" >

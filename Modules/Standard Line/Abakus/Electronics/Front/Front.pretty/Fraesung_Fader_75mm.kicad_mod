@@ -1,0 +1,9 @@
+(module Fraesung_Fader_75mm (layer F.Cu) (tedit 61A7361C)
+  (fp_text reference REF** (at 1.905 0 90) (layer Dwgs.User) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Fraesung_Fader_75mm (at -1.905 -0.5 90) (layer Dwgs.User) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole oval (at 0 0) (size 1.5 66.5) (drill oval 1.5 66.5) (layers *.Cu *.Mask))
+)
