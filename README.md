@@ -1,4 +1,11 @@
-# CATs Eurosynth
+<h1>CAT's Eurosynth</h1>
+<p>This is my repository for my analog synth eurorack compatible modules.</p>
+<h1>License</h1>
+<p>Code (AVR projects): GPL3.0.</p>
+<p>Code (STM32F projects): MIT license.</p>
+<p>Hardware: cc-by-sa-3.0</p>
+<p>unless otherwise specified</p>
+
 This is my repository for my analog synth eurorack compatible modules
 <h2>Standard Line</h2>
 <p>Collection of modules with no regard to size. These designs are based on either my own ideas and mistakes or published in so many places I can't figure out the original source.</p>
@@ -29,6 +36,7 @@ The remodelling in KiCAD, slight adaptation, PCB layout and frontpanel designs a
 <h2>HAGIWO</h2>
 <p>The basic electronic design was made by <a href="https://www.youtube.com/channel/UCxErrnnVNEAAXPZvQFwobQw">HAGIWO</a>.
 The remodelling in KiCAD, slight adaptation in hard- and software, PCB layout and frontpanel designs are based on my own faults.</p>
+<p>The schematics are Public Domain, firmware is Open Source unless otherwise specified.</p>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/6Ch%20Trigger%20Sequencer">6Ch Trigger Sequencer (SMT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/Ringfolder">Ringfolder (SMT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/Multiout">Multiout (SMT, Working)</a></h3>
