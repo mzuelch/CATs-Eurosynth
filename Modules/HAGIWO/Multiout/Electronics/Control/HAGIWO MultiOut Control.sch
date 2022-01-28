@@ -1,0 +1,525 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L OLED:SSD1306_4Pin D1
+U 1 1 61CDD46E
+P 2750 1000
+F 0 "D1" H 3278 1046 50  0000 L CNN
+F 1 "SSD1306_4Pin" H 3278 955 50  0000 L CNN
+F 2 "OLED:0.96inch_OLED_MC096GX" H 2750 1000 50  0001 C CNN
+F 3 "" H 2750 1000 50  0001 C CNN
+	1    2750 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 61CE4A7C
+P 2550 1250
+F 0 "#PWR08" H 2550 1000 50  0001 C CNN
+F 1 "GND" H 2555 1077 50  0000 C CNN
+F 2 "" H 2550 1250 50  0001 C CNN
+F 3 "" H 2550 1250 50  0001 C CNN
+	1    2550 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR07
+U 1 1 61CE5210
+P 2550 750
+F 0 "#PWR07" H 2550 600 50  0001 C CNN
+F 1 "+3.3V" H 2565 923 50  0000 C CNN
+F 2 "" H 2550 750 50  0001 C CNN
+F 3 "" H 2550 750 50  0001 C CNN
+	1    2550 750 
+	1    0    0    -1  
+$EndComp
+Text GLabel 2450 950  0    50   Input ~ 0
+SDA
+Text GLabel 2450 1050 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	2550 750  2550 850 
+Wire Wire Line
+	2550 850  2650 850 
+Wire Wire Line
+	2450 950  2650 950 
+Wire Wire Line
+	2450 1050 2650 1050
+Wire Wire Line
+	2650 1150 2550 1150
+Wire Wire Line
+	2550 1150 2550 1250
+$Comp
+L Connector:AudioJack2 J4
+U 1 1 61D1E9EB
+P 1100 4000
+F 0 "J4" H 920 3983 50  0000 R CNN
+F 1 "Out 1" H 920 4074 50  0000 R CNN
+F 2 "Connector_Audio_QingPu:Jack_3.5mm_QingPu_WQP-PJ301M-12" H 1100 4000 50  0001 C CNN
+F 3 "~" H 1100 4000 50  0001 C CNN
+	1    1100 4000
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 61D2CD0A
+P 1400 4200
+F 0 "#PWR05" H 1400 3950 50  0001 C CNN
+F 1 "GND" H 1405 4027 50  0000 C CNN
+F 2 "" H 1400 4200 50  0001 C CNN
+F 3 "" H 1400 4200 50  0001 C CNN
+	1    1400 4200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4100 1400 4100
+Wire Wire Line
+	1400 4100 1400 4200
+$Comp
+L Connector:AudioJack2 J7
+U 1 1 61D48B35
+P 2300 4000
+F 0 "J7" H 2120 3983 50  0000 R CNN
+F 1 "Out 2" H 2120 4074 50  0000 R CNN
+F 2 "Connector_Audio_QingPu:Jack_3.5mm_QingPu_WQP-PJ301M-12" H 2300 4000 50  0001 C CNN
+F 3 "~" H 2300 4000 50  0001 C CNN
+	1    2300 4000
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 61D48B48
+P 2600 4200
+F 0 "#PWR011" H 2600 3950 50  0001 C CNN
+F 1 "GND" H 2605 4027 50  0000 C CNN
+F 2 "" H 2600 4200 50  0001 C CNN
+F 3 "" H 2600 4200 50  0001 C CNN
+	1    2600 4200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4100 2600 4100
+Wire Wire Line
+	2600 4100 2600 4200
+$Comp
+L Connector:AudioJack2 J3
+U 1 1 61D63450
+P 1050 3400
+F 0 "J3" H 870 3383 50  0000 R CNN
+F 1 "Gate 1" H 870 3474 50  0000 R CNN
+F 2 "Connector_Audio_QingPu:Jack_3.5mm_QingPu_WQP-PJ301M-12" H 1050 3400 50  0001 C CNN
+F 3 "~" H 1050 3400 50  0001 C CNN
+	1    1050 3400
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 61D64A8F
+P 1350 3600
+F 0 "#PWR04" H 1350 3350 50  0001 C CNN
+F 1 "GND" H 1355 3427 50  0000 C CNN
+F 2 "" H 1350 3600 50  0001 C CNN
+F 3 "" H 1350 3600 50  0001 C CNN
+	1    1350 3600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 3500 1350 3500
+Wire Wire Line
+	1350 3500 1350 3600
+$Comp
+L Connector:AudioJack2 J6
+U 1 1 61D91473
+P 2300 3400
+F 0 "J6" H 2120 3383 50  0000 R CNN
+F 1 "Gate 2" H 2120 3474 50  0000 R CNN
+F 2 "Connector_Audio_QingPu:Jack_3.5mm_QingPu_WQP-PJ301M-12" H 2300 3400 50  0001 C CNN
+F 3 "~" H 2300 3400 50  0001 C CNN
+	1    2300 3400
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 61D91491
+P 2600 3600
+F 0 "#PWR010" H 2600 3350 50  0001 C CNN
+F 1 "GND" H 2605 3427 50  0000 C CNN
+F 2 "" H 2600 3600 50  0001 C CNN
+F 3 "" H 2600 3600 50  0001 C CNN
+	1    2600 3600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3500 2600 3500
+Wire Wire Line
+	2600 3500 2600 3600
+$Comp
+L Connector:AudioJack2_SwitchT J2
+U 1 1 61D99683
+P 1050 2850
+F 0 "J2" H 871 2783 50  0000 R CNN
+F 1 "In 1" H 871 2874 50  0000 R CNN
+F 2 "Connector_Audio_QingPu:Jack_3.5mm_QingPu_WQP-PJ301M-12" H 1050 2850 50  0001 C CNN
+F 3 "~" H 1050 2850 50  0001 C CNN
+	1    1050 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 61D9B3DE
+P 1350 3050
+F 0 "#PWR03" H 1350 2800 50  0001 C CNN
+F 1 "GND" H 1355 2877 50  0000 C CNN
+F 2 "" H 1350 3050 50  0001 C CNN
+F 3 "" H 1350 3050 50  0001 C CNN
+	1    1350 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2750 1350 2750
+Wire Wire Line
+	1350 2750 1350 2950
+Wire Wire Line
+	1250 2950 1350 2950
+Connection ~ 1350 2950
+Wire Wire Line
+	1350 2950 1350 3050
+$Comp
+L Connector:AudioJack2_SwitchT J5
+U 1 1 61DEE95D
+P 2300 2850
+F 0 "J5" H 2121 2783 50  0000 R CNN
+F 1 "In 2" H 2121 2874 50  0000 R CNN
+F 2 "Connector_Audio_QingPu:Jack_3.5mm_QingPu_WQP-PJ301M-12" H 2300 2850 50  0001 C CNN
+F 3 "~" H 2300 2850 50  0001 C CNN
+	1    2300 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 61DEE989
+P 2600 3050
+F 0 "#PWR09" H 2600 2800 50  0001 C CNN
+F 1 "GND" H 2605 2877 50  0000 C CNN
+F 2 "" H 2600 3050 50  0001 C CNN
+F 3 "" H 2600 3050 50  0001 C CNN
+	1    2600 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2750 2600 2750
+Wire Wire Line
+	2600 2750 2600 2950
+Wire Wire Line
+	2500 2950 2600 2950
+Connection ~ 2600 2950
+Wire Wire Line
+	2600 2950 2600 3050
+$Comp
+L Connector:AudioJack2_SwitchT J1
+U 1 1 61DFC520
+P 1050 2200
+F 0 "J1" H 871 2133 50  0000 R CNN
+F 1 "Trigger" H 871 2224 50  0000 R CNN
+F 2 "Connector_Audio_QingPu:Jack_3.5mm_QingPu_WQP-PJ301M-12" H 1050 2200 50  0001 C CNN
+F 3 "~" H 1050 2200 50  0001 C CNN
+	1    1050 2200
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 61DFCEE4
+P 1350 2400
+F 0 "#PWR02" H 1350 2150 50  0001 C CNN
+F 1 "GND" H 1355 2227 50  0000 C CNN
+F 2 "" H 1350 2400 50  0001 C CNN
+F 3 "" H 1350 2400 50  0001 C CNN
+	1    1350 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2100 1350 2100
+Wire Wire Line
+	1350 2100 1350 2300
+Wire Wire Line
+	1250 2300 1350 2300
+Connection ~ 1350 2300
+Wire Wire Line
+	1350 2300 1350 2400
+$Comp
+L Device:Rotary_Encoder_Switch SW1
+U 1 1 61E46E63
+P 1350 950
+F 0 "SW1" H 1350 1317 50  0000 C CNN
+F 1 "Enc" H 1350 1226 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 1200 1110 50  0001 C CNN
+F 3 "~" H 1350 1210 50  0001 C CNN
+	1    1350 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 61E49631
+P 1750 1150
+F 0 "#PWR06" H 1750 900 50  0001 C CNN
+F 1 "GND" H 1755 977 50  0000 C CNN
+F 2 "" H 1750 1150 50  0001 C CNN
+F 3 "" H 1750 1150 50  0001 C CNN
+	1    1750 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1050 1750 1050
+Wire Wire Line
+	1750 1050 1750 1150
+$Comp
+L power:GND #PWR01
+U 1 1 61E5ED43
+P 950 1150
+F 0 "#PWR01" H 950 900 50  0001 C CNN
+F 1 "GND" H 955 977 50  0000 C CNN
+F 2 "" H 950 1150 50  0001 C CNN
+F 3 "" H 950 1150 50  0001 C CNN
+	1    950  1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 950  950  950 
+Wire Wire Line
+	950  950  950  1150
+Wire Wire Line
+	850  1050 1050 1050
+Wire Wire Line
+	850  850  1050 850 
+Text GLabel 4000 2300 0    50   Input ~ 0
+Trigger
+Text GLabel 4000 1900 0    50   Input ~ 0
+Enc_A
+Text GLabel 4000 2000 0    50   Input ~ 0
+Enc_B
+Text GLabel 4000 2100 0    50   Input ~ 0
+Enc_SW
+Text GLabel 5000 2000 0    50   Input ~ 0
+SDA
+Text GLabel 5000 2200 0    50   Input ~ 0
+SCL
+Text GLabel 4000 2750 0    50   Input ~ 0
+In1
+Text GLabel 5000 2750 0    50   Input ~ 0
+In2
+Text GLabel 4000 2950 0    50   Input ~ 0
+Gate1
+Text GLabel 5000 2950 0    50   Input ~ 0
+Gate2
+Text GLabel 4000 3150 0    50   Input ~ 0
+Out1
+Text GLabel 5000 3150 0    50   Input ~ 0
+Out2
+$Comp
+L Connector_Generic:Conn_01x05 J9
+U 1 1 62066282
+P 4400 2950
+F 0 "J9" H 4480 2992 50  0000 L CNN
+F 1 "Ch. 1" H 4480 2901 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 4400 2950 50  0001 C CNN
+F 3 "~" H 4400 2950 50  0001 C CNN
+	1    4400 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2750 4200 2750
+Wire Wire Line
+	4000 2950 4200 2950
+Wire Wire Line
+	4000 3150 4200 3150
+$Comp
+L power:GND #PWR013
+U 1 1 6208EA21
+P 4100 3250
+F 0 "#PWR013" H 4100 3000 50  0001 C CNN
+F 1 "GND" H 4105 3077 50  0000 C CNN
+F 2 "" H 4100 3250 50  0001 C CNN
+F 3 "" H 4100 3250 50  0001 C CNN
+	1    4100 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2850 4100 2850
+Wire Wire Line
+	4100 2850 4100 3050
+Wire Wire Line
+	4200 3050 4100 3050
+Connection ~ 4100 3050
+Wire Wire Line
+	4100 3050 4100 3250
+$Comp
+L Connector_Generic:Conn_01x05 J10
+U 1 1 620A9B01
+P 5400 2950
+F 0 "J10" H 5480 2992 50  0000 L CNN
+F 1 "Ch. 2" H 5480 2901 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 5400 2950 50  0001 C CNN
+F 3 "~" H 5400 2950 50  0001 C CNN
+	1    5400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 620AA365
+P 5100 3250
+F 0 "#PWR015" H 5100 3000 50  0001 C CNN
+F 1 "GND" H 5105 3077 50  0000 C CNN
+F 2 "" H 5100 3250 50  0001 C CNN
+F 3 "" H 5100 3250 50  0001 C CNN
+	1    5100 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2750 5000 2750
+Wire Wire Line
+	5000 2950 5200 2950
+Wire Wire Line
+	5000 3150 5200 3150
+Wire Wire Line
+	5200 3050 5100 3050
+Wire Wire Line
+	5100 3050 5100 3250
+Wire Wire Line
+	5200 2850 5100 2850
+Wire Wire Line
+	5100 2850 5100 3050
+Connection ~ 5100 3050
+$Comp
+L Connector_Generic:Conn_01x05 J8
+U 1 1 6211A065
+P 4400 2100
+F 0 "J8" H 4480 2142 50  0000 L CNN
+F 1 "EncTrig" H 4480 2051 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 4400 2100 50  0001 C CNN
+F 3 "~" H 4400 2100 50  0001 C CNN
+	1    4400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 6212807A
+P 4100 2400
+F 0 "#PWR012" H 4100 2150 50  0001 C CNN
+F 1 "GND" H 4105 2227 50  0000 C CNN
+F 2 "" H 4100 2400 50  0001 C CNN
+F 3 "" H 4100 2400 50  0001 C CNN
+	1    4100 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1900 4000 1900
+Wire Wire Line
+	4000 2000 4200 2000
+Wire Wire Line
+	4000 2100 4200 2100
+Wire Wire Line
+	4000 2300 4200 2300
+Wire Wire Line
+	4200 2200 4100 2200
+Wire Wire Line
+	4100 2200 4100 2400
+$Comp
+L Connector_Generic:Conn_01x05 J11
+U 1 1 621708C9
+P 5500 2100
+F 0 "J11" H 5580 2142 50  0000 L CNN
+F 1 "I2C" H 5580 2051 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 5500 2100 50  0001 C CNN
+F 3 "~" H 5500 2100 50  0001 C CNN
+	1    5500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 6217151A
+P 5100 2400
+F 0 "#PWR014" H 5100 2150 50  0001 C CNN
+F 1 "GND" H 5105 2227 50  0000 C CNN
+F 2 "" H 5100 2400 50  0001 C CNN
+F 3 "" H 5100 2400 50  0001 C CNN
+	1    5100 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1900 5100 1900
+Wire Wire Line
+	5300 2000 5000 2000
+Wire Wire Line
+	5000 2200 5300 2200
+Wire Wire Line
+	5100 2300 5300 2300
+Connection ~ 5100 2300
+Wire Wire Line
+	5100 2300 5100 2400
+Text GLabel 850  850  0    50   Input ~ 0
+Enc_A
+Text GLabel 850  1050 0    50   Input ~ 0
+Enc_B
+Text GLabel 1750 850  2    50   Input ~ 0
+Enc_SW
+Wire Wire Line
+	1750 850  1650 850 
+Text GLabel 1500 2200 2    50   Input ~ 0
+Trigger
+Wire Wire Line
+	1250 2200 1500 2200
+Text GLabel 1450 2850 2    50   Input ~ 0
+In1
+Wire Wire Line
+	1250 2850 1450 2850
+Wire Wire Line
+	2500 2850 2700 2850
+Text GLabel 2700 2850 2    50   Input ~ 0
+In2
+Text GLabel 1350 3400 2    50   Input ~ 0
+Gate1
+Wire Wire Line
+	1350 3400 1250 3400
+Text GLabel 2600 3400 2    50   Input ~ 0
+Gate2
+Wire Wire Line
+	2600 3400 2500 3400
+Text GLabel 1400 4000 2    50   Input ~ 0
+Out1
+Wire Wire Line
+	1400 4000 1300 4000
+Text GLabel 2600 4000 2    50   Input ~ 0
+Out2
+Wire Wire Line
+	2600 4000 2500 4000
+Wire Wire Line
+	5100 1900 5100 2300
+$Comp
+L power:+3.3V #PWR016
+U 1 1 61D788D3
+P 5200 1800
+F 0 "#PWR016" H 5200 1650 50  0001 C CNN
+F 1 "+3.3V" H 5215 1973 50  0000 C CNN
+F 2 "" H 5200 1800 50  0001 C CNN
+F 3 "" H 5200 1800 50  0001 C CNN
+	1    5200 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2100 5200 2100
+Wire Wire Line
+	5200 2100 5200 1800
+$EndSCHEMATC

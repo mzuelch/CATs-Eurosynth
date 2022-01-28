@@ -1,0 +1,12 @@
+(module Bohrung_0,96_OLED (layer F.Cu) (tedit 61CDF870)
+  (fp_text reference Ref** (at 0 0) (layer Dwgs.User) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value Val** (at 0 0) (layer Dwgs.User) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_line (start -11.37 -5.93) (end 11.37 -5.93) (layer Eco2.User) (width 0.05))
+  (fp_line (start -11.37 5.93) (end 11.37 5.93) (layer Eco2.User) (width 0.05))
+  (fp_line (start 11.37 -5.93) (end 11.37 5.93) (layer Eco2.User) (width 0.05))
+  (fp_line (start -11.37 -5.93) (end -11.37 5.93) (layer Eco2.User) (width 0.12))
+)
