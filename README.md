@@ -5,8 +5,7 @@
 <p>Code (STM32F projects): MIT license.</p>
 <p>Hardware: cc-by-sa-3.0</p>
 <p>unless otherwise specified</p>
-
-This is my repository for my analog synth eurorack compatible modules
+<h1>Published Designs</p>
 <h2>Standard Line</h2>
 <p>Collection of modules with no regard to size. These designs are based on either my own ideas and mistakes or published in so many places I can't figure out the original source.</p>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Atari%20Punk%20Console">Atari Punk Console (THT, Working)</a></h3>
