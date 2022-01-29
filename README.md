@@ -39,4 +39,5 @@ The remodelling in KiCAD, slight adaptation in hard- and software, PCB layout an
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/6Ch%20Trigger%20Sequencer">6Ch Trigger Sequencer (SMT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/Ringfolder">Ringfolder (SMT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/Multiout">Multiout (SMT, Working)</a></h3>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/Display">Display (SMT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/Arduino%20VCO">Arduino VCO (SMT, WIP)</a></h3>
