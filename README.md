@@ -40,12 +40,59 @@ The remodelling in KiCAD, slight adaptation in hard- and software, PCB layout an
 <ul>
 	<li>
 		<strong>6Ch Gate Sequencer</strong>
-		<br><a href="https://www.youtube.com/watch?v=YszdC8YdFl0&t=217s">YouTube</a>
+		<br><a href="https://www.youtube.com/watch?v=YszdC8YdFl0&t">YouTube</a>
 		<br><a href="https://note.com/solder_state/n/n17c69afd484d">Original Build Documentation</a>
 	</li>
-	<li><strong>6Ch Euclidian Rythm Sequencer</strong></li>
+	<li>
+		<strong>6Ch Euclidian Rythm Sequencer</strong>
+		<br><a href="https://www.youtube.com/watch?v=lkoBfiq6KPY">YouTube</a>
+		<br><a href="https://note.com/solder_state/n/n433b32ea6dbc">Original Build Documentation</a>
+	</lt>
 </ul>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/Ringfolder">Ringfolder (SMT, Working)</a></h3>
+<ul>
+	<li>
+		<strong>Ring Modulator & Wavefolder</strong>
+		<br><a href="https://www.youtube.com/watch?v=gYwEPNSfJLE">YouTube</a>
+		<br><a href="https://note.com/solder_state/n/n9d138d74b39d">Original Build Documentation</a>
+	</li>
+</ul>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/Multiout">Multiout (SMT, Working)</a></h3>
+<ul>
+	<li>
+		<strong>Sequencer Roland SH-101 type</strong>
+		<br><a href="https://www.youtube.com/watch?v=--qb_QYZrTk&t">YouTube</a>
+		<br><a href="https://note.com/solder_state/n/n80f4baf81226">Original Build Documentation</a>
+	</li>
+	<li>
+		<strong>Dual quantizer and Envelope generator</strong>
+		<br><a href="https://www.youtube.com/watch?v=6FJpljEYZq4">YouTube</a>
+		<br><a href="https://note.com/solder_state/n/nb8b9a2f212a2">Original Build Documentation</a>
+	</li>
+</ul>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/Display">Display (SMT, Working)</a></h3>
+<ul>
+	<li>
+		<strong>Oscilloscope & Spectrum analyzer</strong>
+		<br><a href="https://www.youtube.com/watch?v=yAes5pS3ZTo">YouTube</a>
+		<br><a href="https://note.com/solder_state/n/n6b4cc8d1c6b9">Original Build Documentation</a>
+	</li>
+</ul>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/Arduino%20VCO">Arduino VCO (SMT, WIP)</a></h3>
+<ul>
+	<li>
+		<strong>Additive VCO</strong>
+		<br><a href="https://www.youtube.com/watch?v=wjWOJ-h5w5w">YouTube</a>
+		<br><a href="https://note.com/solder_state/n/n30b3a8737b1e">Original Build Documentation</a>
+	</li>
+	<li>
+		<strong>Chord VCO</strong>
+		<br><a href="https://www.youtube.com/watch?v=Ikhd3OmoN40">YouTube</a>
+		<br><a href="https://note.com/solder_state/n/n681d2e07e324">Original Build Documentation</a>
+	</li>
+	<li>
+		<strong>FM VCO</strong>
+		<br><a href="https://www.youtube.com/watch?v=NZKacfP9aNI">YouTube</a>
+		<br><a href="https://note.com/solder_state/n/n88317851a4c7">Original Build Documentation</a>
+	</li>
+</ul>
