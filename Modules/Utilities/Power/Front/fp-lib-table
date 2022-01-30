@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "Power Module Front")(type KiCad)(uri "${KIPRJMOD}/Power Module Front.pretty")(options "")(descr ""))
-)
