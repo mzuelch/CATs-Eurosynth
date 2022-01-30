@@ -12,8 +12,10 @@
 <ul>
 	<li>Input calibration routine instead of hardcoded calibration factor</li>
 	<li>Additional envelope generators:
-		<li>Gate</li>
-		<li>Trigger</li>
-		<li>ASR</li>
+		<ul>
+			<li>Gate</li>
+			<li>Trigger</li>
+			<li>ASR</li>
+		</ul>
 	</li>
 </ul>
