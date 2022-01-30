@@ -1,0 +1,1 @@
+<p>Changed Output stage to provide a eurorack compatible output swing +/-5V</p>

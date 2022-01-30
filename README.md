@@ -103,3 +103,11 @@ The remodelling in KiCAD, slight adaptation in hard- and software, PCB layout an
 		<br><a href="https://note.com/solder_state/n/n88317851a4c7">Original Build Documentation</a>
 	</li>
 </ul>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/4Ch%20Sample%20Player">4Ch Sample Player (SMT, WIP)</a></h3>
+<ul>
+	<li>
+		<strong>TR-808/909 sample play , 4CH wav trigger</strong>
+		<br><a href="https://www.youtube.com/watch?v=7Vcwk8KYZM8&t">YouTube</a>
+		<br><a href="https://note.com/solder_state/n/n0209d16d0d08">Original Build Documentation</a>
+	</li>
+</ul>
