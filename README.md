@@ -42,6 +42,7 @@ The remodelling in KiCAD, slight adaptation, PCB layout and frontpanel designs a
 <p>The basic electronic design was made by <a href="https://www.youtube.com/channel/UCxErrnnVNEAAXPZvQFwobQw">HAGIWO</a>.
 The remodelling in KiCAD, slight adaptation in hard- and software, PCB layout and frontpanel designs are based on my own faults.</p>
 <p>The schematics are Public Domain, firmware is Open Source unless otherwise specified.</p>
+<p>This part of the repository is made public with permission from HAGIWO itself. It really appreciate it.</p>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/6Ch%20Trigger%20Sequencer">6Ch Trigger Sequencer (SMT, Working)</a></h3>
 <ul>
 	<li>

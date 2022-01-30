@@ -18,4 +18,5 @@
 			<li>ASR</li>
 		</ul>
 	</li>
+	<li>The XIAO still kills itself when turning the encoder too fast. It's also an issue in the original firmware, I still haven't figured out the reason.</li>
 </ul>
