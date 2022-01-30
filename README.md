@@ -38,7 +38,11 @@ The remodelling in KiCAD, slight adaptation in hard- and software, PCB layout an
 <p>The schematics are Public Domain, firmware is Open Source unless otherwise specified.</p>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/6Ch%20Trigger%20Sequencer">6Ch Trigger Sequencer (SMT, Working)</a></h3>
 <ul>
-	<li><strong>6Ch Gate Sequencer</strong></li>
+	<li>
+		<strong>6Ch Gate Sequencer</strong>
+		<p><a href="https://www.youtube.com/watch?v=YszdC8YdFl0&t=217s">YouTube</a></p>
+		<p><a href="https://note.com/solder_state/n/n17c69afd484d">Original Build Documentation</a></p>		
+	</li>
 	<li><strong>6Ch Euclidian Rythm Sequencer</strong></li>
 </ul>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/Ringfolder">Ringfolder (SMT, Working)</a></h3>
