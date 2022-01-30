@@ -40,8 +40,8 @@ The remodelling in KiCAD, slight adaptation in hard- and software, PCB layout an
 <ul>
 	<li>
 		<strong>6Ch Gate Sequencer</strong>
-		<p><a href="https://www.youtube.com/watch?v=YszdC8YdFl0&t=217s">YouTube</a></p>
-		<p><a href="https://note.com/solder_state/n/n17c69afd484d">Original Build Documentation</a></p>		
+		<br><a href="https://www.youtube.com/watch?v=YszdC8YdFl0&t=217s">YouTube</a>
+		<br><a href="https://note.com/solder_state/n/n17c69afd484d">Original Build Documentation</a>
 	</li>
 	<li><strong>6Ch Euclidian Rythm Sequencer</strong></li>
 </ul>
