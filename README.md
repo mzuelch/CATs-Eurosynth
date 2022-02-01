@@ -30,6 +30,7 @@
 The remodelling in KiCAD, slight adaptation, PCB layout and frontpanel designs are based on my own faults</p>
 <p>RIP Ray Wilson</p>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/MFOS/Dual%20VCA%20%232">Dual VCA #2 (THT, Working)</a></h3>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/MFOS/Noise%20Cornucopia">Noise Cornucopia (THT, Working)</a></h3>
 <h2>YuSynth Clones</h2>
 <p>The basic electronic design was made by <a href="https://yusynth.net">YuSynth</a>.
 The remodelling in KiCAD, slight adaptation (especially changes to +/-12V), PCB layout and frontpanel designs are based on my own faults.</p>
