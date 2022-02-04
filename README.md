@@ -28,13 +28,11 @@
 </table>
 <p>Layout specific data (mainly front panel stuff) are stored in the corresponding folders. Most of the Links are absolute atm. I will change them as soon as the particular layout is modified.</p>
 <p>Proper Aliases and other informations are given in these ReadMe's:</p> 
-<table>
-	<tr>
-		<td><a href=https://github.com/mzuelch/CATs-Eurosynth/blob/main/Libraries/Symbols/ReadMe.md">Symbols</a></td>
-		<td><a href=https://github.com/mzuelch/CATs-Eurosynth/blob/main/Libraries/Footprints/ReadMe.md">Footprints</a></td>
-		<td><a href=https://github.com/mzuelch/CATs-Eurosynth/blob/main/Libraries/3D%20Shapes/ReadMe.md">3D Shapes</a></td>
-	</tr>
-</table>
+<ul>
+	<li><a href=https://github.com/mzuelch/CATs-Eurosynth/blob/main/Libraries/Symbols/ReadMe.md">Symbols</a></li>
+	<li><a href=https://github.com/mzuelch/CATs-Eurosynth/blob/main/Libraries/Footprints/ReadMe.md">Footprints</a></li>
+	<li><a href=https://github.com/mzuelch/CATs-Eurosynth/blob/main/Libraries/3D%20Shapes/ReadMe.md">3D Shapes</a></li>
+</ul>
 <h1>Published Designs</p>
 <h2>Standard Line</h2>
 <p>Collection of modules with no regard to size. These designs are based on either my own ideas and mistakes or published in so many places I can't figure out the original source.</p>
