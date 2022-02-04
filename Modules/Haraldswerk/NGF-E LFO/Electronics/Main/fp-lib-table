@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name Connector_Audio_Additional)(type KiCad)(uri ${KIPRJMOD}/Connector_Audio_Additional.pretty)(options "")(descr ""))
-  (lib (name FX_Pedal)(type KiCad)(uri ${KIPRJMOD}/FX_Pedal.pretty)(options "")(descr ""))
-)

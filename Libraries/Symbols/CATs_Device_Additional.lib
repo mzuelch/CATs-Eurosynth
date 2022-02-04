@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# R_POT
+#
+DEF R_POT P 0 40 Y Y 1 F N
+F0 "P" -225 0 50 V V C CNN
+F1 "R_POT" -150 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 900 -100 0 25 0 0 0 cw Normal 0 C C
+S 40 100 -40 -100 1 1 10 N
+P 5 0 1 0 -75 -75 -75 75 -100 50 -50 50 -75 75 N
+P 2 1 1 0 100 0 60 0 N
+P 4 1 1 0 45 0 90 20 90 -20 45 0 F
+X CCW CCW 0 -150 50 U 0 0 1 1 P
+X CW CW 0 150 50 D 0 0 1 1 P
+X W W 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

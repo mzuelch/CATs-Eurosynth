@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name Haraldswerk-NGF-E-LFO-Main-rescue)(type Legacy)(uri "${KIPRJMOD}/Haraldswerk NGF-E LFO Main-rescue.lib")(options "")(descr ""))
-  (lib (name "Eurorack Synth")(type Legacy)(uri "E:/Konstruktionen/Konstruktionen/Elektronik/Libraries/Eurorack Synth.lib")(options "")(descr ""))
-)
