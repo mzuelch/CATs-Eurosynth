@@ -19,7 +19,7 @@ U 1 1 60C633F9
 P 1050 1700
 F 0 "J1" H 870 1633 50  0000 R CNN
 F 1 "Audio In" H 870 1724 50  0000 R CNN
-F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 1050 1700 50  0001 C CNN
+F 2 "Connector_Audio_QingPu:Jack_3.5mm_QingPu_WQP-PJ301M-12" H 1050 1700 50  0001 C CNN
 F 3 "~" H 1050 1700 50  0001 C CNN
 	1    1050 1700
 	1    0    0    1   
@@ -45,7 +45,7 @@ U 1 1 60C645D7
 P 1800 1950
 F 0 "RV1" H 1731 1904 50  0000 R CNN
 F 1 "B100K" H 1731 1995 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 1800 1950 50  0001 C CNN
+F 2 "Potentiometer_THT_Additional:Potentiometer_AlpsAlpine_RK09K1130" H 1800 1950 50  0001 C CNN
 F 3 "~" H 1800 1950 50  0001 C CNN
 	1    1800 1950
 	1    0    0    1   
@@ -77,7 +77,7 @@ U 1 1 60C6544C
 P 4500 1700
 F 0 "J2" H 4320 1633 50  0000 R CNN
 F 1 "Audio Out" H 4320 1724 50  0000 R CNN
-F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 4500 1700 50  0001 C CNN
+F 2 "Connector_Audio_QingPu:Jack_3.5mm_QingPu_WQP-PJ301M-12" H 4500 1700 50  0001 C CNN
 F 3 "~" H 4500 1700 50  0001 C CNN
 	1    4500 1700
 	-1   0    0    1   
@@ -107,7 +107,7 @@ U 1 1 60C6662A
 P 1050 3600
 F 0 "J3" H 870 3533 50  0000 R CNN
 F 1 "CV#1" H 870 3624 50  0000 R CNN
-F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 1050 3600 50  0001 C CNN
+F 2 "Connector_Audio_QingPu:Jack_3.5mm_QingPu_WQP-PJ301M-12" H 1050 3600 50  0001 C CNN
 F 3 "~" H 1050 3600 50  0001 C CNN
 	1    1050 3600
 	1    0    0    1   
@@ -118,7 +118,7 @@ U 1 1 60C66A52
 P 1050 4350
 F 0 "J4" H 870 4283 50  0000 R CNN
 F 1 "CV#2" H 870 4374 50  0000 R CNN
-F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 1050 4350 50  0001 C CNN
+F 2 "Connector_Audio_QingPu:Jack_3.5mm_QingPu_WQP-PJ301M-12" H 1050 4350 50  0001 C CNN
 F 3 "~" H 1050 4350 50  0001 C CNN
 	1    1050 4350
 	1    0    0    1   
@@ -129,7 +129,7 @@ U 1 1 60C6716D
 P 1950 3850
 F 0 "RV3" H 1881 3804 50  0000 R CNN
 F 1 "B50K" H 1881 3895 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 1950 3850 50  0001 C CNN
+F 2 "Potentiometer_THT_Additional:Potentiometer_AlpsAlpine_RK09K1130" H 1950 3850 50  0001 C CNN
 F 3 "~" H 1950 3850 50  0001 C CNN
 	1    1950 3850
 	1    0    0    1   
@@ -164,7 +164,7 @@ U 1 1 60C681F6
 P 1700 4600
 F 0 "RV2" H 1631 4554 50  0000 R CNN
 F 1 "B50K" H 1631 4645 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 1700 4600 50  0001 C CNN
+F 2 "Potentiometer_THT_Additional:Potentiometer_AlpsAlpine_RK09K1130" H 1700 4600 50  0001 C CNN
 F 3 "~" H 1700 4600 50  0001 C CNN
 	1    1700 4600
 	1    0    0    1   
@@ -207,7 +207,7 @@ U 1 1 60C6A4CB
 P 1050 5450
 F 0 "J5" H 871 5383 50  0000 R CNN
 F 1 "V/Oct" H 871 5474 50  0000 R CNN
-F 2 "Connector_Audio_PJSeries:PJ-301-M-12" H 1050 5450 50  0001 C CNN
+F 2 "Connector_Audio_QingPu:Jack_3.5mm_QingPu_WQP-PJ301M-12" H 1050 5450 50  0001 C CNN
 F 3 "~" H 1050 5450 50  0001 C CNN
 	1    1050 5450
 	1    0    0    1   
@@ -218,7 +218,7 @@ U 1 1 60C6B63E
 P 1350 6650
 F 0 "RV4" H 1281 6604 50  0000 R CNN
 F 1 "B50K" H 1281 6695 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 1350 6650 50  0001 C CNN
+F 2 "Potentiometer_THT_Additional:Potentiometer_AlpsAlpine_RK09K1130" H 1350 6650 50  0001 C CNN
 F 3 "~" H 1350 6650 50  0001 C CNN
 	1    1350 6650
 	1    0    0    1   
@@ -271,7 +271,7 @@ U 1 1 60C6FD0E
 P 4600 2900
 F 0 "RV5" H 4530 2946 50  0000 R CNN
 F 1 "B100K" H 4530 2855 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 4600 2900 50  0001 C CNN
+F 2 "Potentiometer_THT_Additional:Potentiometer_AlpsAlpine_RK09K1130" H 4600 2900 50  0001 C CNN
 F 3 "~" H 4600 2900 50  0001 C CNN
 	1    4600 2900
 	-1   0    0    1   
@@ -574,11 +574,11 @@ F 3 "~" H 4000 6700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Schiebeschalter:Schiebeschalter2x4 SW1
+L Switch_Additional:Switch_DP4T SW1
 U 1 1 60CC12CF
 P 5150 6650
 F 0 "SW1" H 5200 7825 50  0000 C CNN
-F 1 "Schiebeschalter2x4" H 5200 7734 50  0000 C CNN
+F 1 "Mode" H 5200 7734 50  0000 C CNN
 F 2 "Schiebeschalter:SS24E01-G5" H 5150 6650 50  0001 C CNN
 F 3 "" H 5150 6650 50  0001 C CNN
 	1    5150 6650

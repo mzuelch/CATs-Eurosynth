@@ -60,17 +60,30 @@
 The remodelling in KiCAD, slight adaptation, PCB layout and frontpanel designs are based on my own faults</p>
 <p>RIP Ray Wilson</p>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/MFOS/Dual%20VCA%20%232">Dual VCA #2 (THT, Working)</a></h3>
+<ul>
+	<li><a href="http://musicfromouterspace.com/analogsynth_new/OLDIESBUTGOODIES/VCA/dualvca-2.html">Original Build Documentation</a></li>
+</ul>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/MFOS/Noise%20Cornucopia">Noise Cornucopia (THT, Working)</a></h3>
+<ul>
+	<li><a href="http://musicfromouterspace.com/analogsynth_new/NOISECORNREV01/NOISECORNREV01.php">Original Build Documentation</a></li>
+</ul>
 
 <h2>YuSynth Clones</h2>
 <p>The basic electronic design was made by <a href="https://yusynth.net">YuSynth</a>.
 The remodelling in KiCAD, slight adaptation (especially changes to +/-12V), PCB layout and frontpanel designs are based on my own faults.</p>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/YuSynth/Improved%20Steiner%20VCF">Improved Steiner VCF (SMT, Working)</a></h3>
+<ul>
+	<li><a href="http://yusynth.net/Modular/EN/STEINERVCF/index-v2.html">Original Build Documentation</a></li>
+</ul>
 
 <h2>Haraldswerk</h2>
 <p>The basic electronic design was made by <a href="https://www.haraldswerk.de/">Haraldswerk</a>.
 The remodelling in KiCAD, slight adaptation (especially to Eurorack format), PCB layout and frontpanel designs are based on my own faults.</p>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Haraldswerk/NGF-E%20LFO/">Next Generation Formant LFO (THT, Working)</a></h3>
+<ul>
+	<li><a href="https://www.haraldswerk.de/NGF_E/NGF_E_LFO/NGF_E_LFO.html">Original Build Documentation</a></li>
+</ul>
+
 <h2>HAGIWO</h2>
 <p>The basic electronic design was made by <a href="https://www.youtube.com/channel/UCxErrnnVNEAAXPZvQFwobQw">HAGIWO</a>.
 The remodelling in KiCAD, slight adaptation in hard- and software, PCB layout and frontpanel designs are based on my own faults.</p>

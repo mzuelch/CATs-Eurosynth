@@ -274,7 +274,7 @@ F 1 "B100K" H 4530 2855 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 4600 2900 50  0001 C CNN
 F 3 "~" H 4600 2900 50  0001 C CNN
 	1    4600 2900
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0107
@@ -574,11 +574,11 @@ F 3 "~" H 4000 6700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Schiebeschalter:Schiebeschalter2x4 SW1
+L Switch_Additional:Switch_DP4T SW1
 U 1 1 60CC12CF
 P 5150 6650
 F 0 "SW1" H 5200 7825 50  0000 C CNN
-F 1 "Schiebeschalter2x4" H 5200 7734 50  0000 C CNN
+F 1 "Mode" H 5200 7734 50  0000 C CNN
 F 2 "Schiebeschalter:SS24E01-G5" H 5150 6650 50  0001 C CNN
 F 3 "" H 5150 6650 50  0001 C CNN
 	1    5150 6650

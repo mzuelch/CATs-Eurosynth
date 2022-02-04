@@ -152,11 +152,11 @@ X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Schiebeschalter_Schiebeschalter2x4
+# Switch_Additional_Switch_DP4T
 #
-DEF Schiebeschalter_Schiebeschalter2x4 SW 0 40 Y Y 1 F N
+DEF Switch_Additional_Switch_DP4T SW 0 40 Y Y 1 F N
 F0 "SW" 0 1100 50 H V C CNN
-F1 "Schiebeschalter_Schiebeschalter2x4" 0 0 50 H V C CNN
+F1 "Switch_Additional_Switch_DP4T" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
