@@ -30,5 +30,9 @@
 		<td>CATs_Seeeduino_XIAO.lib</td>
 		<td>Seeeduino_XIAO</td>
 	</tr>
+	<tr>
+		<td>CATs_Switch_Additional.lib</td>
+		<td>Switch_Additional</td>
+	</tr>
 </table>
 <p>You may remodel the libraries, paths and aliases according to your own needs of course. BUT: Compatibility with future releases will be lost.</p>
