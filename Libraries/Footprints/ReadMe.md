@@ -1,5 +1,14 @@
-<h1>Alias settings</h1>
-<p>Additional libraries are included by a environmental variable (KI_CUSTOM_MOD in this case) ans as global libraries ($(KI_CUSTOM_MOS)/CATs_Eurosynth.pretty for example).</p>
+<h1>Library settings</h1>
+<p>Additional libraries are included by a environmental variable (KI_CUSTOM_MOD in this case) and as global libraries. For example:</p>
+<ul>
+	<li>Active: TRUE</li>
+	<li>Aliasname: CATs_Eurosynth_Specials</li>
+	<li>Path: $(KI_CUSTOM_MOD)/CATs_Eurosynth.pretty</li>
+	<li>Type: KiCAD</li>
+	<li>Options: empty</li>
+	<li>Annotations: as you like it</li>
+</ul>
+<h2>Aliasnames</h2>
 <table>
 	<tr>
 		<th>Library</th>
