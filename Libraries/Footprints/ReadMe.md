@@ -1,4 +1,5 @@
 <h1>Alias settings</h1>
+<p>Additional libraries are included by a environmental variable (KI_CUSTOM_MOD in this case) ans as global libraries ($(KI_CUSTOM_MOS)/CATs_Eurosynth.pretty for example).</p>
 <table>
 	<tr>
 		<th>Library</th>
