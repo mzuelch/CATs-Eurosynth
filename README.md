@@ -1,5 +1,6 @@
 <h1>CAT's Eurosynth</h1>
 <p>This is my repository for my analog synth eurorack compatible modules. Files given via the "Gerber" directories are actual production data used for my own prototyping. Bugs are to be expected. Corrections for finished boards marked as "working" are done in KiCAD only.</p>
+<p>Please read the "Known Issues" section given in this repository as "ReadMe.md" whenever appropriate.</p>
 <h1>License</h1>
 <p>Code (AVR projects): GPL3.0.</p>
 <p>Code (STM32F projects): MIT license.</p>
