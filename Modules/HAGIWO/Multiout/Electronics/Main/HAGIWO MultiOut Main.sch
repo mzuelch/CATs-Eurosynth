@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Seeduino_Xiao:SeeeduinoXIAOPin U2
+L Seeeduino_XIAO:SeeeduinoXIAOPin U2
 U 1 1 61CC1FFF
 P 3050 1550
 F 0 "U2" H 3025 2515 50  0000 C CNN
