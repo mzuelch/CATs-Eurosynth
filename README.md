@@ -34,7 +34,7 @@
 		<td><a href=https://github.com/mzuelch/CATs-Eurosynth/blob/main/Libraries/Footprints/ReadMe.md">Footprints</a></td>
 		<td><a href=https://github.com/mzuelch/CATs-Eurosynth/blob/main/Libraries/3D%20Shapes/ReadMe.md">3D Shapes</a></td>
 	</tr>
-</tables>
+</table>
 <h1>Published Designs</p>
 <h2>Standard Line</h2>
 <p>Collection of modules with no regard to size. These designs are based on either my own ideas and mistakes or published in so many places I can't figure out the original source.</p>
