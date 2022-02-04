@@ -5,6 +5,28 @@
 <p>Code (STM32F projects): MIT license.</p>
 <p>Hardware: cc-by-sa-3.0</p>
 <p>unless otherwise specified</p>
+<h2>Custom Libraries</h2>
+<p>Most of the schematics and layouts use custom libraries since some of the stock libries are either buggy or unsuited for my designs. The libraries can be found <a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Libraries">here</a>.</p>
+<p>I am about to remodel all the KiCAD Files to use environment variables:</p>
+<table>
+	<tr>
+		<th>Variable</th>
+		<th>points to</th>		
+	</tr>
+	<tr>
+		<td>KI_CUSTOM_MOD</td>
+		<td>Footprint Data (where all the .pretty stuff is hidden</td>		
+	</tr>
+	<tr>
+		<td>KI_CUSTOM_3DMOD</td>
+		<td>3D Model Data (where all the .3dshapes stuff is hidden</td>		
+	</tr>
+	<tr>
+		<td>KI_CUSTOM_SYMBOLS</td>
+		<td>Symbol Data (where all the .lib stuff is hidden</td>		
+	</tr>
+</table>
+<p>Layout specific data (mainly front panel stuff) are stored in the corresponding folders. Most of the Links are absolute atm. I will change them as soon as the particular layout is modified.</p>
 <h1>Published Designs</p>
 <h2>Standard Line</h2>
 <p>Collection of modules with no regard to size. These designs are based on either my own ideas and mistakes or published in so many places I can't figure out the original source.</p>
