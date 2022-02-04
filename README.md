@@ -15,15 +15,15 @@
 	</tr>
 	<tr>
 		<td>KI_CUSTOM_MOD</td>
-		<td>Footprint Data (where all the .pretty stuff is hidden</td>		
+		<td>Footprint Data (where all the .pretty stuff is hidden)</td>		
 	</tr>
 	<tr>
 		<td>KI_CUSTOM_3DMOD</td>
-		<td>3D Model Data (where all the .3dshapes stuff is hidden</td>		
+		<td>3D Model Data (where all the .3dshapes stuff is hidden)</td>		
 	</tr>
 	<tr>
 		<td>KI_CUSTOM_SYMBOLS</td>
-		<td>Symbol Data (where all the .lib stuff is hidden</td>		
+		<td>Symbol Data (where all the .lib stuff is hidden)</td>		
 	</tr>
 </table>
 <p>Layout specific data (mainly front panel stuff) are stored in the corresponding folders. Most of the Links are absolute atm. I will change them as soon as the particular layout is modified.</p>
