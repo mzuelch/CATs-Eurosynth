@@ -14,15 +14,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R_POT RV1
+L Device_Additional:R_POT RV1
 U 1 1 60E7EEAA
 P 800 2150
 F 0 "RV1" H 730 2196 50  0000 R CNN
 F 1 "A100k" H 730 2105 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK097_Single_Horizontal" H 730 2059 50  0001 R CNN
+F 2 "Potentiometer_THT_Additional:Potentiometer_AlpsAlpine_RK0971110" H 730 2059 50  0001 R CNN
 F 3 "~" H 800 2150 50  0001 C CNN
 	1    800  2150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R2
@@ -405,7 +405,7 @@ U 1 1 60EABF48
 P 7200 1200
 F 0 "J1" H 7020 1133 50  0000 R CNN
 F 1 "SAW_UP" H 7020 1224 50  0000 R CNN
-F 2 "Connector_Audio_Additional:PJ-323M" H 7200 1200 50  0001 C CNN
+F 2 "Connector_Audio_QingPu:Jack_3.5mm_QingPu_WQP-PJ323M" H 7200 1200 50  0001 C CNN
 F 3 "~" H 7200 1200 50  0001 C CNN
 	1    7200 1200
 	-1   0    0    1   
@@ -500,7 +500,7 @@ U 1 1 60EB6BD5
 P 8500 2000
 F 0 "J2" H 8320 1933 50  0000 R CNN
 F 1 "SAW_DOWN" H 8320 2024 50  0000 R CNN
-F 2 "Connector_Audio_Additional:PJ-323M" H 8500 2000 50  0001 C CNN
+F 2 "Connector_Audio_QingPu:Jack_3.5mm_QingPu_WQP-PJ323M" H 8500 2000 50  0001 C CNN
 F 3 "~" H 8500 2000 50  0001 C CNN
 	1    8500 2000
 	-1   0    0    1   
@@ -553,7 +553,7 @@ U 1 1 60EC5CCB
 P 6400 2800
 F 0 "J4" H 6220 2733 50  0000 R CNN
 F 1 "SQUARE" H 6220 2824 50  0000 R CNN
-F 2 "Connector_Audio_Additional:PJ-323M" H 6400 2800 50  0001 C CNN
+F 2 "Connector_Audio_QingPu:Jack_3.5mm_QingPu_WQP-PJ323M" H 6400 2800 50  0001 C CNN
 F 3 "~" H 6400 2800 50  0001 C CNN
 	1    6400 2800
 	-1   0    0    1   
@@ -611,7 +611,7 @@ U 1 1 60ECF711
 P 10050 1000
 F 0 "J3" H 9870 933 50  0000 R CNN
 F 1 "TRIANGLE" H 9870 1024 50  0000 R CNN
-F 2 "Connector_Audio_Additional:PJ-323M" H 10050 1000 50  0001 C CNN
+F 2 "Connector_Audio_QingPu:Jack_3.5mm_QingPu_WQP-PJ323M" H 10050 1000 50  0001 C CNN
 F 3 "~" H 10050 1000 50  0001 C CNN
 	1    10050 1000
 	-1   0    0    1   
@@ -706,12 +706,12 @@ TRI
 Wire Wire Line
 	10650 2050 10550 2050
 $Comp
-L Eurorack~Synth:Power_2x5 J5
+L Eurorack_Synth:Power_2x5 J5
 U 1 1 60F03A05
 P 1050 6850
 F 0 "J5" H 1158 7315 50  0000 C CNN
 F 1 "Power" H 1158 7224 50  0000 C CNN
-F 2 "Eurorack Synth:Power_2x5_Vertical" H 1100 6850 50  0001 C CNN
+F 2 "CATs_Eurosynth_Specials:Power_2x5_Vertical" H 1100 6850 50  0001 C CNN
 F 3 "" H 1100 6850 50  0001 C CNN
 	1    1050 6850
 	1    0    0    -1  
