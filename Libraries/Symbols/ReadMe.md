@@ -31,4 +31,4 @@
 		<td>Seeeduino_XIAO</td>
 	</tr>
 </table>
-<p>You may remodel the libraries, paths ans aliases according to your own needs of course. BUT: Compatibility with future releases will be lost.</p>
+<p>You may remodel the libraries, paths and aliases according to your own needs of course. BUT: Compatibility with future releases will be lost.</p>
