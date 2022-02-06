@@ -158,3 +158,11 @@ The remodelling in KiCAD, slight adaptation in hard- and software, PCB layout an
 		<br><a href="https://note.com/solder_state/n/n0209d16d0d08">Original Build Documentation</a>
 	</li>
 </ul>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/Sync%20LFO">Sync LFO (SMT, WIP)</a></h3>
+<ul>
+	<li>
+		<strong>Clock Sync LFO</strong>
+		<br><a href="https://www.youtube.com/watch?v=m64jyVz2w3M">YouTube</a>
+		<br><a href="https://note.com/solder_state/n/n4c600f2431c3">Original Build Documentation</a>
+	</li>
+</ul>
