@@ -12,3 +12,4 @@ sym-lib-table
 ########################
 *.SLDPRT
 *.SLDASM
+*.SLDDRW
