@@ -54,6 +54,7 @@
 <h2>Purely Mechanical</h2>
 <p>Some purely mechanical projects - blinds, cases,...</p>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Mechanicals/Blinds/1TE">1TE Blind Panel</a></h3>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Mechanicals/Blinds/3TE">3TE Blind Panel</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Mechanicals/Cases">Cases</a></h3>
 
 <h2>MFOS Clones</h2>
