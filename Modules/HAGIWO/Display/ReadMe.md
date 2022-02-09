@@ -9,9 +9,9 @@
 	</tr>
 	<tr>
 		<td>001</td>
-		<td>No</td>
+		<td>Yes</td>
 		<td>X</td>
 		<td></td>
-		<td>Input stage only can handle unipolar signals only. Scaling/offset/LPF circuit has to be redesigned.</td>
+		<td>R4 (47k) and R5 (10k) were swapped in the original design.</td>
 	</tr>
 </table>
