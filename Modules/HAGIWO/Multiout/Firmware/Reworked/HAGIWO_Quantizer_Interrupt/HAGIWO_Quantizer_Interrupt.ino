@@ -20,8 +20,10 @@ bool old_CLK_in = 0;
 byte mode = 0; //0=select,1=atk1,2=dcy1,3=atk2,4=dcy2
 
 float AD_CH1, old_AD_CH1, AD_CH2, old_AD_CH2;
-float AD_CH1_calb = 1.085;//reduce resistance error
-float AD_CH2_calb = 1.097;//reduce resistance error
+float AD_CH1_calib_m = 1.10501;//reduce resistance error
+float AD_CH1_calib_b = -37.7350;//reduce resistance error
+float AD_CH2_calib_m = 1.10501;//reduce resistance error
+float AD_CH2_calib_b = -37.7350;//reduce resistance error
 
 int CV_in1, CV_in2;
 float CV_out1, CV_out2, old_CV_out1, old_CV_out2;
@@ -316,7 +318,7 @@ void loop() {
  myEnc.update();
 
  //-------------------------------Analog read and qnt setting--------------------------
- AD_CH1 = analogRead(Pin_Ch1_In) / 4 * AD_CH1_calb; //12bit to 10bit
+ AD_CH1 = ((analogRead(Pin_Ch1_In) * AD_CH1_calib_m)+AD_CH1_calib_b)/4; //12bit to 10bit
  AD_CH1 = AD_CH1 * (8 + sens1 * 3) / 10; //sens setting
  if (abs(old_AD_CH1 - AD_CH1) > 10) {//counter measure AD error , ignore small changes
    for ( search_qnt = 0; search_qnt <= 61 ; search_qnt++ ) {// quantize
@@ -336,7 +338,7 @@ void loop() {
    }
  }
 
- AD_CH2 = analogRead(Pin_Ch2_In) / 4 * AD_CH2_calb; //12bit to 10bit
+ AD_CH2 = ((analogRead(Pin_Ch2_In) * AD_CH2_calib_m)+AD_CH2_calib_b)/4; //12bit to 10bit
  AD_CH2 = AD_CH2 * (8 + sens2 * 3) / 10; //sens setting
  if (abs(old_AD_CH2 - AD_CH2) > 10) {//counter measure AD error , ignore small changes
    for ( search_qnt = 0; search_qnt <= 61 ; search_qnt++ ) {// quantize
