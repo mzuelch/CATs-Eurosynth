@@ -78,6 +78,10 @@ The remodelling in KiCAD, slight adaptation (especially changes to +/-12V), PCB 
 <ul>
 	<li><a href="http://yusynth.net/Modular/EN/STEINERVCF/index-v2.html">Original Build Documentation</a></li>
 </ul>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/YuSynth/Balanced%20Modulator"><b>Single</b> balanced Modulator (THT/SMT, WIP)</a></h3>
+<ul>
+	<li><a href="http://yusynth.net/Modular/EN/RINGMOD/index.html">Original Build Documentation</a></li>
+</ul>
 
 <h2>Haraldswerk</h2>
 <p>The basic electronic design was made by <a href="https://www.haraldswerk.de/">Haraldswerk</a>.
