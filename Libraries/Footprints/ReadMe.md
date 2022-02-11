@@ -38,5 +38,9 @@
 		<td>CATs_Module_Additional.pretty</td>
 		<td>Module_Additional</td>
 	</tr>
+	<tr>
+		<td>CATS_Eurorack_Frontpanels.pretty</td>
+		<td>Eurorack_Frontpanels</td>
+	</tr>
 </table>
 <p>You may remodel the libraries, paths and aliases according to your own needs of course. BUT: Compatibility with future releases will be lost.</p>
