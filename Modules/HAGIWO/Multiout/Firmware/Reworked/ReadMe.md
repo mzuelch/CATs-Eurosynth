@@ -22,7 +22,7 @@
 <h4>ToDo's</h4>
 <ul>
 	<li>Input calibration routine instead of hardcoded calibration factor</li>
-	<li>Additional envelope generators:
+	<li>Additional envelope generator modes:
 		<ul>
 			<li>Gate</li>
 			<li>Trigger</li>
