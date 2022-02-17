@@ -1,4 +1,5 @@
 <h2>Reworked Firmwares</h2>
+<p>Check and install dependecies in the corresponding directories</p>
 <h3>HAGIWO_MultiOut_Calibration</h3>
 <p>Calibration tool for both analog out channels as well as a tool to calculate the proper calibration settings:</p>
 <ul>
