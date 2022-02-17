@@ -32,7 +32,7 @@ float AD_CH2_calib_b = -12.3594;//reduce resistance error
 int CV_in1, CV_in2;
 float CV_out1, CV_out2, old_CV_out1, old_CV_out2;
 long gate_timer1, gate_timer2; //EG curve progress speed
-
+boolean Ch1_triggered, Ch2_triggered;
 int cmp1, cmp2; //Detect closest note
 int k = 0;
 
@@ -204,6 +204,7 @@ void isrTrigger() {
     if (atk1 == 1) {
       ad1 = 200; //no attack time
     }
+    Ch1_triggered = true;
   }
   if (sync2 == 0) {
     ad2 = 0;
@@ -212,6 +213,7 @@ void isrTrigger() {
     if (atk2 == 1) {
       ad2 = 200; //no attack time
     }
+    Ch2_triggered = true;
   }
 }
 
@@ -239,6 +241,8 @@ void setup() {
   //I2C connect
   Wire.begin();
   Wire.setClock(3400000);
+  Ch1_triggered = false;
+  Ch2_triggered = false;
   //read stored data
   if (EEPROM.read(1) == 0x7F) { //already writed eeprom
     note_str1 = EEPROM.read(2);
@@ -322,6 +326,7 @@ void loop() {
  myEnc.update();
 
  //-------------------------------Analog read and qnt setting--------------------------
+ 
  AD_CH1 = ((analogRead(Pin_Ch1_In) * AD_CH1_calib_m)+AD_CH1_calib_b)/4; //12bit to 10bit
  AD_CH1 = AD_CH1 * (8 + sens1 * 3) / 10; //sens setting
  if (abs(old_AD_CH1 - AD_CH1) > 10) {//counter measure AD error , ignore small changes
@@ -370,6 +375,7 @@ void loop() {
    if (atk1 == 1) {
      ad1 = 200; //no attack time
    }
+   Ch1_triggered = true;
  }
  if (sync2 == 1 && old_CV_out2 != CV_out2) {
    ad2 = 0;
@@ -378,6 +384,7 @@ void loop() {
    if (atk2 == 1) {
      ad2 = 200; //no attack time
    }
+   Ch2_triggered = true;
  }
 
  //envelope ch1 out
@@ -423,12 +430,14 @@ void loop() {
  }
 
  //DAC OUT
- if (old_CV_out1 != CV_out1) {
+ if (Ch1_triggered) {
    MCP1(CV_out1);
  }
- if (old_CV_out2 != CV_out2) {
+ if (Ch2_triggered) {
    MCP2(CV_out2);
  }
+ Ch1_triggered = false;
+ Ch2_triggered = false;
 
  //display out
  if (disp_reflesh == 1) {

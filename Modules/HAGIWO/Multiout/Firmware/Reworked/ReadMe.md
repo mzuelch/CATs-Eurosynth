@@ -17,6 +17,7 @@
 	<li>Ext. Trigger handling changed to interrupt service routine</li>
 	<li>I2C sped up to 3.4MHz communication speed</li>
 	<li>Changed Calibration formula</li>
+	<li>Output voltage in Trigger mode only changes once</li>
 	<li>General debugging</li>
 </ul>
 <h4>ToDo's</h4>
