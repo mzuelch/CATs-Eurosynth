@@ -20,10 +20,14 @@ bool old_CLK_in = 0;
 byte mode = 0; //0=select,1=atk1,2=dcy1,3=atk2,4=dcy2
 
 float AD_CH1, old_AD_CH1, AD_CH2, old_AD_CH2;
-float AD_CH1_calib_m = 1.10501;//reduce resistance error
-float AD_CH1_calib_b = -37.7350;//reduce resistance error
-float AD_CH2_calib_m = 1.10501;//reduce resistance error
-float AD_CH2_calib_b = -37.7350;//reduce resistance error
+/////////////////////////////////////////////////////
+// Change according to HAGIWO_MultiOut_Calibration //
+/////////////////////////////////////////////////////
+float AD_CH1_calib_m = 1.0974;//reduce resistance error
+float AD_CH1_calib_b = -18.3125;//reduce resistance error
+float AD_CH2_calib_m = 1.0965;//reduce resistance error
+float AD_CH2_calib_b = -12.3594;//reduce resistance error
+/////////////////////////////////////////////////////
 
 int CV_in1, CV_in2;
 float CV_out1, CV_out2, old_CV_out1, old_CV_out2;

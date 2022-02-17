@@ -1,4 +1,13 @@
 <h2>Reworked Firmwares</h2>
+<h3>HAGIWO_MultiOut_Calibration</h3>
+<p>Calibration tool for both analog out channels as well as a tool to calculate the proper calibration settings:</p>
+<ul>
+	<li>AD_CH1_calib_m</li>
+	<li>AD_CH1_calib_b</li>
+	<li>AD_CH2_calib_m</li>
+	<li>AD_CH2_calib_b</li>
+</ul>
+<p>Run this tool prior to the actual programming and change the "real" firmware accordingly</p>
 <h3>HAGIWO_Quantizer_Interrupt</h3>
 <p>Firmware update based on the original release.</p>
 <ul>
