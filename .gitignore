@@ -9,6 +9,7 @@ sym-lib-table
 *-rescue.*
 *.dcm
 *.bck
+*-backups
 
 # SolidWorks Originals #
 ########################
