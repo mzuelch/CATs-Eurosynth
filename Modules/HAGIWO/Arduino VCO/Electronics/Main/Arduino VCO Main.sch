@@ -1216,6 +1216,7 @@ F 0 "U1" H 7550 1950 50  0000 L CNN
 F 1 "TL072CDT" H 7550 2250 50  0000 L CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 7550 2100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7550 2100 50  0001 C CNN
+F 4 "C6961" H 7550 2100 50  0001 C CNN "LCSC"
 	2    7550 2100
 	1    0    0    1   
 $EndComp
@@ -1273,7 +1274,7 @@ F 0 "U1" H 2412 6796 50  0000 R CNN
 F 1 "TL072CDT" H 2412 6705 50  0000 R CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 2600 6750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2600 6750 50  0001 C CNN
-F 4 "" H 2600 6750 50  0001 C CNN "LCSC"
+F 4 "C6961" H 2600 6750 50  0001 C CNN "LCSC"
 	3    2600 6750
 	-1   0    0    -1  
 $EndComp
