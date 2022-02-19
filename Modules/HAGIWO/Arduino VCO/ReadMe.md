@@ -9,7 +9,7 @@
 	</tr>
 	<tr>
 		<td>001</td>
-		<td>No</td>
+		<td>Yes</td>
 		<td>X</td>
 		<td></td>
 		<td>Output level restricted to +/-2.5V by design. Amplification to eurorack standard (+/-5V) needed.</td>
