@@ -60,7 +60,7 @@ byte button_on = 0;//チャタリング判定後のボタン状態。0=OFF,1=ON
 
 // ディスプレイ変数の宣言
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
-
+byte redrawDisplay = 0;
 //オプション
 byte mode = 0;//0=MANUAL,1=AUTO
 byte count_reset = 0;//1でcountが0になる
@@ -223,11 +223,13 @@ void loop() {
  if ( newPosition + 2  < oldPosition ) {//左回し
    oldPosition = newPosition;
    enc = enc - 1;
+   redrawDisplay=1;
  }
 
  else if ( newPosition - 2   > oldPosition ) {//右回し
    oldPosition = newPosition;
    enc = enc + 1;
+   redrawDisplay=1;
  }
 
  if (enc <= 0) {
@@ -251,7 +253,7 @@ void loop() {
 
  if (old_button == 0 && button == 1) {//0→1の時に1回だけpush判定
    button_on = 1;
-
+   redrawDisplay=1;
  }
  else {
    button_on = 0;
@@ -497,7 +499,10 @@ void loop() {
  if (old_clock_in == 0 && clock_in == 1) {
    OLED_display();
  }
-
+ if (redrawDisplay == 1) {
+   OLED_display();
+   redrawDisplay=0;
+ }
  //  //開発用
  //    Serial.print(repeat_done);
  //    Serial.print(",");
