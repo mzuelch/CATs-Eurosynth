@@ -105,6 +105,7 @@ void setup() {
  pinMode(8, OUTPUT); //CH4
  pinMode(9, OUTPUT); //CH5
  pinMode(10, OUTPUT); //CH6
+ pinMode(13, INPUT);
  enc_timer = 0;
 }
 
@@ -146,7 +147,7 @@ void loop() {
    Serial.println("Encoder pushed!");
    sw_timer = millis();
    sw = 0;
-   //    disp_reflesh = 1;//Enable while debugging.
+   disp_reflesh = 1;//Enable while debugging.
  }
 
  if (sw == 0) { //push button on

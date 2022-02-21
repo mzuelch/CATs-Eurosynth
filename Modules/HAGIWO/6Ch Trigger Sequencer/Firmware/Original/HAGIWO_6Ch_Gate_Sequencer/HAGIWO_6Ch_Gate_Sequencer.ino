@@ -184,7 +184,7 @@ void setup() {
  pinMode(8, OUTPUT); //CH4
  pinMode(9, OUTPUT); //CH5
  pinMode(10, OUTPUT); //CH6
-
+ pinMode(13, INPUT); //Trigger
  //保存データの読み出し
  ch1_step = EEPROM.read(1) * 256 + EEPROM.read(2);
  ch2_step = EEPROM.read(3) * 256 + EEPROM.read(4);
