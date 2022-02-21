@@ -20,6 +20,6 @@ For further information see <a href="https://github.com/mzuelch/CATs-Eurosynth/b
 		<td>No</td>
 		<td>X</td>
 		<td></td>
-		<td>Design uses not readily available BAT43W. Redesign to BAV99W as JLCPCB basic component.</td>
+		<td>Design uses not readily available BAT43W. Redesign to BAV99,215/C2500 as JLCPCB basic component.</td>
 	</tr>
 </table>
