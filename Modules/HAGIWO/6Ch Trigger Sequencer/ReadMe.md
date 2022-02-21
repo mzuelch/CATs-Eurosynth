@@ -9,7 +9,7 @@
 	</tr>
 	<tr>
 		<td>001</td>
-		<td>No</td>
+		<td>Yes</td>
 		<td></td>
 		<td>6Ch Gate Sequencer<br>6Ch Euclidian Rythm Sequencer</td>
 		<td>Parameter setup needs running trigger input.</td>
