@@ -23,10 +23,10 @@ float AD_CH1, old_AD_CH1, AD_CH2, old_AD_CH2;
 /////////////////////////////////////////////////////
 // Change according to HAGIWO_MultiOut_Calibration //
 /////////////////////////////////////////////////////
-float AD_CH1_calib_m = 1.0974;//reduce resistance error
-float AD_CH1_calib_b = -18.3125;//reduce resistance error
-float AD_CH2_calib_m = 1.0965;//reduce resistance error
-float AD_CH2_calib_b = -12.3594;//reduce resistance error
+float AD_CH1_calib_m = 1.1020;//reduce resistance error
+float AD_CH1_calib_b = -17.2500;//reduce resistance error
+float AD_CH2_calib_m = 1.1037;//reduce resistance error
+float AD_CH2_calib_b = -10.6562;//reduce resistance error
 /////////////////////////////////////////////////////
 
 int CV_in1, CV_in2;

@@ -160,6 +160,8 @@ void CalibrateOutputs() {
   display.setCursor(1, 1);
   display.print("Running...");
   display.display();
+  Sample_Sum_Ch1 = 0.0;
+  Sample_Sum_Ch2 = 0.0;
   for (int i = 0; i<Sample_length; i++) {
     Sample_Ch1[i] = analogRead(Pin_Ch1_In);
     Sample_Ch2[i] = analogRead(Pin_Ch2_In);

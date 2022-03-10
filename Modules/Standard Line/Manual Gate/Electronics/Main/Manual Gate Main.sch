@@ -369,7 +369,7 @@ L Device:R R7
 U 1 1 613B592E
 P 2350 8000
 F 0 "R7" H 2420 8046 50  0000 L CNN
-F 1 "22k" H 2420 7955 50  0000 L CNN
+F 1 "10k" H 2420 7955 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2280 8000 50  0001 C CNN
 F 3 "~" H 2350 8000 50  0001 C CNN
 	1    2350 8000
@@ -515,17 +515,6 @@ F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 1238 7800 50  0001 C CNN
 F 3 "~" H 1200 7950 50  0001 C CNN
 	1    1200 7950
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 613D4165
-P 1450 8200
-F 0 "R2" H 1380 8154 50  0000 R CNN
-F 1 "22k" H 1380 8245 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1380 8200 50  0001 C CNN
-F 3 "~" H 1450 8200 50  0001 C CNN
-	1    1450 8200
-	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR03
@@ -1501,4 +1490,15 @@ Text GLabel 9350 3850 0    50   Input ~ 0
 Gateq_Pin
 Text GLabel 9350 3950 0    50   Input ~ 0
 Trigger_Pin
+$Comp
+L Device:R R2
+U 1 1 613D4165
+P 1450 8200
+F 0 "R2" H 1380 8154 50  0000 R CNN
+F 1 "220k" H 1380 8245 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1380 8200 50  0001 C CNN
+F 3 "~" H 1450 8200 50  0001 C CNN
+	1    1450 8200
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
