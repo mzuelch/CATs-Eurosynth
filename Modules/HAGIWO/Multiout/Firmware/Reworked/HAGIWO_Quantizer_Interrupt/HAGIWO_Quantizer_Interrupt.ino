@@ -237,7 +237,14 @@ void setup() {
   // OLED initialize
   display.begin(SSD1306_SWITCHCAPVCC, I2C_OLED_ADDRESS);
   display.clearDisplay();
-
+  display.drawXBitmap(0, 0, Logo_bits, Logo_width, Logo_height, 1);
+  display.setTextSize(1);
+  display.setTextColor(WHITE, BLACK);
+  display.setCursor(45, 45);
+  display.print("Quantizer");
+  display.display();
+  delay(2000);
+  display.clearDisplay();
   //I2C connect
   Wire.begin();
   Wire.setClock(3400000);
