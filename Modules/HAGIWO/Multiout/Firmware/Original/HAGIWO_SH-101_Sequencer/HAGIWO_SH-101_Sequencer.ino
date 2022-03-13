@@ -101,7 +101,14 @@ void setup() {
  // OLED initialize
  display.begin(SSD1306_SWITCHCAPVCC, I2C_OLED_ADDRESS);
  display.clearDisplay();
-
+  display.drawXBitmap(0, 0, Logo_bits, Logo_width, Logo_height, 1);
+  display.setTextSize(1);
+  display.setTextColor(WHITE, BLACK);
+  display.setCursor(45, 45);
+  display.print("SH-101 Seq");
+  display.display();
+  delay(2000);
+  display.clearDisplay();
  //I2C connect
  Wire.begin();
 }
@@ -245,7 +252,8 @@ void loop() {
    if (old_CV_in2 == 1 && CV_in2 == 0) { //when trigger fall , record CV input
 
      //analog read and quantize
-     AD_CH1 = ((analogRead(Pin_Ch2_In) * AD_CH2_calib_m)+AD_CH2_calib_b)/4; //12bit to 10bit
+     AD_CH1 = analogRead(Pin_Ch2_In);
+     AD_CH1 = ((AD_CH1 * AD_CH2_calib_m)+AD_CH2_calib_b)/4; //12bit to 10bit
      for ( search_qnt = 0; search_qnt <= 61 ; search_qnt++ ) {// quantize
        if ( AD_CH1 >= cv_qnt_thr[search_qnt] && AD_CH1 < cv_qnt_thr[search_qnt + 1]) {
          stepcv_ch1[rec_step] = search_qnt;
@@ -275,6 +283,7 @@ void loop() {
 
      //analog read and quantize
      AD_CH2 = ((analogRead(Pin_Ch2_In) * AD_CH2_calib_m)+AD_CH2_calib_b)/4; //12bit to 10bit
+     Serial.println(AD_CH2);
      for ( search_qnt = 0; search_qnt <= 61 ; search_qnt++ ) {// quantize
        if ( AD_CH2 >= cv_qnt_thr[search_qnt] && AD_CH2 < cv_qnt_thr[search_qnt + 1]) {
          stepcv_ch2[rec_step] = search_qnt;
