@@ -1,0 +1,77 @@
+* H:\+--- Sortierte Dokumente ---+\GitHub\CATs-Eurosynth\Modules\HAGIWO\VCF Diode Ladder Filter\Simulation\VCF Diode Ladder Filter.asc
+V1 +V 0 12
+V2 0 -V 12
+V3 Signal 0 PULSE(-5 5 1p 9m 1p 1p 9m)
+V4 CV 0 PULSE(0 5 1p 2 2 1p 4)
+XX1 Signal N016 0 pot params: R=100K Val=100
+R1 N017 N016 10k
+R2 N017 0 33k
+C1 N018 N017 10µ
+Q1 N014 N018 N020 0 MMBT3904
+C2 N015 N014 47n
+Q2 N015 N019 N020 0 MMBT3904
+D3 N004 N009 1N4148
+D1 N009 N012 1N4148
+D2 N012 N014 1N4148
+D4 N013 N015 1N4148
+D5 N010 N013 1N4148
+D6 N007 N010 1N4148
+C3 N013 N012 47n
+C4 N010 N009 47n
+C5 N007 N004 47n
+D7 P001 N004 1N4148
+D8 P002 P001 1N4148
+D9 N001 P002 1N4148
+D10 P003 N007 1N4148
+D11 P004 P003 1N4148
+D12 N001 P004 1N4148
+R3 +V N001 1k
+R4 N002 N004 6.8k
+R5 N006 N007 6.8k
+R6 N006 0 100k
+R7 N003 N002 82k
+R8 N005 N003 1k
+C6 Out N005 4.7µ
+C7 N008 N003 4.7µ
+XX2 N008 N011 0 pot params: R=100K Val=100
+R9 N011 0 10k
+C8 N011 N019 10µ
+R10 N018 N021 2.2k
+R11 N019 N021 2.2k
+C9 N021 0 10µ
+R12 N021 0 10k
+R13 +V N021 10k
+Q3 N020 0 N030 0 MMBT3904
+R14 N030 -V 4.7k
+Q4 N026 N028 N030 0 MMBT3904
+R15 +V N026 4.7k
+R16 N028 0 2.2k
+R17 N028 N025 33k
+R18 N025 N024 10k
+R19 N029 0 10k
+R20 N024 N023 33k
+XX3 N022 N023 N027 pot params: R=100K Val=10
+R21 +V N022 33k
+R22 N027 -V 2.2k
+R23 CV N024 10k
+XU1 N006 N002 +V -V N003 LT1001
+XU2 N029 N024 +V -V N025 LT1001
+
+* block symbol definitions
+.subckt pot 1 2 3
+R1 1 2 {Ra}
+R2 2 3 {Rb}
+.param Ra=R * (1 - Val/100) +1n
+.param Rb=R * (Val/100) + 1n
+.ends pot
+
+.model D D
+.lib H:\+--- Sortierte Dokumente ---+\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib H:\+--- Sortierte Dokumente ---+\LTspiceXVII\lib\cmp\standard.bjt
+.tran 5
+.wave "Filter.wav" 16 44.1k V(Out)
+.lib LTC.lib
+.backanno
+.end
