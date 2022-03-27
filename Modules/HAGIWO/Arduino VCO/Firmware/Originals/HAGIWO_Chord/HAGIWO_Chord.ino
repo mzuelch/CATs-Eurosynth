@@ -57,7 +57,7 @@ Oscil <PHASOR256_NUM_CELLS, AUDIO_RATE> aPha2(PHASOR256_DATA);
 Oscil <PHASOR256_NUM_CELLS, AUDIO_RATE> aPha3(PHASOR256_DATA);
 Oscil <PHASOR256_NUM_CELLS, AUDIO_RATE> aPha4(PHASOR256_DATA);
 Oscil <PHASOR256_NUM_CELLS, AUDIO_RATE> aPha5(PHASOR256_DATA);
-#define CONTROL_RATE 128 // Hz, powers of 2 are most reliable
+#define CONTROL_RATE 64 // Hz, powers of 2 are most reliable
 
 int freq1 = 110;//base freq
 int voct = 1000;//external V/OCT LSB
