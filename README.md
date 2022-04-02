@@ -140,7 +140,7 @@ The remodelling in KiCAD, slight adaptation in hard- and software, PCB layout an
 		<br><a href="https://note.com/solder_state/n/n6b4cc8d1c6b9">Original Build Documentation</a>
 	</li>
 </ul>
-<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/Arduino%20VCO">Arduino VCO (SMT, WIP)</a></h3>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/Arduino%20VCO">Arduino VCO (SMT, Working)</a></h3>
 <ul>
 	<li>
 		<strong>Additive VCO</strong>

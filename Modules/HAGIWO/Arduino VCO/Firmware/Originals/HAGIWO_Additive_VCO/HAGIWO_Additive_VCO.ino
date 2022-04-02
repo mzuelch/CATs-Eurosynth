@@ -11,7 +11,7 @@ Oscil <SIN2048_NUM_CELLS, AUDIO_RATE> aSin6(SIN2048_DATA);
 Oscil <SIN2048_NUM_CELLS, AUDIO_RATE> aSin7(SIN2048_DATA);
 Oscil <SIN2048_NUM_CELLS, AUDIO_RATE> aSin8(SIN2048_DATA);
 
-#define CONTROL_RATE 128 // Hz, powers of 2 are most reliable
+#define CONTROL_RATE 256 // Hz, powers of 2 are most reliable
 
 int freq1 = 110;//base freq of OSC1
 int voct = 1000;//external V/OCT LSB

@@ -14,4 +14,11 @@
 		<td></td>
 		<td>Output level restricted to +/-2.5V by design. Amplification to eurorack standard (+/-5V) needed.</td>
 	</tr>
+	<tr>
+		<td>002</td>
+		<td>No</td>
+		<td></td>
+		<td>X</td>
+		<td>Chord firmware produces low level output.</td>
+	</tr>
 </table>
