@@ -1,0 +1,3 @@
+(module Bohrung_3.2mm (layer F.Cu) (tedit 60E3EDE5)
+  (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+)

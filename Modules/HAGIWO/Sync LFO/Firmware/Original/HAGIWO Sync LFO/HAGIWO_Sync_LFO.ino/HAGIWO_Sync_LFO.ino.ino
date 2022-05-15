@@ -2,7 +2,7 @@
 #include "Periphery.h"
 #include <avr/io.h>
 
-unsigned int frq = 50000; // PWM周波数。60kHzあたりまで機能するが、マージンとって50kHzとする。
+unsigned int frq = 60000; // PWM周波数。60kHzあたりまで機能するが、マージンとって50kHzとする。
 float duty = 0.5; // duty比率
 int count = 0;
 
@@ -188,13 +188,13 @@ void loop() {
  }
  // モード指定
  TCCR1A = 0b00100001;
- TCCR1B = 0b00010001;//分周比1
+ TCCR1B = 0b00100001;//分周比1
 
  // TOP値指定
- OCR1A = (unsigned int)(8000000 / frq);
+ //OCR1A = (unsigned int)(16000000 / frq);
 
  // Duty比指定
- OCR1B = (unsigned int)(8000000  / frq * duty * amp_rate);
+ OCR1B = (unsigned int)(16000000  / frq * duty * amp_rate);
 
  // for development
  //  Serial.print(ext_injudge);
@@ -253,5 +253,5 @@ void timer_count() {
      duty = 1;
    }
  }
- analogWrite(PWMOut, duty);
+ //analogWrite(PWMOut, (int)(duty*256));
 }
