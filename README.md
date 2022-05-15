@@ -53,6 +53,7 @@
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Sample%26Hold">Dual Sample&Hold (THT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Precision%20Adder">Precision Adder (SMT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Rectifier">Rectifier (THT, WIP)</a></h3>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/VCA">VCA (THT, Working)</a></h3>
 
 <h2>Purely Mechanical</h2>
 <p>Some purely mechanical projects - blinds, cases,...</p>
