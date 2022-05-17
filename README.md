@@ -45,7 +45,7 @@
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Abakus">Abakus (SMT/THT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Manual%20Gate">Manual Gate (THT, WIP)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Envelope%20Follower">Envelope Follower (THT, WIP)</a></h3>
-
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Vactrol%20VCF">Vactrol VCF (THT, Working)</a></h3>
 <h2>Slim Line</h2>
 <p>Slim Modules to cope with the ever increasing lamentations from my bandmates and wife. Also these designs are based on either my own ideas and mistakes or published in so many places I can't figure out the original source.</p>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Attenuator">Single Attenuator (THT, Working)</a></h3>
