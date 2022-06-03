@@ -1,3 +1,4 @@
+<p>Thanks to modulove for his nice alternative front design!</p>
 <h1>Known Issues</h1>
 <table>
 	<tr>
