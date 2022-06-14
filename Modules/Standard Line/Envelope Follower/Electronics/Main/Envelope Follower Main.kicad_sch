@@ -2173,7 +2173,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f544f9ba-8782-4d86-bad1-52272bcc53ad)
     (property "Reference" "R13" (id 0) (at 213.36 86.4575 90))
-    (property "Value" "470" (id 1) (at 213.36 89.2326 90))
+    (property "Value" "560" (id 1) (at 213.36 89.2326 90))
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 213.36 93.218 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2313,7 +2313,7 @@
       (reference "R12") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/f544f9ba-8782-4d86-bad1-52272bcc53ad"
-      (reference "R13") (unit 1) (value "470") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+      (reference "R13") (unit 1) (value "560") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
     (path "/b2bd03a4-ec28-4d74-91f9-acbeba1ad448"
       (reference "U1") (unit 1) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm_LongPads")
