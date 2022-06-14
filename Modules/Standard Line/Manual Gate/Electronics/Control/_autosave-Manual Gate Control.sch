@@ -98,6 +98,17 @@ F 3 "~" H 3500 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
+L Device:R R12
+U 1 1 61377CA2
+P 3500 2350
+F 0 "R12" H 3430 2304 50  0000 R CNN
+F 1 "1k" H 3430 2395 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3430 2350 50  0001 C CNN
+F 3 "~" H 3500 2350 50  0001 C CNN
+	1    3500 2350
+	-1   0    0    1   
+$EndComp
+$Comp
 L power:GND #PWR012
 U 1 1 6137804C
 P 3500 2600
@@ -166,6 +177,17 @@ F 2 "LED_THT:LED_D3.0mm" H 4700 1850 50  0001 C CNN
 F 3 "~" H 4700 1850 50  0001 C CNN
 	1    4700 1850
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 61382857
+P 4700 2350
+F 0 "R24" H 4630 2304 50  0000 R CNN
+F 1 "1k" H 4630 2395 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4630 2350 50  0001 C CNN
+F 3 "~" H 4700 2350 50  0001 C CNN
+	1    4700 2350
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR022
@@ -238,6 +260,17 @@ F 3 "~" H 5900 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
+L Device:R R32
+U 1 1 61389B51
+P 5900 2350
+F 0 "R32" H 5830 2304 50  0000 R CNN
+F 1 "1k" H 5830 2395 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 5830 2350 50  0001 C CNN
+F 3 "~" H 5900 2350 50  0001 C CNN
+	1    5900 2350
+	-1   0    0    1   
+$EndComp
+$Comp
 L power:GND #PWR035
 U 1 1 61389B5B
 P 5900 2600
@@ -306,6 +339,17 @@ F 2 "LED_THT:LED_D3.0mm" H 7100 1850 50  0001 C CNN
 F 3 "~" H 7100 1850 50  0001 C CNN
 	1    7100 1850
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 613B598A
+P 7100 2350
+F 0 "R14" H 7030 2304 50  0000 R CNN
+F 1 "1k" H 7030 2395 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7030 2350 50  0001 C CNN
+F 3 "~" H 7100 2350 50  0001 C CNN
+	1    7100 2350
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR014
@@ -424,6 +468,17 @@ F 2 "" H 2200 2600 50  0001 C CNN
 F 3 "" H 2200 2600 50  0001 C CNN
 	1    2200 2600
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R37
+U 1 1 61392356
+P 2200 2350
+F 0 "R37" H 2130 2304 50  0000 R CNN
+F 1 "1k" H 2130 2395 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2130 2350 50  0001 C CNN
+F 3 "~" H 2200 2350 50  0001 C CNN
+	1    2200 2350
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D11
@@ -633,59 +688,4 @@ Text GLabel 9350 3850 0    50   Input ~ 0
 Gateq_Pin
 Text GLabel 9350 3950 0    50   Input ~ 0
 Trigger_Pin
-$Comp
-L Diode:1N47xxA D1
-U 1 1 62A84ABE
-P 2200 2350
-F 0 "D1" V 2154 2430 50  0000 L CNN
-F 1 "1N4733A" V 2245 2430 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H 2200 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 2200 2350 50  0001 C CNN
-	1    2200 2350
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N47xxA D2
-U 1 1 62A851B5
-P 3500 2350
-F 0 "D2" V 3454 2430 50  0000 L CNN
-F 1 "1N4733A" V 3545 2430 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H 3500 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 3500 2350 50  0001 C CNN
-	1    3500 2350
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N47xxA D5
-U 1 1 62A8553D
-P 4700 2350
-F 0 "D5" V 4654 2430 50  0000 L CNN
-F 1 "1N4733A" V 4745 2430 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H 4700 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 4700 2350 50  0001 C CNN
-	1    4700 2350
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N47xxA D7
-U 1 1 62A8590A
-P 5900 2350
-F 0 "D7" V 5854 2430 50  0000 L CNN
-F 1 "1N4733A" V 5945 2430 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H 5900 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 5900 2350 50  0001 C CNN
-	1    5900 2350
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N47xxA D8
-U 1 1 62A85C54
-P 7100 2350
-F 0 "D8" V 7054 2430 50  0000 L CNN
-F 1 "1N4733A" V 7145 2430 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" H 7100 2175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 7100 2350 50  0001 C CNN
-	1    7100 2350
-	0    1    1    0   
-$EndComp
 $EndSCHEMATC
