@@ -1,1 +1,11 @@
-<img src="https://github.com/mzuelch/CATs-Eurosynth/blob/main/Modules/Standard%20Line/Atari%20Punk%20Console/Documentation/Rendering.jpg" alt="Rendering">
+<h1>Atari Punk Console</h1>
+<table>
+	<tr valign="top">
+		<td><img src="../../../Artwork/Atari%20Punk%20Console.png" height="300"></td>
+		<td>
+			<p>
+				
+			</p>
+		</td>
+	</tr>
+</table>
