@@ -1,6 +1,6 @@
 <h1>Power Module</h1>
 <table>
-	<tr vertical-align="top">
+	<tr valign="top">
 		<td><img src="../../../Artwork/Power%20Modul.png" width=100px></td>
 		<td>
 			<p>
