@@ -1,1 +1,11 @@
-<img src="https://github.com/mzuelch/CATs-Eurosynth/blob/main/Modules/Slim%20Line/Buffered%20Multiple/Documentation/Rendering.JPG" alt="Rendering">
+<h1>Power Module</h1>
+<table>
+	<tr valign="top">
+		<td><img src="../../../Artwork/Buffered%20Multiple.png" heigth=300px></td>
+		<td>
+			<p>
+				Buffered Multiple 2x 1->3 or 1x 1->6
+			</p>
+		</td>
+	</tr>
+</table>
