@@ -66,7 +66,7 @@
 <p>The basic electronic design was made by <a href="http://musicfromouterspace.com/">Music From Outer Space</a>.
 The remodelling in KiCAD, slight adaptation, PCB layout and frontpanel designs are based on my own faults</p>
 <p>RIP Ray Wilson</p>
-<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/MFOS/Dual%20VCA%20%232">Dual VCA #2 (THT, Working)</a></h3>
+<h3><s>Dual VCA #2 (THT, Current Rework)</s></h3>
 <ul>
 	<li><a href="http://musicfromouterspace.com/analogsynth_new/OLDIESBUTGOODIES/VCA/dualvca-2.html">Original Build Documentation</a></li>
 </ul>
