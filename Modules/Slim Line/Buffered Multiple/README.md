@@ -4,7 +4,7 @@
 		<td><img src="../../../Artwork/Buffered%20Multiple.png" height="300"></td>
 		<td>
 			<p>
-				Buffered Multiple 2x 1->3 or 1x 1->6
+				Simple Buffered Multiple 2x 1->3 or 1x 1->6
 			</p>
 		</td>
 	</tr>

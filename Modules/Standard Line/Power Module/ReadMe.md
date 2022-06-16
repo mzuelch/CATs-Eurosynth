@@ -1,7 +1,7 @@
 <h1>Power Module</h1>
 <table>
 	<tr valign="top">
-		<td><img src="../../../Artwork/Power%20Modul.png" width=100px></td>
+		<td><img src="../../../Artwork/Power%20Modul.png" height="300"></td>
 		<td>
 			<p>
 				Simple Power Input module to provide a mains switch as well as some rudimentary voltage indication.
