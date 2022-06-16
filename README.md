@@ -43,7 +43,7 @@
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/4Ch%20Mixer">4Ch Mixer (SMT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Clock%20Divider">Clock Divider (THT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Abakus">Abakus (SMT/THT, Working)</a></h3>
-<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Manual%20Gate">Manual Gate (THT, WIP)</a></h3>
+<h3><s>Manual Gate (THT, Rework)</s></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Envelope%20Follower">Envelope Follower (THT, WIP)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Vactrol%20VCF">Vactrol VCF (THT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Classic%20ADSR">Classic ADSR (SMT, WIP)</a></h3>
@@ -66,7 +66,7 @@
 <p>The basic electronic design was made by <a href="http://musicfromouterspace.com/">Music From Outer Space</a>.
 The remodelling in KiCAD, slight adaptation, PCB layout and frontpanel designs are based on my own faults</p>
 <p>RIP Ray Wilson</p>
-<h3><s>Dual VCA #2 (THT, Current Rework)</s></h3>
+<h3><s>Dual VCA #2 (THT, Rework)</s></h3>
 <ul>
 	<li><a href="http://musicfromouterspace.com/analogsynth_new/OLDIESBUTGOODIES/VCA/dualvca-2.html">Original Build Documentation</a></li>
 </ul>
