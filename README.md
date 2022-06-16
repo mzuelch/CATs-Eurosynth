@@ -39,7 +39,7 @@
 <p>Collection of modules with no regard to size. These designs are based on either my own ideas and mistakes or published in so many places I can't figure out the original source.</p>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Power%20Module">Power Module (THT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Atari%20Punk%20Console">Atari Punk Console (THT, Working)</a></h3>
-<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Baby8%20Sequencer">Baby8 Sequencer (THT, Working (sort of), but i can do better)</a></h3>
+<h3><s>Baby8 Sequencer (THT, Rework)</s></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/4Ch%20Mixer">4Ch Mixer (SMT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Clock%20Divider">Clock Divider (THT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Standard%20Line/Abakus">Abakus (SMT/THT, Working)</a></h3>
