@@ -1,6 +1,6 @@
 <h1>HowTo Convert WAV to Samples</h1>
 <p>Due to copyright reasons, actual sample data are omitted in this repository.</p>
-<p>WAV2VAR is a little function written in the OCTAVE (https://octave.org/) "m" format to convert any given WAV-File (maybe from a public dopmain sample pack) to the actual lines to be inserted into the "samples.h" file.</p>
+<p>WAV2VAR is a little function written in the OCTAVE (https://octave.org/) "m" format to convert any given WAV-File (maybe from a public domain sample pack) to the actual lines to be inserted into the "samples.h" file.</p>
 <code>retval = WAV2VAR(inputfile, outputfile, bits, rate, frames, start, showfigure = false)</code>
 <h2>Input parameters:</h2>
 <list>
