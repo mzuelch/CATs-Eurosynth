@@ -74,6 +74,10 @@ The remodelling in KiCAD, slight adaptation, PCB layout and frontpanel designs a
 <ul>
 	<li><a href="http://musicfromouterspace.com/analogsynth_new/NOISECORNREV01/NOISECORNREV01.php">Original Build Documentation</a></li>
 </ul>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/MFOS/Eight%20Stage%20Phase%20Shifter">Eight Stage Phase Shifter (SMT, Working)</a></h3>
+<ul>
+	<li><a href="http://musicfromouterspace.com/analogsynth_new/PHASESHIFTER2007/PHASESHIFTER2007.php">Original Build Documentation</a></li>
+</ul>
 
 <h2>YuSynth Clones</h2>
 <p>The basic electronic design was made by <a href="https://yusynth.net">YuSynth</a>.
