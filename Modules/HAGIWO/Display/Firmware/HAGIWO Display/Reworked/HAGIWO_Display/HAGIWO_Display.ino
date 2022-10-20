@@ -99,28 +99,6 @@ void loop() {
    hideTimer = millis();
    switch (param_select) {
      case 0:
-       param --;
-       break;
-
-     case 1:
-       mode --;
-       break;
-
-     case 2:
-       param1 --;
-       break;
-
-     case 3:
-       param2 --;
-       break;
-   }
- }
-
- else if ( (newPosition + 3) / 4  < oldPosition / 4 ) {
-   oldPosition = newPosition;
-   hideTimer = millis();
-   switch (param_select) {
-     case 0:
        param ++;
        break;
 
@@ -134,6 +112,28 @@ void loop() {
 
      case 3:
        param2 ++;
+       break;
+   }
+ }
+
+ else if ( (newPosition + 3) / 4  < oldPosition / 4 ) {
+   oldPosition = newPosition;
+   hideTimer = millis();
+   switch (param_select) {
+     case 0:
+       param --;
+       break;
+
+     case 1:
+       mode --;
+       break;
+
+     case 2:
+       param1 --;
+       break;
+
+     case 3:
+       param2 --;
        break;
 
    }
