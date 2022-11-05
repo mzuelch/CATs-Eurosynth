@@ -99,6 +99,14 @@ The remodelling in KiCAD, slight adaptation (especially to Eurorack format), PCB
 	<li><a href="https://www.haraldswerk.de/NGF_E/NGF_E_LFO/NGF_E_LFO.html">Original Build Documentation</a></li>
 </ul>
 
+<h2>Ken Stone / Cat Girl Synth</h2>
+<p>The basic electronic design was made by <a href="https://sdiy.info/wiki/CatGirl_Synth">Ken Stone aka Cat Girl Synth</a>.
+The remodelling in KiCAD, slight adaptation (especially changes to +/-12V), PCB layout and frontpanel designs are based on my own faults</p>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/CGS/Analog%20Switch%20Matrix">Analog Switch Matrix (THT/SMT, Working)</a></h3>
+<ul>
+	<li><a href="https://sdiy.info/wiki/CGS_analog_switch_matrix">Original Build Documentation</a></li>
+</ul>
+
 <h2>HAGIWO</h2>
 <p>The basic electronic design was made by <a href="https://www.youtube.com/channel/UCxErrnnVNEAAXPZvQFwobQw">HAGIWO</a>.
 The remodelling in KiCAD, slight adaptation in hard- and software, PCB layout and frontpanel designs are based on my own faults.</p>
