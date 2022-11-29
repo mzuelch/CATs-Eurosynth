@@ -3,8 +3,7 @@ It was published on Github by [mzuelch](https://github.com/mzuelch/ "mzuelch") a
 
 ![HAGIWO OLED Display Kit](https://modulove.io/scope-b1/SCoPE_ProductShot_1000px_panelpcbkit.jpg)
 
-The module is a Arduino-based simple Arduino-based OLED DIsplay that has a 4 modes as of now.
-(See the repository for updates / new features)
+The module is a Arduino-based simple Arduino-based OLED DIsplay that has 4 modes.
 The microcontroller can be reprogrammed easily with the Arduino IDE and a USB cable.
 
 ![HAGIWO OLED Display module](https://modulove.de/scope-b1/SCoPE_ProductShot_1000px_Front.jpg)
