@@ -4,7 +4,8 @@
 <h1>License</h1>
 <p>Code (AVR projects): GPL3.0.</p>
 <p>Code (STM32F projects): MIT license.</p>
-<p>Hardware: cc-by-sa-3.0</p>
+<p>Hardware: CC BY-NC-SA 4.0 unless specified otherwise</p>
+<img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg">
 <p>unless otherwise specified</p>
 <h2>Custom Libraries</h2>
 <p>Most of the schematics and layouts use custom libraries since some of the stock libries are either buggy or unsuited for my designs. The libraries can be found <a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Libraries">here</a>.</p>
