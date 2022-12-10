@@ -4,9 +4,9 @@
 <h1>License</h1>
 <p>Code (AVR projects): GPL3.0.</p>
 <p>Code (STM32F projects): MIT license.</p>
-<p>Hardware: CC BY-NC-SA 4.0 unless specified otherwise</p>
+<p>Hardware: CC BY-NC-SA 4.0</p>
 <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg">
-<p>unless otherwise specified</p>
+<p>unless specified otherwise.</p>
 <h2>Custom Libraries</h2>
 <p>Most of the schematics and layouts use custom libraries since some of the stock libries are either buggy or unsuited for my designs. The libraries can be found <a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Libraries">here</a>.</p>
 <p>I am about to remodel all the KiCAD Files to use environment variables:</p>
