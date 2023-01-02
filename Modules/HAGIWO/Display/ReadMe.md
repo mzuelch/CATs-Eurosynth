@@ -40,6 +40,6 @@ Assembly Instructions / Video [here](https://youtube.com/playlist?list=PL9-2_fDM
 
 More Info:
 
-- [HAGIWO original Articles](https://note.com/solder_state/n/n4c600f2431c3 "HAGIWO Sync LFO module article").
+- [HAGIWO original Articles](https://note.com/solder_state/n/n6b4cc8d1c6b9 "HAGIWO Display module article").
 
-- [HAGIWO Display Video](https://www.youtube.com/watch?v=yAes5pS3ZTo "HAGIWO Clock Sync LFO module Youtube Video").
+- [HAGIWO Display Video](https://www.youtube.com/watch?v=yAes5pS3ZTo "HAGIWO Display module Youtube Video").
