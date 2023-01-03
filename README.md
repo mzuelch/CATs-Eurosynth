@@ -4,8 +4,9 @@
 <h1>License</h1>
 <p>Code (AVR projects): GPL3.0.</p>
 <p>Code (STM32F projects): MIT license.</p>
-<p>Hardware: cc-by-sa-3.0</p>
-<p>unless otherwise specified</p>
+<p>Hardware: CC BY-NC-SA 4.0</p>
+<img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg">
+<p>unless specified otherwise.</p>
 <h2>Custom Libraries</h2>
 <p>Most of the schematics and layouts use custom libraries since some of the stock libries are either buggy or unsuited for my designs. The libraries can be found <a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Libraries">here</a>.</p>
 <p>I am about to remodel all the KiCAD Files to use environment variables:</p>
@@ -97,6 +98,14 @@ The remodelling in KiCAD, slight adaptation (especially to Eurorack format), PCB
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Haraldswerk/NGF-E%20LFO/">Next Generation Formant LFO (THT, Working)</a></h3>
 <ul>
 	<li><a href="https://www.haraldswerk.de/NGF_E/NGF_E_LFO/NGF_E_LFO.html">Original Build Documentation</a></li>
+</ul>
+
+<h2>Ken Stone / Cat Girl Synth</h2>
+<p>The basic electronic design was made by <a href="https://sdiy.info/wiki/CatGirl_Synth">Ken Stone aka Cat Girl Synth</a>.
+The remodelling in KiCAD, slight adaptation (especially changes to +/-12V), PCB layout and frontpanel designs are based on my own faults</p>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/CGS/Analog%20Switch%20Matrix">Analog Switch Matrix (THT/SMT, Working)</a></h3>
+<ul>
+	<li><a href="https://sdiy.info/wiki/CGS_analog_switch_matrix">Original Build Documentation</a></li>
 </ul>
 
 <h2>HAGIWO</h2>
