@@ -56,6 +56,8 @@
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Precision%20Adder">Precision Adder (SMT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Rectifier">Rectifier (THT, WIP)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/VCA">VCA (THT, Working)</a></h3>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Slimline%20Clock%20Divider">Clock Divider (SMD, Working)</a></h3>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Slimline%20Clock%20Divider%20NG">Clock Divider Next Generation (SMD, WIP)</a></h3>
 
 <h2>Purely Mechanical</h2>
 <p>Some purely mechanical projects - blinds, cases,...</p>
