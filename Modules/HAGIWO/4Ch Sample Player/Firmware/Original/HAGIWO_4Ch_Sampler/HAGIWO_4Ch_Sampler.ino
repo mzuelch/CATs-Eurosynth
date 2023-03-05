@@ -13,9 +13,12 @@ Adafruit_SSD1306 display(I2C_OLED_SCREEN_WIDTH, I2C_OLED_SCREEN_HEIGHT, &Wire, -
 byte mode = 0;//display serect , sample 0-3 and amp 4-7 , pitch 8 , display 9 ,save 10
 bool disp_ratch = 0;//1=display change , 0 = no change , for reduce i2c frequency.
 
-bool disp_sw = 1; //1=display update on , 0 = no update for play sound.counter measure of delay by update display and reduce audio noise from display power supply.
+bool disp_sw = 1; //1=display update on , 0 = no update for play sound.counter measure of delay by update display and reduce audio noise from display power supply
 bool old_disp_sw = 0;
-bool disp_set = 1;//1=font size big but have noise , 0 = font size small due to reduce noise.
+bool disp_font_set = 0;//1=font size big but have noise , 0 = font size small due to reduce noise.
+bool disp_playback_show_set = 0; // 0=turn off the display while in playback mode, 1 = leave it on
+bool disp_show = 0;
+bool old_disp_show = 1;
 
 //Buttons
 int qt1 = 0;//read touch sensor ,use as select button
@@ -31,7 +34,7 @@ int slct_smpl2 = 0;
 int slct_smpl3 = 0;
 int slct_smpl4 = 0;
 
-#include "samples.h"
+#include "realsamples.h"
 
 byte pitch = 15;// 31usec = 1sec / 32kHz(sampling rate) ,Adjust by processing delay.
 
@@ -111,18 +114,37 @@ void setup() {
 
 void loop() {
  old_disp_sw = disp_sw;
- disp_sw = !digitalRead(Pin_SW_Mode);
+ disp_sw = !digitalRead(Pin_SW_Mode); 
+ if (disp_playback_show_set == 0 && disp_sw == 0) {
+  disp_show = 0;
+ }
+ else {
+  disp_show = 1;
+ }
+ if (old_disp_show == 1 && disp_show == 0)
+ {
+    display.ssd1306_command(SSD1306_DISPLAYOFF);
+ }
+ if (old_disp_show == 0 && disp_show == 1)
+ {
+    display.ssd1306_command(SSD1306_DISPLAYON);
+ }
+ old_disp_show = disp_show;
  if (old_disp_sw == 0 && disp_sw == 1) { //switch on to off , mode 9 setting update
    //    mode = 0;
-   OLED_display();
+   if (disp_show == 1){
+    OLED_display();    
+   }
  }
  if (old_disp_sw == 1 && disp_sw == 0) { //switch off to on , mode 9 setting update
    //    mode = 0;
    ch1_ratch = 0;
    ch2_ratch = 0;
    ch3_ratch = 0;
-   ch4_ratch = 0;
-   OLED_display();
+   ch4_ratch = 0;   
+   if (disp_show == 1){
+    OLED_display();    
+   }
  }
  if (disp_sw == 1 && ch1_ratch == 0 && ch2_ratch == 0 && ch3_ratch == 0 && ch4_ratch == 0 ) {
    //  touch sensor input
@@ -340,11 +362,11 @@ void loop() {
    else if (mode == 9) {  //save
      if (qt2_ratch == 1) {
        qt2_ratch = 2;
-       disp_set = 1;
+       disp_font_set = 1;
      }
      else if (qt3_ratch == 1) {
        qt3_ratch = 2;
-       disp_set = 0;
+       disp_font_set = 0;
      }
    }
 
@@ -476,7 +498,7 @@ void save() {//save setting data to flash memory
  EEPROM.commit();
 
  display.clearDisplay();  // clear display
- display.setTextSize(disp_set + 1);  
+ display.setTextSize(disp_font_set + 1);  
  if (disp_sw == 1) {
    display.setTextSize(2);  
  }
@@ -489,7 +511,7 @@ void save() {//save setting data to flash memory
 
 void OLED_display() {
  display.clearDisplay();  
- display.setTextSize(disp_set + 1);  
+ display.setTextSize(disp_font_set + 1);  
  if (disp_sw == 1) {
    display.setTextSize(2);  
  }
@@ -529,10 +551,10 @@ void OLED_display() {
    display.setCursor(0, 16);  
    display.print("NOISE");
    display.setCursor(70, 16);  
-   if (disp_set == 1) {
+   if (disp_font_set == 1) {
      display.print("MID");
    }
-   else if (disp_set == 0) {
+   else if (disp_font_set == 0) {
      display.print("LOW");
    }
    display.setCursor(0, 32);  
