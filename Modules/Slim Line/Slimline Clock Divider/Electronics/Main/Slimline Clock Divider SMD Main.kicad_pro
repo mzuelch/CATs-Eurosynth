@@ -367,7 +367,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "Slimline Clock Divider SMD Main.step",
+      "step": "../../Mechanics/Slimline Clock Divider SMD Main.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
