@@ -56,8 +56,8 @@
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Precision%20Adder">Precision Adder (SMT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Rectifier">Rectifier (THT, WIP)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/VCA">VCA (THT, Working)</a></h3>
-<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Clock%20Divider">Clock Divider (SMD, Working)</a></h3>
-<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Voltage%20Controlled%20Switch">Voltage Controlled Switch (SMD, Working)</a></h3>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Clock%20Divider">Clock Divider (SMT, Working)</a></h3>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Voltage%20Controlled%20Switch">Voltage Controlled Switch (SMT, Working)</a></h3>
 
 <h2>Purely Mechanical</h2>
 <p>Some purely mechanical projects - blinds, cases,...</p>
@@ -183,7 +183,7 @@ The remodelling in KiCAD, slight adaptation in hard- and software, PCB layout an
 		<br><a href="https://note.com/solder_state/n/n0209d16d0d08">Original Build Documentation</a>
 	</li>
 </ul>
-<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/Sync%20LFO">Sync LFO (SMT, WIP)</a></h3>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/HAGIWO/Sync%20LFO">Sync LFO (SMT, Working)</a></h3>
 <ul>
 	<li>
 		<strong>Clock Sync LFO</strong>
