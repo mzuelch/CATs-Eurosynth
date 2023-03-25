@@ -52,9 +52,12 @@
 <p>Slim Modules to cope with the ever increasing lamentations from my bandmates and wife. Also these designs are based on either my own ideas and mistakes or published in so many places I can't figure out the original source.</p>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Attenuator">Single Attenuator (THT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Buffered%20Multiple">Buffered Multiple (THT, Working)</a></h3>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Buffered%20Multiple%20SMD">Buffered Multiple SMD (SMT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Sample%26Hold">Dual Sample&Hold (THT, Working)</a></h3>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Sample%26Hold%20SMD">Dual Sample&Hold SMD (SMT/THT, WIP)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Precision%20Adder">Precision Adder (SMT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Rectifier">Rectifier (THT, WIP)</a></h3>
+<h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Rectifier%20SMD">Rectifier SMD(SMT, WIP)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/VCA">VCA (THT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Clock%20Divider">Clock Divider (SMT, Working)</a></h3>
 <h3><a href="https://github.com/mzuelch/CATs-Eurosynth/tree/main/Modules/Slim%20Line/Voltage%20Controlled%20Switch">Voltage Controlled Switch (SMT, Working)</a></h3>
