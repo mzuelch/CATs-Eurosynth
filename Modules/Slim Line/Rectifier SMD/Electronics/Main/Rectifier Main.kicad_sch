@@ -1256,7 +1256,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b16535fa-f0ae-4e74-8f76-5c41636d75b2)
   )
-  (wire (pts (xy 75.565 102.87) (xy 78.105 102.87))
+  (wire (pts (xy 75.565 102.87) (xy 78.74 102.87))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b35dba2b-f6cc-4c64-91e5-6d8fe51221a9)
   )
