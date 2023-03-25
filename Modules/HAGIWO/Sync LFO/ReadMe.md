@@ -1,9 +1,9 @@
-! [Revision History]
+<h2>Revision History</h2>
 <table>
-	<th>
-		<td>Revision</td>
-		<td>Changes</td>
-	</th>
+	<tr>
+		<th>Revision</th>
+		<th>Changes</th>
+	</tr>
 	<tr>
 		<td>012202</td>
 		<td>Initial Release</td>
@@ -14,6 +14,7 @@
 	</tr>
 </table>
 
+<h2>Modulove Appendix</h2>
 This is a PCB version of the awesome HAGIWO Clock SYNC LFO.
 It was published on Github by [mzuelch](https://github.com/mzuelch/ "mzuelch") and we (modulove) put together the design & kits in our lab.
 
