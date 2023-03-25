@@ -1,3 +1,19 @@
+! [Revision History]
+<table>
+	<th>
+		<td>Revision</td>
+		<td>Changes</td>
+	</th>
+	<tr>
+		<td>012202</td>
+		<td>Initial Release</td>
+	</tr>
+	<tr>
+		<td>022303</td>
+		<td>Arduino Nano rotated by 180deg. No changes in pot or jack position. PCB layout adapted accordingly.</td>
+	</tr>
+</table>
+
 This is a PCB version of the awesome HAGIWO Clock SYNC LFO.
 It was published on Github by [mzuelch](https://github.com/mzuelch/ "mzuelch") and we (modulove) put together the design & kits in our lab.
 
