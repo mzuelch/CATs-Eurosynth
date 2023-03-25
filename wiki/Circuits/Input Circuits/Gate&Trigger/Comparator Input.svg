@@ -1,76 +1,494 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Circuit Diagram, cdlibrary.dll 4.0.0.0 -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" width="800" height="420" xmlns="http://www.w3.org/2000/svg">
-	<line x1="600" y1="380" x2="730" y2="380" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="700" y1="350" x2="730" y2="350" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="600" y1="150" x2="730" y2="150" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="600" y1="290" x2="600" y2="380" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="600" y1="150" x2="600" y2="210" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="550" y1="150" x2="550" y2="170" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="700" y1="320" x2="700" y2="350" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="550" y1="330" x2="550" y2="350" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="490" y1="310" x2="490" y2="350" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="385" y="380" style="font-family:Arial;font-size:12px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 385, 380)">-12V</text>
-	<line x1="390" y1="380" x2="600" y2="380" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="385" y="350" style="font-family:Arial;font-size:12px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 385, 350)">0V</text>
-	<line x1="390" y1="350" x2="700" y2="350" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="385" y="150" style="font-family:Arial;font-size:12px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 385, 150)">+12V</text>
-	<line x1="390" y1="150" x2="600" y2="150" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="700" y1="250" x2="720" y2="250" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="38" y="40" style="font-family:Arial;font-size:12px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 38, 40)"></text>
-	<line x1="20" y1="40" x2="27" y2="40" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<ellipse cx="30" cy="40" rx="3" ry="3" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<text x="738" y="250" style="font-family:Arial;font-size:12px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 738, 250)">Output</text>
-	<line x1="720" y1="250" x2="727" y2="250" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<ellipse cx="730" cy="250" rx="3" ry="3" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<line x1="700" y1="250" x2="700" y2="270" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="680" y1="250" x2="700" y2="250" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="700" y1="270" x2="700" y2="275" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="700" y1="315" x2="700" y2="320" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<rect x="692" y="275" width="16" height="40" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<text x="686" y="295" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 686, 295)">100 kΩ</text>
-	<line x1="630" y1="250" x2="650" y2="250" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="650" y1="250" x2="680" y2="250" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<path d="M 672,250 M 672,242 L 672,258 M 672,250 L 657,258 L 657,242 L 672,250" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="550" y1="260" x2="570" y2="260" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="550" y1="220" x2="550" y2="280" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="490" y1="240" x2="570" y2="240" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="550" y1="280" x2="550" y2="285" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="550" y1="325" x2="550" y2="330" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<rect x="542" y="285" width="16" height="40" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<text x="536" y="305" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 536, 305)">1 kΩ</text>
-	<line x1="550" y1="170" x2="550" y2="175" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="550" y1="215" x2="550" y2="220" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<rect x="542" y="175" width="16" height="40" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<text x="536" y="195" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 536, 195)">100 kΩ</text>
-	<line x1="570" y1="240" x2="580" y2="240" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="570" y1="260" x2="580" y2="260" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="624" y1="250" x2="630" y2="250" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<path d="M 580,250 L 580,280 L 624,250 L 580,220 L 580,250 M 585,240 L 595,240 M 590,235 L 590,245 M 585,260 L 595,260 M 623,250" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="600" y1="210" x2="600" y2="232" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="600" y1="268" x2="600" y2="290" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="400" y1="240" x2="420" y2="240" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="382" y="240" style="font-family:Arial;font-size:12px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 382, 240)">Input</text>
-	<line x1="393" y1="240" x2="400" y2="240" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<ellipse cx="390" cy="240" rx="3" ry="3" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<line x1="490" y1="240" x2="490" y2="260" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="470" y1="240" x2="490" y2="240" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="490" y1="260" x2="490" y2="265" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="490" y1="305" x2="490" y2="310" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<rect x="482" y="265" width="16" height="40" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<text x="476" y="285" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 476, 285)">100 kΩ</text>
-	<line x1="420" y1="240" x2="425" y2="240" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="465" y1="240" x2="470" y2="240" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<rect x="425" y="232" width="40" height="16" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<text x="445" y="226" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="baseline" transform="rotate(0, 445, 226)">10 kΩ</text>
-	<ellipse cx="600" cy="380" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="700" cy="350" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="600" cy="150" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="550" cy="150" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="550" cy="350" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="490" cy="350" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="700" cy="250" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="550" cy="260" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="490" cy="240" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+
+<svg
+   version="1.1"
+   width="417.50586"
+   height="238.625"
+   id="svg144"
+   sodipodi:docname="Comparator Input.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs148" />
+  <sodipodi:namedview
+     id="namedview146"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.46625"
+     inkscape:cx="43.307758"
+     inkscape:cy="65.13214"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg144" />
+  <line
+     x1="243.57031"
+     y1="235.51367"
+     x2="373.57031"
+     y2="235.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line2" />
+  <line
+     x1="343.57031"
+     y1="205.51367"
+     x2="373.57031"
+     y2="205.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line4" />
+  <line
+     x1="243.57031"
+     y1="5.5136719"
+     x2="373.57031"
+     y2="5.5136719"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line6" />
+  <line
+     x1="243.57031"
+     y1="145.51367"
+     x2="243.57031"
+     y2="235.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line8" />
+  <line
+     x1="243.57031"
+     y1="5.5136719"
+     x2="243.57031"
+     y2="65.513672"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line10" />
+  <line
+     x1="193.57031"
+     y1="5.5136719"
+     x2="193.57031"
+     y2="25.513672"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line12" />
+  <line
+     x1="343.57031"
+     y1="175.51367"
+     x2="343.57031"
+     y2="205.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line14" />
+  <line
+     x1="193.57031"
+     y1="185.51367"
+     x2="193.57031"
+     y2="205.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line16" />
+  <line
+     x1="133.57031"
+     y1="165.51367"
+     x2="133.57031"
+     y2="205.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line18" />
+  <text
+     x="28.570312"
+     y="235.51367"
+     style="font-size:12px;font-family:Arial;text-anchor:end"
+     dominant-baseline="middle"
+     id="text20">-12V</text>
+  <line
+     x1="33.570312"
+     y1="235.51367"
+     x2="243.57031"
+     y2="235.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line22" />
+  <text
+     x="28.570312"
+     y="205.51367"
+     style="font-size:12px;font-family:Arial;text-anchor:end"
+     dominant-baseline="middle"
+     id="text24">0V</text>
+  <line
+     x1="33.570312"
+     y1="205.51367"
+     x2="343.57031"
+     y2="205.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line26" />
+  <text
+     x="28.570312"
+     y="5.5136719"
+     style="font-size:12px;font-family:Arial;text-anchor:end"
+     dominant-baseline="middle"
+     id="text28">+12V</text>
+  <line
+     x1="33.570312"
+     y1="5.5136719"
+     x2="243.57031"
+     y2="5.5136719"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line30" />
+  <line
+     x1="343.57031"
+     y1="105.51367"
+     x2="363.57031"
+     y2="105.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line32" />
+  <text
+     x="-318.42969"
+     y="-104.48633"
+     style="font-size:12px;font-family:Arial;text-anchor:start"
+     dominant-baseline="middle"
+     id="text34" />
+  <text
+     x="381.57031"
+     y="105.51367"
+     style="font-size:12px;font-family:Arial;text-anchor:start"
+     dominant-baseline="middle"
+     id="text40">Output</text>
+  <line
+     x1="363.57031"
+     y1="105.51367"
+     x2="370.57031"
+     y2="105.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line42" />
+  <circle
+     cx="373.57031"
+     cy="105.51367"
+     style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2"
+     id="ellipse44"
+     r="3" />
+  <line
+     x1="343.57031"
+     y1="105.51367"
+     x2="343.57031"
+     y2="125.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line46" />
+  <line
+     x1="323.57031"
+     y1="105.51367"
+     x2="343.57031"
+     y2="105.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line48" />
+  <line
+     x1="343.57031"
+     y1="125.51367"
+     x2="343.57031"
+     y2="130.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line50" />
+  <line
+     x1="343.57031"
+     y1="170.51367"
+     x2="343.57031"
+     y2="175.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line52" />
+  <rect
+     x="335.57031"
+     y="130.51367"
+     width="16"
+     height="40"
+     style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2"
+     id="rect54" />
+  <text
+     x="329.57031"
+     y="150.51367"
+     style="font-size:11px;font-family:Arial;text-anchor:end"
+     dominant-baseline="middle"
+     id="text56">100 kΩ</text>
+  <line
+     x1="273.57031"
+     y1="105.51367"
+     x2="293.57031"
+     y2="105.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line58" />
+  <line
+     x1="293.57031"
+     y1="105.51367"
+     x2="323.57031"
+     y2="105.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line60" />
+  <path
+     d="m 315.57031,105.51367 m 0,-7.999998 v 15.999998 m 0,-8 -15,8 V 97.513672 l 15,7.999998"
+     style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="path62" />
+  <line
+     x1="193.57031"
+     y1="115.51367"
+     x2="213.57031"
+     y2="115.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line64" />
+  <line
+     x1="193.57031"
+     y1="75.513672"
+     x2="193.57031"
+     y2="135.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line66" />
+  <line
+     x1="133.57031"
+     y1="95.513672"
+     x2="213.57031"
+     y2="95.513672"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line68" />
+  <line
+     x1="193.57031"
+     y1="135.51367"
+     x2="193.57031"
+     y2="140.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line70" />
+  <line
+     x1="193.57031"
+     y1="180.51367"
+     x2="193.57031"
+     y2="185.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line72" />
+  <rect
+     x="185.57031"
+     y="140.51367"
+     width="16"
+     height="40"
+     style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2"
+     id="rect74" />
+  <text
+     x="179.57031"
+     y="160.51367"
+     style="font-size:11px;font-family:Arial;text-anchor:end"
+     dominant-baseline="middle"
+     id="text76">1 kΩ</text>
+  <line
+     x1="193.57031"
+     y1="25.513672"
+     x2="193.57031"
+     y2="30.513672"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line78" />
+  <line
+     x1="193.57031"
+     y1="70.513672"
+     x2="193.57031"
+     y2="75.513672"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line80" />
+  <rect
+     x="185.57031"
+     y="30.513672"
+     width="16"
+     height="40"
+     style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2"
+     id="rect82" />
+  <text
+     x="179.57031"
+     y="50.513672"
+     style="font-size:11px;font-family:Arial;text-anchor:end"
+     dominant-baseline="middle"
+     id="text84">100 kΩ</text>
+  <line
+     x1="213.57031"
+     y1="95.513672"
+     x2="223.57031"
+     y2="95.513672"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line86" />
+  <line
+     x1="213.57031"
+     y1="115.51367"
+     x2="223.57031"
+     y2="115.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line88" />
+  <line
+     x1="267.57031"
+     y1="105.51367"
+     x2="273.57031"
+     y2="105.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line90" />
+  <path
+     d="m 223.57031,105.51367 v 30 l 44,-30 -44,-29.999998 v 29.999998 m 5,-9.999998 h 10 m -5,-5 v 9.999998 m -5,15 h 10 m 28,-10"
+     style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="path92" />
+  <line
+     x1="243.57031"
+     y1="65.513672"
+     x2="243.57031"
+     y2="87.513672"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line94" />
+  <line
+     x1="243.57031"
+     y1="123.51367"
+     x2="243.57031"
+     y2="145.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line96" />
+  <line
+     x1="43.570312"
+     y1="95.513672"
+     x2="63.570312"
+     y2="95.513672"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line98" />
+  <text
+     x="25.570312"
+     y="95.513672"
+     style="font-size:12px;font-family:Arial;text-anchor:end"
+     dominant-baseline="middle"
+     id="text100">Input</text>
+  <line
+     x1="36.570312"
+     y1="95.513672"
+     x2="43.570312"
+     y2="95.513672"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line102" />
+  <circle
+     cx="33.570312"
+     cy="95.513672"
+     style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2"
+     id="ellipse104"
+     r="3" />
+  <line
+     x1="133.57031"
+     y1="95.513672"
+     x2="133.57031"
+     y2="115.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line106" />
+  <line
+     x1="113.57031"
+     y1="95.513672"
+     x2="133.57031"
+     y2="95.513672"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line108" />
+  <line
+     x1="133.57031"
+     y1="115.51367"
+     x2="133.57031"
+     y2="120.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line110" />
+  <line
+     x1="133.57031"
+     y1="160.51367"
+     x2="133.57031"
+     y2="165.51367"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line112" />
+  <rect
+     x="125.57031"
+     y="120.51367"
+     width="16"
+     height="40"
+     style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2"
+     id="rect114" />
+  <text
+     x="119.57031"
+     y="140.51367"
+     style="font-size:11px;font-family:Arial;text-anchor:end"
+     dominant-baseline="middle"
+     id="text116">100 kΩ</text>
+  <line
+     x1="63.570312"
+     y1="95.513672"
+     x2="68.570312"
+     y2="95.513672"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line118" />
+  <line
+     x1="108.57031"
+     y1="95.513672"
+     x2="113.57031"
+     y2="95.513672"
+     style="stroke:#000000;stroke-width:2;stroke-linecap:square"
+     id="line120" />
+  <rect
+     x="68.570312"
+     y="87.513672"
+     width="40"
+     height="16"
+     style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2"
+     id="rect122" />
+  <text
+     x="88.570312"
+     y="81.513672"
+     style="font-size:11px;font-family:Arial;text-anchor:middle"
+     dominant-baseline="baseline"
+     id="text124">10 kΩ</text>
+  <circle
+     cx="243.57031"
+     cy="235.51367"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2"
+     id="ellipse126"
+     r="2" />
+  <circle
+     cx="343.57031"
+     cy="205.51367"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2"
+     id="ellipse128"
+     r="2" />
+  <circle
+     cx="243.57031"
+     cy="5.5136719"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2"
+     id="ellipse130"
+     r="2" />
+  <circle
+     cx="193.57031"
+     cy="5.5136719"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2"
+     id="ellipse132"
+     r="2" />
+  <circle
+     cx="193.57031"
+     cy="205.51367"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2"
+     id="ellipse134"
+     r="2" />
+  <circle
+     cx="133.57031"
+     cy="205.51367"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2"
+     id="ellipse136"
+     r="2" />
+  <circle
+     cx="343.57031"
+     cy="105.51367"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2"
+     id="ellipse138"
+     r="2" />
+  <circle
+     cx="193.57031"
+     cy="115.51367"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2"
+     id="ellipse140"
+     r="2" />
+  <circle
+     cx="133.57031"
+     cy="95.513672"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2"
+     id="ellipse142"
+     r="2" />
 </svg>
