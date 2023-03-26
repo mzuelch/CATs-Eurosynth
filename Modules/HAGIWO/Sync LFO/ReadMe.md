@@ -12,6 +12,10 @@
 		<td>022303</td>
 		<td>Arduino Nano rotated by 180deg. No changes in pot or jack position. PCB layout adapted accordingly.</td>
 	</tr>
+	<tr>
+		<td>022303</td>
+		<td>Make space for a shrouded IDC header. Mark the USB connector direction on the backside.</td>
+	</tr>
 </table>
 
 <h2>Modulove Appendix</h2>
