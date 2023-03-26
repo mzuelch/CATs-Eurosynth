@@ -2481,7 +2481,13 @@
     )
   )
 
-  (gr_line (start 14.605 101.6) (end 14.605 0) (layer "Dwgs.User") (width 0.15) (tstamp 6d2a06fb-0b1e-452a-ab38-11a5f45e1b32))
+  (gr_poly
+    (pts
+      (xy 15.875 8.255)
+      (xy 13.335 8.255)
+      (xy 13.335 6.985)
+      (xy 15.875 6.985)
+    ) (layer "B.SilkS") (width 0.12) (fill solid) (tstamp 141d55e7-f9fa-486e-a08c-0c5785aa9581))
   (gr_line (start 0 101.6) (end 0 0) (layer "Edge.Cuts") (width 0.05) (tstamp 00000000-0000-0000-0000-000061fda8f4))
   (gr_line (start 29.21 0) (end 29.21 101.6) (layer "Edge.Cuts") (width 0.05) (tstamp b21299b9-3c4d-43df-b399-7f9b08eb5470))
   (gr_line (start 29.21 101.6) (end 0 101.6) (layer "Edge.Cuts") (width 0.05) (tstamp c210293b-1d7a-4e96-92e9-058784106727))
