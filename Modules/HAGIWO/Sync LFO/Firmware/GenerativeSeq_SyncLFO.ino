@@ -8,6 +8,7 @@
  * @copyright Copyright (c) 2023
  *
  */
+
 // Install the "AVR Standard C Time Libaray", used for faster PWM frequencies
 // and smoother analog cv output.
 #include <avr/io.h>
@@ -21,7 +22,8 @@
 #define CLOCK_IN 3
 #define PWM_OUT 10
 
-#define DEBUG
+// Uncomment to print state to serial monitoring output.
+// #define DEBUG
 
 // State variables.
 bool clock_in, old_clock_in;
