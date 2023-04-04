@@ -1,6 +1,14 @@
 #include <FlexiTimer2.h>
-#include "Periphery.h"
 #include <avr/io.h>
+
+
+
+#define PWMOut 10
+#define SyncIn 3
+#define WaveformIn 3
+#define AmpIn 0
+#define PhaseIn 1
+#define ModIn 5
 
 unsigned int frq = 60000; // PWM周波数。60kHzあたりまで機能するが、マージンとって50kHzとする。
 float duty = 0.5; // duty比率
