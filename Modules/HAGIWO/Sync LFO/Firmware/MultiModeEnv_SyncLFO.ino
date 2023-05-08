@@ -37,7 +37,7 @@ long time = 100;      // Envelope delay time between incremental change
 byte mode = 0;        // Mode: 0=AR, 1=ASR, 2=SLOW AR (10x), 3=LFO
 byte curve = 0;       // Waveform Curve: 0=LOG, 1=LINEAR, 2=EXP
 bool attack_end = 0;  // State of rising or falling envelope: 0=rising, 1=falling
-float duty = 0;     // PWM duty
+float duty = 0;       // PWM duty
 
 void setup() {
     pinMode(GATE_IN, INPUT);  // Gate in
@@ -67,7 +67,7 @@ void loop() {
     // Rising envelope
     if (attack_end == 0) {
         // At minimum attack levels, traverse the curve at a faster rate than default.
-        (analogRead(P1) > 0) ? i++ : i += min(199-i, 10);
+        (analogRead(P1) > 0) ? i++ : i += min(199 - i, 10);
 
         if (i >= 199) {
             attack_end = 1;
@@ -108,11 +108,11 @@ void loop() {
 
     // Short sleep duration before advancing to the next step in the curve table.
     (mode == 2)
-        ? delay(time / 10)              // Slower milliscond delay for SLOW mode.
-        : delayMicroseconds(time * 10); // Faster microsecond delay by default.
+        ? delay(time / 10)               // Slower milliscond delay for SLOW mode.
+        : delayMicroseconds(time * 10);  // Faster microsecond delay by default.
 
     // Write CV Output (scaled down to PWM range of 0 to 255)
-    analogWrite(CV_OUT, map(duty, 0, 1023, 0, 255));
+    analogWrite(CV_OUT, map(duty, 0, 1000, 0, 255));
 }
 
 void update_mode() {
