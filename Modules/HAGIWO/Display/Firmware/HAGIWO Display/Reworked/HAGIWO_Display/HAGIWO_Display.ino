@@ -127,7 +127,7 @@ void loop() {
         newPosition = myEnc.read();
 
         // Check if the encoder was turned
-        if (newPosition > oldPosition) {
+        if (newPosition > (oldPosition + 3)) {
             oldPosition = newPosition;
             if (secretMenuOption == 1) {
                 newDirection = 1; // Normal direction
@@ -135,7 +135,7 @@ void loop() {
                 menuTimer += encoderDirection;
                 menuTimer = constrain(menuTimer, 1, 60);
             }
-        } else if (newPosition < oldPosition) {
+        } else if (newPosition < (oldPosition - 3)) {
             oldPosition = newPosition;
             if (secretMenuOption == 1) {
                 newDirection = -1; // Reversed direction
