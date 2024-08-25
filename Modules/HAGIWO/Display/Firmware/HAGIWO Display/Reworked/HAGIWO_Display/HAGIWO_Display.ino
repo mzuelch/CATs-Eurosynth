@@ -17,7 +17,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT,
                         OLED_MOSI, OLED_CLK, OLED_DC, OLED_RESET, OLED_CS);
 //EEPROM
 #define ENCODER_DIR_ADDR 0  // EEPROM address to store the encoder direction
-#define MENUTIMER_DIR_ADDR 1  // EEPROM address to store the menuTimer direction
+#define MENUTIMER_DIR_ADDR 2  // EEPROM address to store the menuTimer direction
 
 //rotary encoder setting
 #define  ENCODER_OPTIMIZE_INTERRUPTS //contermeasure of rotery encoder noise
