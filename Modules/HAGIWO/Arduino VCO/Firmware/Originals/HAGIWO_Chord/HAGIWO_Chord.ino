@@ -58,6 +58,7 @@ Oscil <PHASOR256_NUM_CELLS, AUDIO_RATE> aPha3(PHASOR256_DATA);
 Oscil <PHASOR256_NUM_CELLS, AUDIO_RATE> aPha4(PHASOR256_DATA);
 Oscil <PHASOR256_NUM_CELLS, AUDIO_RATE> aPha5(PHASOR256_DATA);
 #define CONTROL_RATE 64 // Hz, powers of 2 are most reliable
+#define AUDIO_MODE HIFI
 
 int freq1 = 110;//base freq
 int voct = 1000;//external V/OCT LSB
@@ -337,38 +338,39 @@ void updateControl() {
 }
 
 int updateAudio() {
+  int f=8;
  switch (wave) {
 
    case 0:
-     return MonoOutput::from8Bit(aSaw1.next() / 32 + aSaw2.next() / 32 + aSaw3.next() / 32 + aSaw4.next() / 32 + aSaw5.next() / 32 * inv_aply5);
+     return MonoOutput::from8Bit(aSaw1.next() / f + aSaw2.next() / f + aSaw3.next() / f + aSaw4.next() / f + aSaw5.next() / f * inv_aply5);
      break;
 
    case 1:
-     return MonoOutput::from8Bit(aSqu1.next() / 32 + aSqu2.next() / 32 + aSqu3.next() / 32 + aSqu4.next() / 32 + aSqu5.next() / 32 * inv_aply5);
+     return MonoOutput::from8Bit(aSqu1.next() / f + aSqu2.next() / f + aSqu3.next() / f + aSqu4.next() / f + aSqu5.next() / f * inv_aply5);
      break;
 
    case 2:
-     return MonoOutput::from8Bit(aTri1.next() / 32 + aTri2.next() / 32 + aTri3.next() / 32 + aTri4.next() / 32 + aTri5.next() / 32 * inv_aply5);
+     return MonoOutput::from8Bit(aTri1.next() / f + aTri2.next() / f + aTri3.next() / f + aTri4.next() / f + aTri5.next() / f * inv_aply5);
      break;
 
    case 3:
-     return MonoOutput::from8Bit(aSin1.next() / 32 + aSin2.next() / 32 + aSin3.next() / 32 + aSin4.next() / 32 + aSin5.next() / 32 * inv_aply5);
+     return MonoOutput::from8Bit(aSin1.next() / f + aSin2.next() / f + aSin3.next() / f + aSin4.next() / f + aSin5.next() / f * inv_aply5);
      break;
 
    case 4:
-     return MonoOutput::from8Bit(aChb1.next() / 32 + aChb2.next() / 32 + aChb3.next() / 32 + aChb4.next() / 32 + aChb5.next() / 32 * inv_aply5);
+     return MonoOutput::from8Bit(aChb1.next() / f + aChb2.next() / f + aChb3.next() / f + aChb4.next() / f + aChb5.next() / f * inv_aply5);
      break;
 
    case 5:
-     return MonoOutput::from8Bit(ahSin1.next() / 32 + ahSin2.next() / 32 + ahSin3.next() / 32 + ahSin4.next() / 32 + ahSin5.next() / 32 * inv_aply5);
+     return MonoOutput::from8Bit(ahSin1.next() / f + ahSin2.next() / f + ahSin3.next() / f + ahSin4.next() / f + ahSin5.next() / f * inv_aply5);
      break;
 
    case 6:
-     return MonoOutput::from8Bit(aSig1.next() / 32 + aSig2.next() / 32 + aSig3.next() / 32 + aSig4.next() / 32 + aSig5.next() / 32 * inv_aply5);
+     return MonoOutput::from8Bit(aSig1.next() / f + aSig2.next() / f + aSig3.next() / f + aSig4.next() / f + aSig5.next() / f * inv_aply5);
      break;
 
    case 7:
-     return MonoOutput::from8Bit(aPha1.next() / 32 + aPha2.next() / 32 + aPha3.next() / 32 + aPha4.next() / 32 + aPha5.next() / 32 * inv_aply5);
+     return MonoOutput::from8Bit(aPha1.next() / f + aPha2.next() / f + aPha3.next() / f + aPha4.next() / f + aPha5.next() / f * inv_aply5);
      break;
 
  }

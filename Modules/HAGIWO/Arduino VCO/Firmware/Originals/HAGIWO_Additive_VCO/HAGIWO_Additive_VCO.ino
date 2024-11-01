@@ -1,5 +1,6 @@
 #include <MozziGuts.h>
 #include <Oscil.h> // oscillator template
+#include <RollingAverage.h>
 #include <tables/sin2048_int8.h> // sine table for oscillator
 
 Oscil <SIN2048_NUM_CELLS, AUDIO_RATE> aSin1(SIN2048_DATA);
@@ -11,12 +12,15 @@ Oscil <SIN2048_NUM_CELLS, AUDIO_RATE> aSin6(SIN2048_DATA);
 Oscil <SIN2048_NUM_CELLS, AUDIO_RATE> aSin7(SIN2048_DATA);
 Oscil <SIN2048_NUM_CELLS, AUDIO_RATE> aSin8(SIN2048_DATA);
 
-#define CONTROL_RATE 256 // Hz, powers of 2 are most reliable
+#define CONTROL_RATE 32 // Hz, powers of 2 are most reliable
 
 int freq1 = 110;//base freq of OSC1
+int freq1_old = 110;
 int voct = 1000;//external V/OCT LSB
+int voct_old = 1000;
 int freqv1 = 440;// freq1 apply voct
 int harm_knob = 0;//AD wave knob
+int harm_knob_old = 0;//AD wave knob
 byte gain = 127;
 
 const static float voctpow[1024] PROGMEM = {
@@ -43,6 +47,9 @@ const static byte harm_table[8][256]PROGMEM = {
 { 2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  3,  3,  3,  4,  4,  4,  4,  5,  5,  6,  6,  7,  7,  8,  8,  8,  8,  10, 10, 10, 12, 12, 14, 14, 14, 15, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 15, 15, 15, 15, 15, 15, 14, 14, 14, 12, 12, 10, 10, 10, 8,  8,  8,  8,  7,  7,  6,  6,  5,  5,  4,  4,  4,  4,  3,  3,  3,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  3,  3,  3,  4,  4,  4,  4,  5,  5,  6,  6,  7,  7,  8,  8,  8,  8,  10, 10, 10, 12, 12, 14, 14, 14, 15, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 16, 15, 15, 15, 15, 15, 14, 14, 14, 12, 12, 12, 10, 10, 8,  8,  8,  8,  7,  7,  6,  6,  5,  5,  4,  4,  4,  4,  3,  3,  3,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  3,  3,  3,  4,  4,  4,  4,  5,  5,  6,  6,  7,  7,  8,  8,  8,  8,  10, 10, 10, 12, 12, 14, 14, 14, 15, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 16, 15, 15, 15, 15, 15, 14, 14, 14, 12, 12, 12, 10, 10, 8,  8,  8,  8,  7,  7,  6,  6,  5,  5,  4,  4,  4,  4,  3 },
 { 2,  2,  2,  2,  3,  3,  3,  4,  4,  4,  4,  4,  4,  5,  5,  6,  6,  6,  7,  7,  8,  8,  8,  8,  8,  10, 10, 10, 12, 12, 14, 14, 14, 15, 15, 15, 15, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 15, 15, 15, 15, 14, 14, 14, 12, 12, 12, 10, 10, 8,  8,  8,  8,  8,  7,  7,  6,  6,  6,  5,  5,  4,  4,  4,  4,  4,  4,  3,  3,  3,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  3,  3,  3,  4,  4,  4,  4,  4,  4,  5,  5,  6,  6,  6,  7,  7,  8,  8,  8,  8,  8,  10, 10, 10, 12, 12, 14, 14, 14, 15, 15, 15, 15, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 15, 15, 15, 14, 14, 14, 12, 12, 12, 10, 10, 8,  8,  8,  8,  8,  7,  7,  6,  6,  6,  5,  5,  4,  4,  4,  4,  4,  4,  3,  3,  3,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  2,  3,  3,  3,  3,  4,  4,  4,  4,  4,  5,  5,  6 }
 };
+
+RollingAverage <unsigned int, 4> aRollingAverage;
+
 void setup()
 {
  startMozzi(CONTROL_RATE); // :)
@@ -61,19 +68,25 @@ void updateControl() {
 
  //frequency setting
  voct = mozziAnalogRead(7) ;
- freqv1 = freq1 * pow(2, (pgm_read_float(&(voctpow[voct])))); // V/oct apply
-
- aSin1.setFreq(freqv1); // set the frequency
- aSin2.setFreq(freqv1 * (pgm_read_byte(&(harm_table[0][harm_knob])))); 
- aSin3.setFreq(freqv1 * (pgm_read_byte(&(harm_table[1][harm_knob])))); 
- aSin4.setFreq(freqv1 * (pgm_read_byte(&(harm_table[2][harm_knob])))); 
- aSin5.setFreq(freqv1 * (pgm_read_byte(&(harm_table[3][harm_knob])))); 
- aSin6.setFreq(freqv1 * (pgm_read_byte(&(harm_table[4][harm_knob])))); 
- aSin7.setFreq(freqv1 * (pgm_read_byte(&(harm_table[5][harm_knob])))); 
- aSin8.setFreq(freqv1 * (pgm_read_byte(&(harm_table[6][harm_knob])))); 
+ if ((voct != voct_old) || (freq1 != freq1_old) || (harm_knob != harm_knob_old))
+ {
+   freqv1 = freq1 * pow(2, (pgm_read_float(&(voctpow[voct])))); // V/oct apply
+  
+   aSin1.setFreq(freqv1); // set the frequency
+   aSin2.setFreq(freqv1 * (pgm_read_byte(&(harm_table[0][harm_knob])))); 
+   aSin3.setFreq(freqv1 * (pgm_read_byte(&(harm_table[1][harm_knob])))); 
+   aSin4.setFreq(freqv1 * (pgm_read_byte(&(harm_table[2][harm_knob])))); 
+   aSin5.setFreq(freqv1 * (pgm_read_byte(&(harm_table[3][harm_knob])))); 
+   aSin6.setFreq(freqv1 * (pgm_read_byte(&(harm_table[4][harm_knob])))); 
+   aSin7.setFreq(freqv1 * (pgm_read_byte(&(harm_table[5][harm_knob])))); 
+   aSin8.setFreq(freqv1 * (pgm_read_byte(&(harm_table[6][harm_knob]))));
+   voct_old=voct; 
+   freq1_old=freq1;
+   harm_knob_old=harm_knob;
+ }
 }
 int updateAudio() {
- return MonoOutput::from8Bit(aSin1.next() * (pgm_read_byte(&(gain_table[0][gain]))) / 1024 + aSin2.next() * (pgm_read_byte(&(gain_table[1][gain]))) / 1024 + aSin3.next() * (pgm_read_byte(&(gain_table[2][gain]))) / 1024 + aSin4.next() * (pgm_read_byte(&(gain_table[3][gain]))) / 1024 + aSin5.next() * (pgm_read_byte(&(gain_table[4][gain]))) / 1024 + aSin6.next() * (pgm_read_byte(&(gain_table[5][gain]))) / 1024 + aSin7.next() * (pgm_read_byte(&(gain_table[6][gain]))) / 1024 + aSin8.next() * (pgm_read_byte(&(gain_table[7][gain]))) / 1024);
+ return MonoOutput::from8Bit(aRollingAverage.next(aSin1.next() * (pgm_read_byte(&(gain_table[0][gain]))) / 1024 + aSin2.next() * (pgm_read_byte(&(gain_table[1][gain]))) / 1024 + aSin3.next() * (pgm_read_byte(&(gain_table[2][gain]))) / 1024 + aSin4.next() * (pgm_read_byte(&(gain_table[3][gain]))) / 1024 + aSin5.next() * (pgm_read_byte(&(gain_table[4][gain]))) / 1024 + aSin6.next() * (pgm_read_byte(&(gain_table[5][gain]))) / 1024 + aSin7.next() * (pgm_read_byte(&(gain_table[6][gain]))) / 1024 + aSin8.next() * (pgm_read_byte(&(gain_table[7][gain]))) / 1024));
 }
 void loop() {
  audioHook(); // required here
